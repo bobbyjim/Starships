@@ -1,0 +1,135 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+;  acs-builder
+;
+;  I'm doing it in BASIC because there's something wrong with me.
+;  Now leave me alone so I can do this.
+;
+;  Rob 2022 Sep 7
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+{:main loop}
+
+   color 2
+   ?:for x = 1 to 80 :?chr$(195); :next
+   
+   color 5
+   
+   ?:? spc(32); "menu"
+   ? cl$
+   ? "   a - armor                c - computer" :rem d - defenses
+   ? cl$
+   ? "   f - fuel                 g - hull config          h - hull volume
+   ? cl$
+   ? "   j - jump                 l - life support         m - maneuver
+   ? cl$
+   ? "   z - mission              p - power                q - qsp
+   ? cl$
+;   ? "   s - sensors              t - staterooms           v - vehicles
+;   ? cl$
+;   ? "   w - weapons
+   ? cl$
+   ?
+   {:main get} get kk$ :if kk$ = "" goto {:main get}
+   locate 30
+   for x = 1 to 27 :?cl$ :next x
+   locate 31
+
+   if kk$ = "a" then gosub {:set armor}
+   if kk$ = "c" then gosub {:set computer}
+   if kk$ = "d" then gosub {:set defenses}
+   if kk$ = "f" then gosub {:set fuel}
+;   if kk$ = "b" then gosub {:set bins}
+;   if kk$ = "i" then gosub {:set intakes}
+;   if kk$ = "e" then gosub {:set scoops}
+   if kk$ = "g" then gosub {:set hull config}
+   if kk$ = "h" then gosub {:set volume}
+   if kk$ = "j" then gosub {:set jump}
+   if kk$ = "l" then gosub {:set life support}
+   if kk$ = "m" then gosub {:set maneuver}
+   if kk$ = "z" then gosub {:set mission}
+   if kk$ = "p" then gosub {:set power}
+   if kk$ = "q" then gosub {:set qsp}
+   if kk$ = "s" then gosub {:set sensors}
+   if kk$ = "t" then gosub {:set staterooms}
+   if kk$ = "v" then gosub {:set vehicles}
+   if kk$ = "w" then gosub {:set weapons}
+
+   gosub {:calculate ship}
+   gosub {:show ship}
+
+goto {:main loop}
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+;  This is the rollup section. 
+;  Let's do as much work as possible here.  That allows us to update things
+;  independently of calculated rollups.
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+{:calculate ship}
+;
+;  Hull
+;
+hr% = 1
+h1% = 0
+if g$ = "c" then hr% = 2 
+if g$ = "b" then hr% = 3 
+if g$ = "u" then hr% = 3  : h1% = 2
+if g$ = "s" then hr% = 6  : h1% = 2
+if g$ = "a" then hr% = 7  : h1% = 2
+if g$ = "l" then hr% = 12 : h1% = 4
+
+hc% = vn% * hr% + h1%
+
+;
+;  Jump Drive
+;
+jn% = val(j$)
+jv% =  5 + jn% * v%/40
+if jv% < 10 then jv% = 10
+if jn% = 0 then jv% = 0
+jv% = jv% * st%(js%)/100
+jc% = jv% * sc%(js%)/100
+
+;
+;  Maneuver Drive
+;
+mn% = val(m$)
+mv% = -1 + mn% * v%/50
+if mv% < 2 then mv% = 2
+if mn% = 0 then mv% = 0
+mc% = mv% * 2
+
+;
+;  Power Plant
+;
+pn% = jn%
+if mn% > pn% then pn% = mn%
+pv% = 1 + pn% * vn% * 3/2 
+if pn% = 0 then pv% = 0
+pv% = pv% * st%(ps%)/100
+pc% = pv% * sc%(ps%)/100
+
+cr = hc% + jc% + mc% + pc%
+cr = cr + e% + i% + b% + cc
+
+;
+;  Fuel Volume
+;
+fv% = jn% * vn% * 10  * se%(js%)/100
+fv% = fv% + pn% * vn% * se%(ps%)/100
+
+;
+;  Bridge Volume
+;
+bc% = 2 * (2 + (jv% + mv% + pv%)/35)
+
+;
+;  Cargo Hold
+;
+ch% = v% - pv% - mv% - jv% - fv%
+ch% = ch% - e% - i% - b% - av% - ct%
+ch% = ch% - bc%
+
+return

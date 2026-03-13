@@ -1,0 +1,32 @@
+
+{:show ship}
+? chr$(19);
+for x = 1 to 27 :?cl$ :next x
+? chr$(19);
+color 8
+? spc(32); "acs builder" 
+?
+? "   ", z$; "-"; h$; g$; m$; j$; "     mcr: "; cr
+? "   "
+? "   computer: model/"; c$;c1$
+? "   armor   : "; a$
+? "   fuel    : "; fv%; "  scoops: "; e$; "/"; i$; "/"; b$; " rfn: "; fr$
+? "   cargo   : "; ch%
+? "   bridge  : "; bc%; " tons"
+? "   life support: "; l$
+? "   "
+? "   "
+? "   "
+? "   "
+? "   "
+? "   "
+? "   "
+? "   "
+? "   "
+? "   "
+? "   "
+? "   "
+? "   "
+? "   "
+? "   "
+return

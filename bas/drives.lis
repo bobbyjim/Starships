@@ -1,0 +1,31 @@
+{:set jump}
+   ? "key jump rating [0-9]: ";
+   {:get jump rating} get j$ :if j$ < "0" or j$ > "9" goto {:get jump rating}
+
+   ?:?:? "key stage (a)dv (m)od (i)mpv (s)td (e)arly: ";
+   {:get jump stage} get js$ 
+      if js$="a" then js% = 9 :return
+      if js$="m" then js% = 8 :return
+      if js$="i" then js% = 6 :return
+      if js$="s" then js% = 3 :return
+      if js$="e" then js% = 2 :return
+      goto {:get jump stage}
+return
+
+{:set maneuver}
+   ? "key maneuver rating [0-9]: ";
+   {:get maneuver rating} get m$ : if m$ < "0" or m$ > "9" goto {:get maneuver rating}
+
+return
+
+{:set power}
+   ?:?:? "key powerplant stage (a)dv (m)od (i)mpv (s)td (e)arly: ";
+   {:get power stage} get ps$ 
+      if ps$="a" then ps% = 9 :return
+      if ps$="m" then ps% = 8 :return
+      if ps$="i" then ps% = 6 :return
+      if ps$="s" then ps% = 3 :return
+      if ps$="e" then ps% = 2 :return
+      goto {:get power stage}
+
+return

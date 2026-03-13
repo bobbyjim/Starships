@@ -1,0 +1,88 @@
+--- 
+ACS1.0: Wed Apr  3 18:18:55 2024
+Mission: Exploratory Trader
+QSP: AL-CP13 
+Cx: 
+Vx: S1
+Name: Monstrosity
+Tons: 300
+TL: 17 
+Overtonnage: 31
+MCr: 112.3
+Owner: Republic of Regina
+Allegiance: Rr
+
+Crew comfort: 0
+Passengers: 8
+Passenger demand: 0
+Low berths: 10
+Cargo: 40
+Fuel: 35
+Fuel treatment: 
+Computer: Model/3  
+
+Comments: |-
+   Using a 300-ton planetoid hull, the Monstrosity Class Exploratory Trader mounts jump drive-E, maneuver drive-B, and power plant-E, giving a performance of jump-3 and 1G acceleration. Fuel tankage supports a 1 parsec jump, at 27t per parsec, and one month of operations. Attached to the bridge is a Computer Model/3  . There are 2 staterooms and 10 low berths. Installed weaponry include 1 T3 Missile, 1 T3 Beam Laser, and 1 T3 Sandcaster. Cargo capacity is 40 tons, plus what the shuttle can carry.
+   
+   Carried craft includes 1 grappled 70 ton shuttle. The ship has 10 crew, and can carry 8 passengers and 10 low passengers. 
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   300   . Planetoid Hull                      3.0  ,HH.0  P .....
+ -    24   . Armor: 3 EMP FeN                    0.0  ,HA.1  . .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    27   . Jump Fuel (1  parsec)               0.0  ,DF.0  . .....
+ -     8   . Plant Fuel (one month)              0.0  ,DF.0  . .....
+ -     3   . Maneuver Drive-1 (B)                6.0  ,DM11  B .....
+ -    15   . Mod Jump Drive E (R3)              15.0  ,DJ31  2 652D3
+ -     8   . Mod PowerPlant E (R3)               8.0  ,DP31  2 104B00
+ -    20   . Mod Collector C (R2)               10.0  ,DC22  2 84002
+ -     1   . Fuel Purifier                       1.0  ,DF.1  P .....
+ -     1   . Fuel Transfer Pumps                 1.0  ,DF.1  X .....
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     3   . Computer Model/3                   10.5  ,OC31  . .....
+ -     2   . Life Support Long Term              2.0  ,OLL0  . .....
+ -     1   . Life Support Luxury                 1.0  ,OLU0  . .....
+ -     1   . Life Support Adaptable              1.0  ,OLA0  . .....
+ -     2   . Clinic                              1.0  ,OM.1  . .....
+ -    16   . Spacious Bridge                     0.9  ,OB.0  2 .....
+#
+#   TONS   # S-SENSORS                           MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . AR Surf Basic C-R-T                 6.0  ,SS.1  . .....
+#
+#   TONS   # WEAPONS                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . AR T3 Missile                       1.2  ,WW.1  . .....
+ -     1   . Vd T3 Beam Laser                    1.5  ,WW.1  . .....
+ -     1   . Vd T3 Sandcaster                    1.1  ,WW.1  . .....
+#
+#   TONS   # DEFENSES                            MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     2   . B Black Globe                       5.0  ,DD.1 -1 .....
+#
+#   TONS   # CREW                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    34  2x Crew Cluster                        1.8  ,CO.0  4 .....
+ -     6   . Officer Suite                       0.4  ,CS.1  1 .....
+ -     1   . Spacer Niche                        0.1  ,CS.0  1 .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     5 10x Low Berth                           1.0  ,PL.0  . .....
+ -    40   . Cargo Hold Basic                    0.0  ,PC.0  . .....
+ -    34  2x Stateroom Cluster                   1.8  ,PS.0  4 .....
+#
+#   TONS   # VEHICLES                            MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    70   . Shuttle                            28.0  ,VO.0 MC .....
+ -     4  4x Grapple                             4.0  ,VO.0  . .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

@@ -1,0 +1,90 @@
+living: 
+   - { label: Non-bridge Console,     type: Ops, tons: 1,   mcr: 0.2, notes: Custom Console }
+   - { label: Life Support Standard,  type: Ops, tons: 1,   mcr: 1,   notes: 10 person-months }
+   - { label: Life Support Long Term, type: Ops, tons: 2,   mcr: 2,   notes: 40 person-months }
+   - { label: Life Support Luxury,    type: Ops, tons: 1,   mcr: 1,   notes: 10 high passengers }
+   - { label: Life Support Adaptable, type: Ops, tons: 1,   mcr: 1,   notes: 10 sophonts      }
+   - { label: Med Console,            type: Ops, tons: 0.5, mcr: 0.5, notes: }
+   - { label: Medical Low Berth,      type: Ops, tons: 1,   mcr: 0.5, notes: }
+   - { label: Clinic,                 type: Ops, tons: 2,   mcr: 1,   notes: , CP: 1 }
+   - { label: Counsellor,             type: Ops, tons: 2,   mcr: 0.2, notes: , CP: 1 }
+   - { label: Mission Space,          type: Ops, tons: 1,   mcr: 0.1, notes: , CP: 1 }
+   - { label: Machine Shop,           type: Crew, tons: 1,  mcr: 1,   notes: Sophisticated equipment, CP: 1 }
+   - { label: Lab,                    type: Passenger, tons: 1,   mcr: 1,    notes: Sophisticated equipment, CP: 1 }
+   - { label: Workspace,              type: Passenger, tons: 1,   mcr: 1,    notes: Sophisticated equipment, CP: 1 }
+ 
+   - { label: Officer Suite,       type: Crew,  sleeps: 1, tons: 6,   mcr: 0.4,  notes: fresher + safe, CP: 1 }
+   - { label: Crew Stateroom,      type: Crew,  sleeps: 1, tons: 2,   mcr: 0.1,  notes: 1 crew }
+   - { label: Crew Suite,          type: Crew,  sleeps: 2, tons: 2,   mar: 0.1,  notes: 2 crew }
+   - { label: Crew Double,         type: Crew,  sleeps: 2, tons: 2,   mcr: 0.1,  notes: 2 crew }
+   - { label: Crew Triple,         type: Crew,  sleeps: 3, tons: 2,   mcr: 0.1,  notes: 3 crew }
+   - { label: Crew Cramped,        type: Crew,  sleeps: 4, tons: 2,   mcr: 0.1,  notes: 4 crew }
+   - { label: Crew Commons,        type: Crew,             tons: 4,   mcr: 0,    notes: }
+   - { label: Crew Common Fresher, type: Crew,             tons: 1,   mcr: 1,    notes: 10 crew }
+   - { label: Crew Shared Fresher, type: Crew,             tons: 0.5, mcr: 0.5,  notes: 4 crew }
+   - { label: Spacer Niche,        type: Crew,  sleeps: 1, tons: 1,   mcr: 0.1,  notes: 1 crew }
+   - { label: Spacer Bunks,        type: Crew,  sleeps: 2, tons: 0.5, mcr: 0.1,  notes: 1 crew }
+   - { label: Spacer Hotbunks,     type: Crew,  sleeps: 6, tons: 0.5, mcr: 0.1,  notes: 6 crew/3 shifts }
+
+   - { label: Emergency Low Berth, type: Ops,              tons: 1,   mcr: 0.5,  notes: 4 individuals }
+   - { label: Frozen Watch,        type: Ops,              tons: 2,   mcr: 1,    notes: 10 individuals }
+   - { label: Emergency Capsule,   type: Ops,              tons: 1,   mcr: 1,    notes: max. 10 for 15 days }
+   - { label: Squad Barracks,      type: Ops,              tons: 4,   mcr: 0.2,  notes: (5) R1 R1 R2 R2 R3 }
+   - { label: Platoon Barracks,    type: Ops,              tons: 18,  mcr: 1,    notes: (22) 4 sq + R4 O1/O2 }
+   - { label: Company Barracks,    type: Ops,              tons: 60,  mcr: 3,    notes: (70) 3 pl + O3 O2 R5 R3 }
+
+   - { label: Standard Stateroom,  type: Passenger,  sleeps: 1, tons: 2,   mcr: 0.1,  notes: 1 passenger }
+   - { label: Luxury Stateroom,    type: Passenger,  sleeps: 1, tons: 6,   mcr: 0.4,  notes: 1 passenger + fresher }
+   - { label: Standard Suite,      type: Passenger,  sleeps: 2, tons: 4,   mcr: 0.2,  notes: 2 passengers }
+   - { label: Stateroom Double,    type: Passenger,  sleeps: 2, tons: 2,   mcr: 0.1,  notes: 2 passengers }
+   - { label: Stateroom Triple,    type: Passenger,  sleeps: 3, tons: 2,   mcr: 0.1,  notes: 3 passengers }
+   - { label: Stateroom Cramped,   type: Passenger,  sleeps: 4, tons: 2,   mcr: 0.1,  notes: 4 passengers }
+   - { label: Passenger Commons,   type: Passenger,             tons: 4,   mcr: 0,    notes: }
+   - { label: Common Fresher,      type: Passenger,             tons: 1,   mcr: 1,    notes: 10 passengers }
+   - { label: Shared Fresher,      type: Passenger,             tons: 0.5, mcr: 0.5,  notes: 4 passengers }
+   - { label: Steerage,            type: Payload,    sleeps: 2, tons: 0.5, mcr: 0,    notes: 2 Space Bunks }
+   - { label: Low Berth,           type: Payload,               tons: 0.5, mcr: 0.1,  notes: 1 passenger }
+
+payload:
+   - { label: Animal Low Berth,       type: Payload,   tons: 1,   mcr: 0.2,  notes: 750 Kg of animals }
+   - { label: Large Animal Berth,     type: Payload,   tons: 7,   mcr: 1.0,  notes: 5 tons of animals }
+   - { label: Capture Tank,           type: Payload,  tons: 7,   mcr: 0.7, notes: atmospheric controlled }
+   - { label: Cargo Hold Basic,       type: Payload,  tons: 0,   mcr: 0,   notes:  }
+   - { label: Container Handler,      type: Payload,  tons: 1,   mcr: 1,   notes: 12t/hr }
+   - { label: Cargo Hold Bulk Solid,  type: Payload,  tons: 1,   mcr: 0,   notes:  }
+   - { label: Solid Bulk Handler,     type: Payload,  tons: 1,   mcr: 0.1, notes: 20t/hr }
+   - { label: Cargo Hold Bulk Liquid, type: Payload,  tons: 1,   mcr: 0,   notes:  }
+   - { label: Liquid Bulk Handler,    type: Payload,  tons: 1,   mcr: 0.1, notes: 40t/hr }
+   - { label: Cargo Hold Bulk Gas,    type: Payload,  tons: 1,   mcr: 0,   notes:  }
+   - { label: Gas Bulk Handler,       type: Payload,  tons: 1,   mcr: 0.1, notes: 60t/hr }
+   - { label: Magazine,               type: Weapon,   tons: 1,   mcr: 0,   notes:  50 x Size-5 }
+   - { label: Mail Vault,             type: Payload,  tons: 1,   mcr: 0,   notes: for express contracts }
+
+   - { label: Personnel Air Lock,     type: Payload,  tons: 0.5, mcr: 0.1, notes:  , CP: 1 }
+   - { label: Cargo Lock,             type: Payload,  tons: 2,   mcr: 0.4, notes:  , CP: 1 }
+   - { label: Large Cargo Lock,       type: Payload,  tons: 9,   mcr: 1.8, notes:  , CP: 1 }
+
+   - { label: Bracket,                type: Vehicle,  tons: 1,   mcr: 1,   notes: Up to 10 tons }
+   - { label: Bracket Streamlined,    type: Vehicle,  tons: 1,   mcr: 2,   notes: Up to 10 tons }
+   - { label: Hull Niche,             type: Vehicle,  tons: 0,   mcr: 1.5, notes: Half Vehicle Volume }
+   - { label: Hangar Lock,            type: Vehicle,  tons: 10,  mcr: 0,   notes:  , CP: 1 }
+   - { label: Grapple,                type: Vehicle,  tons: 1,   mcr: 1,   notes: 1 pair per 35t }
+
+   - { label: Pod A1-S,               type: Ops,      tons: 10,  mcr: 0.8, notes: req 1 pair grapples, CP: 1 }
+   - { label: Pod A2-S,               type: Ops,      tons: 20,  mcr: 1.4, notes: req 1 pair grapples, CP: 1 }
+   - { label: Pod A3-S,               type: Ops,      tons: 30,  mcr: 2.0, notes: req 1 pair grapples, CP: 1 }
+   - { label: Pod A4-S,               type: Ops,      tons: 40,  mcr: 2.6, notes: req 2 pair grapples, CP: 1 }
+   - { label: Pod A5-S,               type: Ops,      tons: 50,  mcr: 3.2, notes: req 2 pair grapples, CP: 1 }
+   - { label: Pod A6-S,               type: Ops,      tons: 60,  mcr: 3.8, notes: req 2 pair grapples, CP: 1 }
+   - { label: Pod A7-S,               type: Ops,      tons: 70,  mcr: 4.4, notes: req 2 pair grapples, CP: 1 }
+   - { label: Pod A8-S,               type: Ops,      tons: 80,  mcr: 5.0, notes: req 3 pair grapples, CP: 1 }
+   - { label: Pod A9-S,               type: Ops,      tons: 90,  mcr: 5.6, notes: req 3 pair grapples, CP: 1 }
+
+   - { label: ATV Module,             type: Payload,  tons: 30,  mcr: 1.8, notes: Cutter Module }
+   - { label: Personnel Module,       type: Payload,  tons: 30,  mcr: 2.0, notes: Cutter Module }
+   - { label: Cargo Module,           type: Payload,  tons: 30,  mcr: 1.0, notes: Cutter Module }
+   - { label: Skimmer Module,         type: Payload,  tons: 30,  mcr: 1.0, notes: Cutter Module }
+   - { label: Assault Module,         type: Payload,  tons: 30,  mcr: 2.5, notes: Cutter Module }
+   - { label: Pressurized Shelter,    type: Payload,  tons: 30,  mcr: 4.5, notes: Cutter Module }
+   - { label: Weapons Module,         type: Payload,  tons: 30,  mcr: 8.0, notes: Cutter Module }
+   - { label: Fighter Module,         type: Payload,  tons: 30,  mcr: 2.0, notes: Cutter Module }

@@ -1,0 +1,68 @@
+--- 
+ACS1.0: Wed Apr  3 18:18:43 2024
+Mission: Prospector
+QSP: J-AU22 
+Cx: 
+Vx: 
+Name: Khazad
+Tons: 100
+TL: 11 
+
+MCr: 33.7
+Allegiance: Im
+
+Crew comfort: 0
+Passengers: 0
+Passenger demand: -5
+Low berths: 
+Cargo: 25
+Fuel: 12
+Fuel treatment: S
+Computer: Model/1  
+
+Comments: |-
+   
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   100   . Unstreamlined Hull                  5.0  ,HH.0  U .....
+ -     3   . Landing wheels                      1.5  ,HL.1  M .....
+ -     2   . Wings and fins                      1.0  ,HW.1  W .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    10   . Jump Fuel (1  parsec)               0.0  ,DF.0  . .....
+ -     2   . Plant Fuel (one month)              0.0  ,DF.0  . .....
+ -     2   . Maneuver Drive-2 (A)                4.0  ,DM21  A .....
+ -    10   . Jump Drive-2 (A)                   10.0  ,DJ21  A .....
+ -     4   . PowerPlant-2 (A)                    4.0  ,DP21  A .....
+ -     6   . All fuel processors                 3.3  ,DF.6  S .....
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . Computer Model/1                    1.5  ,OC11  . .....
+ -     1   . Life Support Standard               1.0  ,OLS0  . .....
+ -    12   . Spacious Bridge                     0.7  ,OB.0  2 .....
+#
+#   TONS   # W-SENSORS                           MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . D Ant Analyzer/Sniffer              0.3  ,WS.1  1 .....
+#
+#   TONS   # WEAPONS                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . Vd T1 Mining Laser                  0.7  ,WW.1 -2 .....
+#
+#   TONS   # CREW                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . Crew Shared Fresher                 0.5  ,CF.0  1 .....
+ -     4  2x Crew Double                         0.2  ,CS.0  2 .....
+ -    16  4x Crew Commons                        0.0  ,CC.0  . .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    25   . Cargo Hold Basic                    0.0  ,PC.0  . .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

@@ -1,0 +1,68 @@
+--- 
+ACS1.0: Wed Apr  3 18:18:39 2024
+Mission: Mercenary Raider
+QSP: RM-AS60 
+Cx: 
+Vx: 
+Name: Takheau
+Tons: 100
+TL: 16 
+Overtonnage: 2.5
+MCr: 70.9
+Owner: Aslan
+Allegiance: As
+
+Crew comfort: -3
+Passengers: 0
+Passenger demand: -5
+Low berths: 
+Cargo: 1
+Fuel: 15
+Fuel treatment: SP
+Computer: Model/1bis  
+
+Comments: |-
+   
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   100   . Streamlined Hull                    8.0  ,HH.0  S .....
+ -     0   . Armor: 1 Kinetic Plate              0.0  ,HA.1  . .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    10   . Jump Fuel (1  parsec)               0.0  ,DF.0  . .....
+ -     5   . Plant Fuel (one month)              0.0  ,DF.0  . .....
+ -    15   . Hop Drive-1 (A)                    30.0  ,DH11  A .....
+ -     2   . Mod Maneuver Drive C (R6)           5.0  ,DM61  2 4A3C5
+ -     5   . Mod PowerPlant C (R6)               5.0  ,DP61  2 8A00A
+ -     2   . Fuel Scoops with Purifier           1.1  ,DF.2 SP .....
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . Life Support Standard               1.0  ,OLS0  . .....
+ -     0   . Med Console                         0.5  ,OM.0  . .....
+ -     1   . Computer Model/1bis                 3.0  ,OC21  . .....
+ -     2   . Cramped Bridge                      0.6  ,OB.0 -2 .....
+#
+#   TONS   # S-SENSORS                           MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . AR Surf Military Sensors 14         8.0  ,SS.1  . .....
+#
+#   TONS   # WEAPONS                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    50   . SR LBay Particle Accelerator        7.5  ,WW.1  8 .....
+#
+#   TONS   # CREW                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     6  3x Crew Double                         0.3  ,CS.0  2 .....
+ -     1   . Crew Common Fresher                 1.0  ,CF.0  2 .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . Cargo Hold Basic                    0.0  ,PC.0  . .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

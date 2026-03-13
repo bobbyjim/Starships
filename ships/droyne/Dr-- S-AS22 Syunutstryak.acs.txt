@@ -1,0 +1,83 @@
+--- 
+ACS1.0: Wed Apr  3 18:18:41 2024
+Mission: Scout/Courier
+QSP: S-AS22 
+Cx: AC
+Vx: V1
+Name: Syunutstryak
+Tons: 100
+TL: 15 
+Undertonnage: 4.5
+MCr: 44.8
+Owner: Droyne
+Allegiance: Dr
+
+Crew comfort: 0
+Passengers: 0
+Passenger demand: -5
+Low berths: 
+Cargo: 6
+Fuel: 19
+Fuel treatment: SP,IP,BP
+Computer: Model/1bis  
+
+Comments: |-
+   Using a 100-ton streamlined hull, the Syunutstryak is a small Scout ship designed for elementary exploration and courier duties; it is typically assigned temporarily to a kroyloss. It mounts jump drive-A, maneuver drive-A, and power plant-A, giving a performance of Jump-2 and 2G acceleration. Fuel tankage supports a 2 parsec jump, at 9t per parsec, and one month of operations. Attached to the bridge is a computer Model1/bis. There is one six-passenger stateroom, outfitted for six Droyne; it is usable for three humans with minor alterations (equivalent to 3 standard staterooms). There are no low berths. The ship has one hardpoint; installed on the hardpoint is a T3 beam laser. There is one ship's vehicle: an air/raft. Cargo capacity is 6 tons. It has fuel scoops and refineries, as well as a Collector that can charge the jump drive.
+   
+   The ship requires a crew of one: a pilot/engineer. The ship can carry a total of six Droyne. 
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   100   . Streamlined Hull                    8.0  ,HH.0  S .....
+ -     1   . Landing legs with pads              1.0  ,HL.1  K .....
+ -     0   . Armor: 1 Rad Charged                0.0  ,HA.1  . .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    18   . Jump Fuel (2  parsecs)              0.0  ,DF.0  . .....
+ -     1   . Plant Fuel (one month)              0.0  ,DF.0  . .....
+ -     2   . Fuel Scoops with Purifier           1.1  ,DF.2 SP .....
+ -     2   . Fuel Intakes with Purifier          1.1  ,DF.2 IP .....
+ -     2   . Fuel Bins with Purifier             1.1  ,DF.2 BP .....
+ -    20   . Collector-2 (A)                    10.0  ,DC21  A .....
+ -    10   . Mod Jump Drive A (R2)               5.0  ,DJ21  2 825D4
+ -     4   . Mod PowerPlant A (R2)               2.0  ,DP21  2 83A00
+ -     2   . Mod Maneuver Drive A (R2)           2.0  ,DM21  2 5A303
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . Computer Model/1bis                 3.0  ,OC21  . .....
+ -     0   . Life Support Short Term             0.0  ,OLH0  . .....
+ -     6   . Spacious Bridge                     0.4  ,OB.0  2 .....
+#
+#   TONS   # S-SENSORS                           MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . AR Surf Basic C-R-T                 4.0  ,SS.1  . .....
+#
+#   TONS   # W-SENSORS                           MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . Vd Surf Basic Survey 12             1.9  ,WS.1  . .....
+#
+#   TONS   # WEAPONS                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . Vd T3 Beam Laser                    1.5  ,WW.1  . .....
+#
+#   TONS   # CREW                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1  2x Crew Shared Fresher                 1.0  ,CF.0  1 .....
+ -     6   . Crew Commons                        0.0  ,CC.0  . .....
+ -     6   . Six-Droyne Stateroom                0.1  ,CS.0  3 .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     6   . Cargo Hold Basic                    0.0  ,PC.0  . .....
+#
+#   TONS   # VEHICLES                            MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     4   . Air/Raft Enclosed                   0.1  ,VO.0 EL .....
+ -     2   . Hull Niche                          1.5  ,VO.0  . .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

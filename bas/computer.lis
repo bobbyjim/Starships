@@ -1,0 +1,15 @@
+{:set computer}
+   ? "key in computer model [0-9]: "
+   {:get computer} get c$ :if c$<"0" or c$>"9" goto {:get computer}
+   ? "key in bis, fib, or neither? [bfn]: "
+   {:get bis} get c1$ 
+      if c1$="b" then c1$="bis" :goto {:calc computer vol}
+      if c1$="f" then c1$="fib" :goto {:calc computer vol}
+      if c1$<>"n" goto {:get bis}
+
+   {:calc computer vol}
+   if c1$="" then c1$=""
+   c% = val(c$)
+   ct% = c%
+   cc  = c% + (c%+0.5)
+return

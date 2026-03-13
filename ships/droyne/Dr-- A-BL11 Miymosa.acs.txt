@@ -1,0 +1,70 @@
+--- 
+ACS1.0: Wed Apr  3 18:18:40 2024
+Mission: Trader
+QSP: A-BS11 
+Cx: ABCDET
+Vx: 
+Name: Miymosa
+Tons: 200
+TL: 15 
+Undertonnage: 1
+MCr: 38.7
+Owner: Droyne
+Allegiance: Dr
+
+Crew comfort: -2
+Passengers: 8
+Passenger demand: 1
+Low berths: 
+Cargo: 88
+Fuel: 19
+Fuel treatment: 
+Computer: Model/1  
+
+Comments: |-
+   Using a 200-ton hull, the Miymosa-class Trader operates as a merchant vessel, usually on an unscheduled basis between Droyne worlds. It mounts jump drive A, maneuver drive A, and power plant A, giving a performance of jump-1 and 1-G acceleration. Fuel tankage for 30 tons supports the power plant and one jump-1. Adjacent to the bridge is a computer Model/1. There is 1 Droyne stateroom, 8 standard staterooms, and no low berths. The ship has two single turrets armed with missile racks. There are no ship’s vehicles. Cargo capacity is 88 tons. The hull is streamlined.
+   
+   The ship requires a crew of six: pilot, astrogator, engineer, steward, medic, and gunner. The crew is typically a Droyne tyafelm or kroyloss. The ship can carry 8 high passengers.
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   200   . Streamlined hull                   14.0  ,HH.0  S .....
+ -     2   . Landing legs with pads              2.0  ,HL.1  K .....
+ -     0   . Armor: 1 Kinetic Charged            0.0  ,HA.1  . .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    18   . Jump Fuel (1  parsec)               0.0  ,DF.0  . .....
+ -     1   . Plant Fuel (one month)              0.0  ,DF.0  . .....
+ -    10   . Mod Jump Drive A (R1)               5.0  ,DJ11  2 50015
+ -     4   . Mod PowerPlant A (R1)               2.0  ,DP11  2 8220A
+ -     2   . Mod Maneuver Drive A (R1)           2.0  ,DM11  2 50213
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . Life Support Standard               1.0  ,OLS0  . .....
+ -     1   . Computer Model/1                    1.5  ,OC11  . .....
+ -     3   . Standard Bridge                     0.4  ,OB.0  . .....
+#
+#   TONS   # S-SENSORS                           MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . AR Surf Basic C-R-T                 6.0  ,SS.1  . .....
+#
+#   TONS   # WEAPONS                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     2  2x AR T1 Missile                       0.8  ,WW.1 -2 .....
+#
+#   TONS   # CREW                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     6   . Droyne Crew                         0.8  ,CO.0  6 .....
+ -    12  3x Crew Commons                        0.0  ,CC.0  . .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    88   . Cargo Hold Basic                    0.0  ,PC.0  . .....
+ -    48  2x Luxury Cluster                      3.2  ,PO.0  4 .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

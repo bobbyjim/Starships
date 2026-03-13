@@ -1,0 +1,82 @@
+--- 
+ACS1.0: Wed Apr  3 18:18:43 2024
+Mission: Gunboat
+QSP: GBS-AL52 
+Cx: 
+Vx: 
+Name: Hoshisame
+Tons: 100
+TL: 13 
+Undertonnage: 0.5
+MCr: 83.6
+Allegiance: Im
+
+Crew comfort: -4
+Passengers: 0
+Passenger demand: -5
+Low berths: 
+Cargo: 1
+Fuel: 22
+Fuel treatment: SP,IP,BP
+Computer: Model/3 fib
+
+Comments: |-
+   Using a 100-ton, TL13 hull, the Hoshisame-class Defender mounts jump drive-A, maneuver drive-C, and power plant-C, giving a performance of jump-2 and 5G acceleration. Fuel tankage supports a 2 parsec jump, at 9t per parsec, and one month of operations. Attached to the cramped bridge is a Computer Model/3 fib. There are 3 spacer hotbunks, a medical console, and a counsellor's office. The ship has a dual barbette containing a hybrid mix of particle accelerator and missile launcher. Cargo capacity is 1 ton. The ship has a lift body hull, with scoops, intakes, and bins for frontier refueling. 
+   
+   The ship requires 4 crew, not including 3 crew positions operated by the ship's computer.
+   
+   BACKGROUND:
+   
+   The original naval requirements for the Hoshisame called for a small fast heavily armed system attack boat. However just as the first two test craft were nearing completion, the navy decided that the Hoshisames should also be jump capable to allow for rapid redeployment to neighboring systems if needed. Thus was born the Hoshisame class gun sloop, a small heavily armed starship with minimal crew accommodations, there are only niches for the crew. In fact the crew of the Hoshisame are given quarters off the ship at the base the ship is assigned to. With time it was found that most of the Hoshisames only used their jump capability to get to their initial duty stations. With the jump drives being hardly ever used the navy decided that what it really wanted was a small fast heavily armed system attack boat resulting in production of the Hoshisame B. The two major differences Between the original Hoshisames and the newer Hoshisame Bs are the Bs lack of a jump drive obviously and the Bs increased missile capacity.
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   100   . Lift body Hull                     16.0  ,HH.0  L .....
+ -     1   . Landing legs with pads              1.0  ,HL.1  K .....
+ -    16   . Armor: 5 Blast Plate                0.0  ,HA.1  . .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    18   . Jump Fuel (2  parsecs)              0.0  ,DF.0  . .....
+ -     4   . Plant Fuel (one month)              0.0  ,DF.0  . .....
+ -     2   . Fuel Scoops with Purifier           1.1  ,DF.2 SP .....
+ -     2   . Fuel Intakes with Purifier          1.1  ,DF.2 IP .....
+ -     2   . Fuel Bins with Purifier             1.1  ,DF.2 BP .....
+ -    10   . Imp PowerPlant C (R5)              10.0  ,DP51  1 61AB4
+ -     2   . Mod Maneuver Drive C (R5)           5.0  ,DM51  2 950C2
+ -    10   . Imp Jump Drive A (R2)              10.0  ,DJ21  1 500A3
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     6   . Computer Model/3 fib               15.7  ,OC31  . .....
+ -     1   . Life Support Standard               1.0  ,OLS0  . .....
+ -     2   . Counsellor                          0.2  ,OO.1  . .....
+ -     0   . Med Console                         0.5  ,OM.0  . .....
+ -     2   . Cramped Bridge                      0.6  ,OB.0 -2 .....
+#
+#   TONS   # S-SENSORS                           MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     2   . LR Ant Jammer                       2.5  ,SS.1  1 .....
+ -     2   . LR Ant Communicator                 2.5  ,SS.1  1 .....
+ -     2   . LR Ant Neutrino Detector            2.5  ,SS.1  1 .....
+ -     2   . LR Ant EMS                          2.5  ,SS.1  1 .....
+ -     2   . LR Ant Stealth Mask                 2.5  ,SS.1  1 .....
+#
+#   TONS   # WEAPONS                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . Magazine                            0.0  ,WM.0  . .....
+ -     5   . AR B2 PA + Missile Launcher         6.5  ,WW.1  3 .....
+#
+#   TONS   # CREW                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1  3x Spacer Hotbunks                     0.3  ,CS.0  6 .....
+ -     1  2x Crew Shared Fresher                 1.0  ,CF.0  1 .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . Cargo Hold Basic                    0.0  ,PC.0  . .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

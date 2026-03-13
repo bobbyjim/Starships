@@ -1,0 +1,289 @@
+stages:
+   - { code: Ult, label: Ultimate,    tl: 4,  qrebs: 4,  mod: 4,  oc: 130, tons: 0, cost mult: 2,   av: -2  }
+   - { code: Ad, label: Advanced,     tl: 3,  qrebs: 3,  mod: 3,  oc: 120, tons: 0, cost mult: 1,   av: -3  }
+   - { code: Mod, label: Modified,    tl: 2,  qrebs: 2,  mod: 2,  oc: 110, tons: 0, cost mult: 0.5, av: -4  }
+   - { code: Gen, label: Generic,     tl: 1,  qrebs: 0,  mod: -2, oc: 100, tons: 0, cost mult: 0.5, av: -5  }
+   - { code: Im, label: Improved,     tl: 1,  qrebs: 1,  mod: 0,  oc: 110, tons: 0, cost mult: 1,   av: -5  }
+   - { code: Alt, label: Alternate,   tl: 0,  qrebs: 0,  mod: 1,  oc: 100, tons: 0, cost mult: 1,   av: -6  }
+   - { code: Bas, label: Basic,       tl: 0,  qrebs: -1, mod: -1, oc: 90,  tons: 0, cost mult: 0.5, av: -6  }
+   - { code: St, label: Standard,     tl: 0,  qrebs: 0,  mod: 0,  oc: 100, tons: 0, cost mult: 1,   av: -6  }
+   - { code: Er, label: Early,        tl: -1, qrebs: -1, mod: 0,  oc: 90,  tons: 0, cost mult: 2,   av: -5  }
+   - { code: Pr, label: Prototype,    tl: -2, qrebs: -2, mod: -3, oc: 80,  tons: 2, cost mult: 5,   av: -4  }
+   - { code: Ex, label: Experimental, tl: -3, qrebs: -3, mod: -4, oc: 50,  tons: 3, cost mult: 10,  av: -3  }
+
+ranges:
+   none:
+     - { band: 0,  code: '',   label: 'Contact',   tl:  0, mount tons mult: 1,     mount cost mult: 1 }
+
+   world:
+     - { band: 5,  code: 'L',  label: 'Long',      tl: -2, mount tons mult: 0.333, mount cost mult: 0.5 }
+     - { band: 6,  code: 'D',  label: 'Distant',   tl: -1, mount tons mult: 0.5,   mount cost mult: 0.5 }
+     - { band: 7,  code: 'Vd', label: 'Vdistant',  tl:  0, mount tons mult: 1,     mount cost mult: 1 }
+     - { band: 8,  code: 'Or', label: 'Orbit',     tl:  1, mount tons mult: 2,     mount cost mult: 3 }
+     - { band: 9,  code: 'Fo', label: 'Far Orbit', tl:  2, mount tons mult: 3,     mount cost mult: 5 }
+     - { band: 10, code: 'G',  label: 'Geo',       tl:  3, mount tons mult: 4,     mount cost mult: 8 }
+
+   space:
+     - { band: 2,  code: 'FR', label: 'Fighter Range', tl: -2, mount tons mult: 0.333, mount cost mult: 0.5 }
+     - { band: 5,  code: 'SR', label: 'Short Range',   tl: -1, mount tons mult: 0.5,   mount cost mult: 0.5 }
+     - { band: 7,  code: 'AR', label: 'Attack Range',  tl: 0,  mount tons mult: 1,     mount cost mult: 1 }
+     - { band: 9,  code: 'LR', label: 'Long Range',    tl:  1, mount tons mult: 2,     mount cost mult: 3 }
+     - { band: 12, code: 'DS', label: 'Deep Space',    tl:  2, mount tons mult: 3,     mount cost mult: 5 }
+
+sensors:
+   world:
+     Y: { label: 'Sound Sensor',     type: Sensor, tl: 7,  range: 'world', mcr: 0.1   }
+     M: { label: 'Mass Sensor',      type: Sensor, tl: 8,  range: 'world', mcr: 0.1   }
+     B: { label: 'Deep Radar',       type: Sensor, tl: 9,  range: 'world', mcr: 0.1   }
+     K: { label: 'Analyzer/Sniffer', type: Sensor, tl: 9,  range: 'world', mcr: 0.1   }
+     D: { label: 'Densitometer',     type: Sensor, tl: 10, range: 'world', mcr: 0.1   }
+     L: { label: 'Life Detector',    type: Sensor, tl: 10, range: 'world', mcr: 0.1   }
+     P: { label: 'Proximeter',       type: Sensor, tl: 10, range: 'world', mcr: 0.1   }
+     A: { label: 'Activity Sensor',  type: Sensor, tl: 11, range: 'world', mcr: 0.1   }
+     F: { label: 'Field Sensor',     type: Sensor, tl: 12, range: 'world', mcr: 0.1   }
+
+   space:
+     C: { label: 'Communicator',      type: Sensor, tl: 8,  range: 'space', mcr: 1  }
+     J: { label: 'Jammer',            type: Sensor, tl: 8,  range: 'space', mcr: 1  }
+     R: { label: 'Radar',             type: Sensor, tl: 9,  range: 'space', mcr: 1  }
+     T: { label: 'Scope',             type: Sensor, tl: 9,  range: 'space', mcr: 1  }
+     N: { label: 'Neutrino Detector', type: Sensor, tl: 10, range: 'space', mcr: 1  }
+     E: { label: 'EMS',               type: Sensor, tl: 12, range: 'space', mcr: 1  }
+     Q: { label: 'Stealth Mask',      type: Sensor, tl: 12, range: 'space', mcr: 1  }
+     G: { label: 'Grav Sensor',       type: Sensor, tl: 13, range: 'world', mcr: 1  }
+     V: { label: 'Visor',             type: Sensor, tl: 14, range: 'space', mcr: 1  }
+     W: { label: 'CommPlus',          type: Sensor, tl: 17, range: 'space', mcr: 1  }
+     H: { label: 'HoloVisor',         type: Sensor, tl: 18, range: 'space', mcr: 1  }
+     S: { label: 'Scanner',           type: Sensor, tl: 19, range: 'space', mcr: 1  }
+
+   mounts:
+     - { code: Surf, label: 'Surface',             mount tons: 0,   mod: 0,  mount mcr: 0.5 }
+     - { code: Ant , label: 'Antenna',             mount tons: 1,   mod: 1,  mount mcr: 0.5 }
+     - { code: Ext , label: 'Extendable',          mount tons: 3,   mod: 4,  mount mcr: 1.5 }
+     - { code: T1de, label: 'Turret Deployable',   mount tons: 3,   mod: -2,  mount mcr: 3.2 }
+     - { code: B1de, label: 'Barbette Deployable', mount tons: 5,   mod: 2,  mount mcr: 6 }
+     - { code: Bay , label: 'Bay',                 mount tons: 50,  mod: 5,  mount mcr: 5 }
+     - { code: LBay, label: 'LBay',                mount tons: 100, mod: 8,  mount mcr: 10 }
+     - { code: M   , label: 'Main',                mount tons: 200, mod: 10, mount mcr: 20 }
+
+weapons:
+   world:
+      B: { label: 'Slug Thrower',    type: Weapon, tl: 9,  mcr: 0.2  }
+      D: { label: 'DataCaster',      type: Weapon, tl: 10, mcr: 1  }
+      E: { label: 'Stasis',          type: Weapon, tl: 21, mcr: 5  }
+      F: { label: 'Fusion Gun',      type: Weapon, tl: 12, mcr: 1.5, not: T1T2T3T4  }
+      H: { label: 'Inducer',         type: Weapon, tl: 26, mcr: 1  }
+      J: { label: 'Mining Laser',    type: Weapon, tl: 8,  mcr: 0.5 }
+      K: { label: 'Pulse Laser',     type: Weapon, tl: 9,  mcr: 0.3 }
+      L: { label: 'Beam Laser',      type: Weapon, tl: 10, mcr: 0.5 }
+      P: { label: 'Plasma Gun',      type: Weapon, tl: 10, mcr: 1, not: T1T2T3T4  }
+      Q: { label: 'Ortillery',       type: Weapon, tl: 12, mcr: 15, not: T1T2T3T4B1B2  }
+      S: { label: 'Sandcaster',      type: Weapon, tl: 9,  mcr: 0.1  }
+      T: { label: 'Jump Damper',     type: Weapon, tl: 14, mcr: 15, not: T1T2T3T4 }
+      U: { label: 'Tractor/Pressor', type: Weapon, tl: 16, mcr: 5, not: T1T2T3T4 }
+      W: { label: 'Disruptor',       type: Weapon, tl: 18, mcr: 15, not: T1T2T3T4  }
+      Y: { label: 'Hybrid L-S-M',    type: Weapon, tl: 10, mcr: 1, only: T3  }
+
+   space:
+      0: { label: 'Empty',                type: Weapon, tl: 7,  mcr: 0 }
+      A: { label: 'Particle Accelerator', type: Weapon, tl: 11, mcr: 2.5, not: T1T2T3T4  }
+      C: { label: 'CommCaster',           type: Weapon, tl: 8,  mcr: 5  }
+      G: { label: 'Meson Gun',            type: Weapon, tl: 13, mcr: 5, not: T1T2T3T4B1B2BayLBay  }
+      M: { label: 'Missile',              type: Weapon, tl: 7,  mcr: 0.2  }
+      N: { label: 'KK Missile',           type: Weapon, tl: 10, mcr: 3, not: T1T2T3T4B1B2  }
+      R: { label: 'Rail Gun',             type: Weapon, tl: 12, mcr: 12, not: T1T2T3T4B1B2, actual range: 5 }
+      V: { label: 'Salvo Rack',           type: Weapon, tl: 10, mcr: 10, not: T1T2T3T4B1B2 }
+      X: { label: 'AM Missile',           type: Weapon, tl: 20, mcr: 5, not: T1T2T3T4 }
+
+   mounts:
+      - { code: T1   , label: 'Single Turret',            mount tons: 1,    mod: -2,  mount mcr: 0.2  }
+      - { code: T1de , label: 'Single Turret Deployable', mount tons: 3,    mod: -2,  mount mcr: 3.2  }
+      - { code: T2   , label: 'Dual Turret',              mount tons: 1,    mod: -1,  mount mcr: 0.5  }
+      - { code: T2de , label: 'Dual Turret Deployable',   mount tons: 3,    mod: -1,  mount mcr: 3.5  }
+      - { code: T3   , label: 'Triple Turret',            mount tons: 1,    mod: 0,   mount mcr: 1.0  }
+      - { code: T3de , label: 'Triple Turret Deployable', mount tons: 3,    mod: 0,   mount mcr: 4.0  }
+      - { code: T4   , label: 'Quad Turret',              mount tons: 1,    mod: 1,   mount mcr: 1.5  }
+      - { code: T4de , label: 'Quad Turret Deployable',   mount tons: 3,    mod: 1,   mount mcr: 4.5  }
+      - { code: B1   , label: 'Barbette',                 mount tons: 3,    mod: 2,   mount mcr: 3    }
+      - { code: B1de , label: 'Barbette Deployable',      mount tons: 5,    mod: 2,   mount mcr: 6    }
+      - { code: B2   , label: 'Dual Barbette',            mount tons: 5,    mod: 3,   mount mcr: 4    }
+      - { code: B2de , label: 'Dual Barbette Deployable', mount tons: 7,    mod: 3,   mount mcr: 7    }
+      - { code: Bay  , label: 'Bay',                      mount tons: 50,   mod: 5,   mount mcr: 5    }
+      - { code: LBay , label: 'LBay',                     mount tons: 100,  mod: 8,   mount mcr: 10   }
+      - { code: M    , label: 'Main',                     mount tons: 200,  mod: 10,  mount mcr: 20   }
+      - { code: SA   , label: 'Spine A',      tl: 10,     mount tons: 4500, mod: 0,   mount mcr: 450  }
+      - { code: DA   , label: 'Dish A',       tl: 10,     mount tons: 9500, mod: 0,   mount mcr: 950  }
+      - { code: BA   , label: 'Main Bay A',   tl: 10,     mount tons: 8000, mod: 0,   mount mcr: 800  }
+      - { code: SB   , label: 'Spine B',      tl: 11,     mount tons: 4000, mod: 0,   mount mcr: 400  }
+      - { code: DB   , label: 'Dish B',       tl: 11,     mount tons: 9000, mod: 0,   mount mcr: 900  }
+      - { code: BB   , label: 'Main Bay B',   tl: 11,     mount tons: 7500, mod: 0,   mount mcr: 750  }
+      - { code: SC   , label: 'Spine C',      tl: 12,     mount tons: 3500, mod: 0,   mount mcr: 350  }
+      - { code: DC   , label: 'Dish C',       tl: 12,     mount tons: 8500, mod: 0,   mount mcr: 850  }
+      - { code: BC   , label: 'Main Bay C',   tl: 12,     mount tons: 7000, mod: 0,   mount mcr: 700  }
+      - { code: SD   , label: 'Spine D',      tl: 13,     mount tons: 3000, mod: 0,   mount mcr: 300  }
+      - { code: DD   , label: 'Dish D',       tl: 13,     mount tons: 8000, mod: 0,   mount mcr: 800  }
+      - { code: BD   , label: 'Main Bay D',   tl: 13,     mount tons: 6500, mod: 0,   mount mcr: 650  }
+      - { code: SE   , label: 'Spine E',      tl: 14,     mount tons: 2500, mod: 0,   mount mcr: 250  }
+      - { code: DE   , label: 'Dish E',       tl: 14,     mount tons: 7500, mod: 0,   mount mcr: 750  }
+      - { code: BE   , label: 'Main Bay E',   tl: 14,     mount tons: 6000, mod: 0,   mount mcr: 600  }
+      - { code: SF   , label: 'Spine F',      tl: 15,     mount tons: 2400, mod: 0,   mount mcr: 240  }
+      - { code: DF   , label: 'Dish F',       tl: 15,     mount tons: 7000, mod: 0,   mount mcr: 700  }
+      - { code: BF   , label: 'Main Bay F',   tl: 15,     mount tons: 5500, mod: 0,   mount mcr: 550  }
+      - { code: SG   , label: 'Spine G',      tl: 16,     mount tons: 2300, mod: 0,   mount mcr: 230  }
+      - { code: DG   , label: 'Dish G',       tl: 16,     mount tons: 6500, mod: 0,   mount mcr: 650  }
+      - { code: BG   , label: 'Main Bay G',   tl: 16,     mount tons: 5000, mod: 0,   mount mcr: 500  }
+      - { code: SH   , label: 'Spine H',      tl: 17,     mount tons: 2200, mod: 0,   mount mcr: 220  }
+      - { code: DH   , label: 'Dish H',       tl: 17,     mount tons: 6000, mod: 0,   mount mcr: 600  }
+      - { code: BH   , label: 'Main Bay H',   tl: 17,     mount tons: 4500, mod: 0,   mount mcr: 450  }
+      - { code: SJ   , label: 'Spine J',      tl: 18,     mount tons: 2100, mod: 0,   mount mcr: 210  }
+      - { code: DJ   , label: 'Dish J',       tl: 18,     mount tons: 5500, mod: 0,   mount mcr: 550  }
+      - { code: BJ   , label: 'Main Bay J',   tl: 18,     mount tons: 4000, mod: 0,   mount mcr: 400  }
+      - { code: SK   , label: 'Spine K',      tl: 19,     mount tons: 2000, mod: 0,   mount mcr: 200  }
+      - { code: DK   , label: 'Dish K',       tl: 19,     mount tons: 5000, mod: 0,   mount mcr: 500  }
+      - { code: BK   , label: 'Main Bay K',   tl: 19,     mount tons: 3500, mod: 0,   mount mcr: 350  }
+      - { code: SL   , label: 'Spine L',      tl: 20,     mount tons: 1900, mod: 0,   mount mcr: 190  }
+      - { code: DL   , label: 'Dish L',       tl: 20,     mount tons: 4500, mod: 0,   mount mcr: 450  }
+      - { code: BL   , label: 'Main Bay L',   tl: 20,     mount tons: 3000, mod: 0,   mount mcr: 300  }
+      - { code: SM   , label: 'Spine M',      tl: 21,     mount tons: 1800, mod: 0,   mount mcr: 180  }
+      - { code: DM   , label: 'Dish M',       tl: 21,     mount tons: 4000, mod: 0,   mount mcr: 400  }
+      - { code: BM   , label: 'Main Bay M',   tl: 21,     mount tons: 2500, mod: 0,   mount mcr: 250  }
+      - { code: SAE   , label: 'Spine AE',      tl: 10,     mount tons: 8500, mod: 0,   mount mcr: 850  }
+      - { code: DAE   , label: 'Dish AE',       tl: 10,     mount tons: 18500, mod: 0,   mount mcr: 1850  }
+      - { code: BAE   , label: 'Main Bay AE',   tl: 10,     mount tons: 15500, mod: 0,   mount mcr: 1550  }
+      - { code: SBE   , label: 'Spine BE',      tl: 11,     mount tons: 7500, mod: 0,   mount mcr: 750  }
+      - { code: DBE   , label: 'Dish BE',       tl: 11,     mount tons: 17500, mod: 0,   mount mcr: 1750  }
+      - { code: BBE   , label: 'Main Bay BE',   tl: 11,     mount tons: 14500, mod: 0,   mount mcr: 1450  }
+      - { code: SCE   , label: 'Spine CE',      tl: 12,     mount tons: 6500, mod: 0,   mount mcr: 650  }
+      - { code: DCE   , label: 'Dish CE',       tl: 12,     mount tons: 16500, mod: 0,   mount mcr: 1650  }
+      - { code: BCE   , label: 'Main Bay CE',   tl: 12,     mount tons: 13500, mod: 0,   mount mcr: 1350  }
+      - { code: SDE   , label: 'Spine DE',      tl: 13,     mount tons: 5500, mod: 0,   mount mcr: 550  }
+      - { code: DDE   , label: 'Dish DE',       tl: 13,     mount tons: 15500, mod: 0,   mount mcr: 1550  }
+      - { code: BDE   , label: 'Main Bay DE',   tl: 13,     mount tons: 12500, mod: 0,   mount mcr: 1250  }
+      - { code: SEE   , label: 'Spine EE',      tl: 14,     mount tons: 4900, mod: 0,   mount mcr: 490  }
+      - { code: DEE   , label: 'Dish EE',       tl: 14,     mount tons: 14500, mod: 0,   mount mcr: 1450  }
+      - { code: BEE   , label: 'Main Bay EE',   tl: 14,     mount tons: 11500, mod: 0,   mount mcr: 1150  }
+      - { code: SFE   , label: 'Spine FE',      tl: 15,     mount tons: 4700, mod: 0,   mount mcr: 470  }
+      - { code: DFE   , label: 'Dish FE',       tl: 15,     mount tons: 13500, mod: 0,   mount mcr: 1350  }
+      - { code: BFE   , label: 'Main Bay FE',   tl: 15,     mount tons: 10500, mod: 0,   mount mcr: 1050  }
+      - { code: SGE   , label: 'Spine GE',      tl: 16,     mount tons: 4500, mod: 0,   mount mcr: 450  }
+      - { code: DGE   , label: 'Dish GE',       tl: 16,     mount tons: 12500, mod: 0,   mount mcr: 1250  }
+      - { code: BGE   , label: 'Main Bay GE',   tl: 16,     mount tons: 9500, mod: 0,   mount mcr: 950  }
+      - { code: SHE   , label: 'Spine HE',      tl: 17,     mount tons: 4300, mod: 0,   mount mcr: 430  }
+      - { code: DHE   , label: 'Dish HE',       tl: 17,     mount tons: 11500, mod: 0,   mount mcr: 1150  }
+      - { code: BHE   , label: 'Main Bay HE',   tl: 17,     mount tons: 8500, mod: 0,   mount mcr: 850  }
+      - { code: SJE   , label: 'Spine JE',      tl: 18,     mount tons: 4100, mod: 0,   mount mcr: 410  }
+      - { code: DJE   , label: 'Dish JE',       tl: 18,     mount tons: 10500, mod: 0,   mount mcr: 1050  }
+      - { code: BJE   , label: 'Main Bay JE',   tl: 18,     mount tons: 7500, mod: 0,   mount mcr: 750  }
+      - { code: SKE   , label: 'Spine KE',      tl: 19,     mount tons: 3900, mod: 0,   mount mcr: 390  }
+      - { code: DKE   , label: 'Dish KE',       tl: 19,     mount tons: 9500, mod: 0,   mount mcr: 950  }
+      - { code: BKE   , label: 'Main Bay KE',   tl: 19,     mount tons: 6500, mod: 0,   mount mcr: 650  }
+      - { code: SLE   , label: 'Spine LE',      tl: 20,     mount tons: 3700, mod: 0,   mount mcr: 370  }
+      - { code: DLE   , label: 'Dish LE',       tl: 20,     mount tons: 8500, mod: 0,   mount mcr: 850  }
+      - { code: BLE   , label: 'Main Bay LE',   tl: 20,     mount tons: 5500, mod: 0,   mount mcr: 550  }
+      - { code: SME   , label: 'Spine ME',      tl: 21,     mount tons: 3500, mod: 0,   mount mcr: 350  }
+      - { code: DME   , label: 'Dish ME',       tl: 21,     mount tons: 8000, mod: 0,   mount mcr: 800  }
+      - { code: BME   , label: 'Main Bay ME',   tl: 21,     mount tons: 5000, mod: 0,   mount mcr: 500  }
+
+defenses:
+     list:
+      - { code: G, label: Meson Screen,   tl: 11, type: Defense, mounts: 1,  tons: 1,  mcr: 1    }
+      - { code: N, label: Nuclear Damper, tl: 12, type: Defense, mounts: 2,  tons: 2,  mcr: 1    }
+      - { code: Q, label: Mag Scrambler,  tl: 14, type: Defense, mounts: 1,  tons: 1,  mcr: 1    }
+      - { code: T, label: Black Globe,    tl: 16, type: Defense, mounts: 1,  tons: 1,  mcr: 4    }
+      - { code: W, label: Grav Scrambler, tl: 17, type: Defense, mounts: 1,  tons: 1,  mcr: 2    }
+      - { code: R, label: Proton Screen,  tl: 19, type: Defense, mounts: 1,  tons: 1,  mcr: 1    }
+      - { code: U, label: White Globe,    tl: 20, type: Defense, mounts: 1,  tons: 1,  mcr: 10   }
+
+     mounts:
+      - { code: B, label: Bolt-in,   mount tons: 1,    mod: -1, mount mcr: 1   }
+      - { code: T1   , label: 'Single Turret',            mount tons: 1,   mod: -2,  mount mcr: 0.2 }
+      - { code: T1de , label: 'Single Turret Deployable', mount tons: 3,   mod: -2,  mount mcr: 3.2 }
+      - { code: T2   , label: 'Dual Turret',              mount tons: 1,   mod: -1,  mount mcr: 0.5 }
+      - { code: T2de , label: 'Dual Turret Deployable',   mount tons: 3,   mod: -1,  mount mcr: 3.5 }
+      - { code: T3   , label: 'Triple Turret',            mount tons: 1,   mod: 0,  mount mcr: 1.0 }
+      - { code: T3de , label: 'Triple Turret Deployable', mount tons: 3,   mod: 0,  mount mcr: 4.0 }
+      - { code: T4   , label: 'Quad Turret',              mount tons: 1,   mod: 1,   mount mcr: 1.5 }
+      - { code: T4de , label: 'Quad Turret Deployable',   mount tons: 3,   mod: 1,   mount mcr: 4.5 }
+      - { code: B1   , label: 'Barbette',                 mount tons: 3,   mod: 2,   mount mcr: 3 }
+      - { code: B1de , label: 'Barbette Deployable',      mount tons: 5,   mod: 2,   mount mcr: 6 }
+      - { code: B2   , label: 'Dual Barbette',            mount tons: 5,   mod: 3,   mount mcr: 4 }
+      - { code: B2de , label: 'Dual Barbette Deployable', mount tons: 7,   mod: 3,   mount mcr: 7 }
+      - { code: Bay  , label: 'Bay',        mount tons: 50,  mod: 5,  mount mcr: 5  }
+      - { code: LBay , label: 'LBay',       mount tons: 100, mod: 8,  mount mcr: 10 }
+      - { code: M    , label: 'Main',       mount tons: 200, mod: 10, mount mcr: 20 }
+      - { code: Sp   , label: 'Spine',      mount tons: 0,   mod: 0,  mount mcr: 0  }
+
+armor:
+     list:
+      - { code: A, label: Plate,      tl: 8,  type: Armor, AV mult: 1,   mcr per tl: 0.0, cfg not: P }
+      - { code: S, label: Shell,      tl: 9,  type: Armor, AV mult: 0.5, mcr per tl: 0.0, cfg not: P }
+      - { code: P, label: Polymer,    tl: 10, type: Armor, AV mult: 0.5, mcr per tl: 0.0, cfg not: P }
+      - { code: F, label: FeN,        tl: 5,  type: Armor, AV mult: 4,   mcr per tl: 0.0 }
+      - { code: R, label: Organic,    tl: 12, type: Armor, AV mult: 0.5, mcr per tl: 0.0 }
+      - { code: C, label: Charged,    tl: 14, type: Armor, AV mult: 2,   mcr per tl: 0.0, cfg not: P }
+     
+     mounts:
+      - { code: Blast,    label: Blast,     AV mult: 10, mount mcr: 0 }
+      - { code: Kinetic,  label: Kinetic,   AV mult: 10, mount mcr: 0 }
+      - { code: EMP,      label: EMP,       AV mult: 10, mount mcr: 0 }
+      - { code: Rad,      label: Rad,       AV mult: 10, mount mcr: 0 }
+
+     layers:
+      - { band: 1,  code: '1',  label: '1',  tl: 0, mount tons mult: 0,  mount cost mult: 0 }
+      - { band: 2,  code: '2',  label: '2',  tl: 0, mount tons mult: 1,  mount cost mult: 1 }
+      - { band: 3,  code: '3',  label: '3',  tl: 0, mount tons mult: 2,  mount cost mult: 2 }
+      - { band: 4,  code: '4',  label: '4',  tl: 0, mount tons mult: 3,  mount cost mult: 3 }
+      - { band: 5,  code: '5',  label: '5',  tl: 0, mount tons mult: 4,  mount cost mult: 4 }
+      - { band: 6,  code: '6',  label: '6',  tl: 0, mount tons mult: 5,  mount cost mult: 5 }
+      - { band: 7,  code: '7',  label: '7',  tl: 0, mount tons mult: 6,  mount cost mult: 6 }
+      - { band: 8,  code: '8',  label: '8',  tl: 0, mount tons mult: 7,  mount cost mult: 7 }
+      - { band: 9,  code: '9',  label: '9',  tl: 0, mount tons mult: 8,  mount cost mult: 8 }
+      - { band: 10, code: '10', label: '10', tl: 0, mount tons mult: 9, mount cost mult: 9 }
+      - { band: 11, code: '11', label: '11', tl: 0, mount tons mult: 10, mount cost mult: 10 }
+      - { band: 12, code: '12', label: '12', tl: 0, mount tons mult: 11, mount cost mult: 11 }      
+      - { band: 13, code: '13', label: '13', tl: 0, mount tons mult: 12, mount cost mult: 12 }      
+      - { band: 14, code: '14', label: '14', tl: 0, mount tons mult: 13, mount cost mult: 13 }      
+      - { band: 15, code: '15', label: '15', tl: 0, mount tons mult: 14, mount cost mult: 14 }      
+      - { band: 16, code: '16', label: '16', tl: 0, mount tons mult: 15, mount cost mult: 15 }      
+      - { band: 17, code: '17', label: '17', tl: 0, mount tons mult: 16, mount cost mult: 16 }      
+      - { band: 18, code: '18', label: '18', tl: 0, mount tons mult: 17, mount cost mult: 17 }      
+      - { band: 19, code: '19', label: '19', tl: 0, mount tons mult: 18, mount cost mult: 18 }      
+      - { band: 20, code: '20', label: '20', tl: 0, mount tons mult: 19, mount cost mult: 19 }      
+
+coatings:
+     list:
+      - { code: S, label: Reflec,    tl: 8, type: Coating, AV mult: 100, mcr: 0 }
+      - { code: T, label: Ablat,     tl: 8, type: Coating, AV mult: 100, mcr: 0 }
+      - { code: U, label: Slick,     tl: 8, type: Coating, AV mult: 100, mcr: 0 }
+
+     mounts:
+      - { code: c, label: Coating,   AV mult: 1, mount mcr: 0, mount tons: 0 }
+
+computers:
+   list:
+      - { code: C,  label: Computer,    tl: 0, tons: 0, mcr: 0 }
+      - { code: SO, label: SO Brain,    tl: 1, tons: 0, mcr: 0 }
+      - { code: P,  label: Pos Brain,   tl: 2, tons: 0, mcr: 0 }
+      - { code: AI, label: AI,          tl: 3, tons: 0, mcr: 0 } 
+
+   mounts:
+    - { code: Model/0,    label: Model/0,       tl: 8,  type: Bridge, mount tons: 0.5, mount mcr: 0.1, mod: 0, notes:    }
+    - { code: Model/0bis, label: Model/0bis,    tl: 8,  type: Bridge, mount tons: 0.5, mount mcr: 0.5, mod: 0, notes:    }
+    - { code: Model/1,    label: Model/1,       tl: 9,  type: Bridge, mount tons: 1.0, mount mcr: 1.5, mod: 1, notes:    }
+    - { code: Model/1bis, label: Model/1bis,    tl: 9,  type: Bridge, mount tons: 1.0, mount mcr: 3.0, mod: 2, notes:    }
+    - { code: Model/2,    label: Model/2,       tl: 10, type: Bridge, mount tons: 2.0, mount mcr: 5.0, mod: 2, notes:    }
+    - { code: Model/2bis, label: Model/2bis,    tl: 10, type: Bridge, mount tons: 3.0, mount mcr: 7.5, mod: 3, notes:    }
+    - { code: Model/3,    label: Model/3,       tl: 11, type: Bridge, mount tons: 3.0, mount mcr: 10.5, mod: 3, notes:    }
+    - { code: Model/4,    label: Model/4,       tl: 12, type: Bridge, mount tons: 4.0, mount mcr: 18, mod: 4, notes:    }
+    - { code: Model/5,    label: Model/5,       tl: 13, type: Bridge, mount tons: 5.0, mount mcr: 27, mod: 5, notes:    }
+    - { code: Model/6,    label: Model/6,       tl: 14, type: Bridge, mount tons: 6.0, mount mcr: 39, mod: 6, notes:    }
+    - { code: Model/7,    label: Model/7,       tl: 15, type: Bridge, mount tons: 7.0, mount mcr: 52, mod: 7, notes:    }
+    - { code: Model/8,    label: Model/8,       tl: 16, type: Bridge, mount tons: 8.0, mount mcr: 68, mod: 8, notes:    }
+    - { code: Model/9,    label: Model/9,       tl: 17, type: Bridge, mount tons: 9.0, mount mcr: 85, mod: 9, notes:    }
+
+   ranges:
+    - { code: s,  label: std,  tl: 0, mount tons mult: 1.0, mount cost mult: 1.0, notes:  }
+    - { code: f,  label: fib,  tl: 1, mount tons mult: 2.0, mount cost mult: 1.5, notes: Fiber Optic }
+    - { code: p,  label: phot, tl: 3, mount tons mult: 1.0, mount cost mult: 0.5, notes: Photonic    }
+    - { code: l,  label: flu,  tl: 4, mount tons mult: 2.0, mount cost mult: 2.0, notes: Fluidic     }
+

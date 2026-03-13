@@ -1,0 +1,84 @@
+--- 
+ACS1.0: Wed Apr  3 18:18:54 2024
+Mission: Far Trader
+QSP: A2-BS22 
+Cx: 
+Vx: V1
+Name: Beowulf 2
+Tons: 200
+TL: 15 
+Overtonnage: 4
+MCr: 59.1
+Owner: Republic of Regina
+Allegiance: Rr
+
+Crew comfort: 0
+Passengers: 8
+Passenger demand: 0
+Low berths: 8
+Cargo: 50
+Fuel: 43
+Fuel treatment: S,I,B
+Computer: Model/2  
+
+Comments: |-
+   Using a 200-ton, TL15 hull, the Beowulf/2 class Far Trader mounts 'B'-class drives, giving a performance of jump-2 and 2G acceleration. Fuel tankage supports a 2 parsec jump, at 18t per parsec, and 2 months of operations. Attached to the bridge is a Computer Model/2. There is a captain's suite with a mail vault, 4 crew staterooms, 8 passenger staterooms and 8 low berths. Installed weaponry include a T2 Missile and a T2 Beam Laser. Cargo capacity is 50 tons. The ship has a streamlined hull, with scoops, intakes, and bins for frontier refueling.
+   
+   The ship carries an enclosed Air/Raft in a hull niche. It requires 5 crew, and can carry 8 passengers and 8 low passengers. It has fittings to carry a bolted-in black globe generator, if desired.
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   200   . Streamlined hull                   14.0  ,HH.0  S .....
+ -     2   . Landing legs with pads              2.0  ,HL.1  K .....
+ -     0   . Armor: 1 Blast Plate                0.0  ,HA.1  . .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    36   . Jump Fuel (2  parsecs)              0.0  ,DF.0  . .....
+ -     7   . Plant Fuel (2 months)               0.0  ,DF.0  . .....
+ -    10   . Mod Jump Drive B (R2)              10.0  ,DJ21  2 751B0
+ -     4   . Mod PowerPlant B (R2)               4.0  ,DP21  2 6A5A4
+ -     2   . Mod Maneuver Drive B (R2)           4.0  ,DM21  2 501A3
+ -     1   . Fuel Scoops                         0.1  ,DF.1  S .....
+ -     1   . Fuel Intakes                        0.1  ,DF.1  I .....
+ -     1   . Fuel Bins                           0.1  ,DF.1  B .....
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . Life Support Standard               1.0  ,OLS0  . .....
+ -     1   . Life Support Adaptable              1.0  ,OLA0  . .....
+ -     2   . Clinic                              1.0  ,OM.1  . .....
+ -     2  2x Life Support Luxury                 2.0  ,OLU0  . .....
+ -     2   . Computer Model/2                    5.0  ,OC21  . .....
+ -    12   . Spacious Bridge                     0.6  ,OB.0  2 .....
+#
+#   TONS   # S-SENSORS                           MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . AR Surf Basic C-R-T                 6.0  ,SS.1  . .....
+#
+#   TONS   # WEAPONS                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . AR T2 Missile                       0.7  ,WW.1 -1 .....
+ -     1   . Vd T2 Beam Laser                    1.0  ,WW.1 -1 .....
+#
+#   TONS   # CREW                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     6   . Officer Suite                       0.4  ,CS.1  1 .....
+ -    17   . Crew Cluster                        0.9  ,CO.0  4 .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    34  2x Stateroom Cluster                   1.8  ,PS.0  4 .....
+ -     4  8x Low Berth                           0.8  ,PL.0  . .....
+ -    50   . Cargo Hold Basic                    0.0  ,PC.0  . .....
+ -     1   . Mail Vault                          1.0  ,PO.0  . .....
+#
+#   TONS   # VEHICLES                            MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     4   . Air/Raft Enclosed                   0.1  ,VO.0 EL .....
+ -     2   . Hull Niche                          1.5  ,VO.0  . .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

@@ -1,0 +1,75 @@
+--- 
+ACS1.0: Wed Apr  3 18:18:45 2024
+Mission: Scout/Courier
+QSP: S-AS22 
+Cx: ABC
+Vx: 
+Name: Gashiiri
+Tons: 100
+TL: 15 
+Undertonnage: 40
+MCr: 36.1
+Builder: Bilstein Yards
+Disposition: Building
+Allegiance: Im
+
+Crew comfort: 0
+Passengers: 1
+Passenger demand: -5
+Low berths: 
+Cargo: 7
+Fuel: 12
+Fuel treatment: 
+Computer: Model/1 std
+
+Comments: |-
+   Using a 40-ton, streamlined TL15 hull, the Gashiiri-class jumpboat/courier is capable of jump-2 and 2G maneuver.  It is equipped with the Glisten Engines 2xA jump drive, the Lesler-Khalan 26.A maneuver drive, and the Triptic Halonic A power plant.  Fuel tankage supports one jump-1 and four weeks of operations.
+   
+   A Bilstein experimental design, the Gashiiri requires a 40-ton fuel Pod to be attached in order to bring the ship's volume up to the required minimum of 100 tons.  Separated from the pod, the boat is capable of 4G acceleration.  With the pod, the boat is capable of jumping up to 5 parsecs before refueling.
+   
+   The ship has three staterooms.  One crew member is required: a pilot/astrogator/engineer.  There are no low berths.  Cargo space is 2 tons.  As a courier, this ship can carry messages and small packages far off the trade routes.  As a trader, the design is a failure, except in one case: as a high-value, small-package smuggler, the Gashiiri has been known to operate as a blockade runner.  More than one banned criminal or exiled nobleman has been smuggled past interdiction pickets with ships such as this one.
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   100   . Streamlined Hull, lifters           9.0  ,HH.0  S .....
+ -     1   . Landing legs with pads              1.0  ,HL.1  K .....
+ -     0   . Armor: 1 Blast Charged              0.0  ,HA.1  . .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    10   . Jump Fuel (1  parsec)               0.0  ,DF.0  . .....
+ -     2   . Plant Fuel (one month)              0.0  ,DF.0  . .....
+ -     1   . Fuel Scoops 100t/hr                 0.1  ,DF.1  . .....
+ -     1   . Fuel Purifiers 4t/hr                1.0  ,DF.1  . .....
+ -     2   . Maneuver Drive-2 (A)                4.0  ,DM21  A .....
+ -    10   . Jump Drive-2 (A)                   10.0  ,DJ21  A .....
+ -     4   . PowerPlant-2 (A)                    4.0  ,DP21  A .....
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . Computer Model/1 std                1.5  ,OC11  . .....
+ -     1   . Life support (10 people/month)      1.0  ,OL.1  . .....
+ -     2   . Cramped Controls                    0.0  ,OB.0 -2 .....
+#
+#   TONS   # WEAPONS                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . Vd T1 Mining Laser                  0.7  ,WW.1 -2 .....
+#
+#   TONS   # CREW                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     6  3x Crew Single Stateroom               0.3  ,CS.0  1 .....
+ -     8  2x Crew Lounge                         0.0  ,CC.0  . .....
+ -     1  2x Crew Shared Fresher                 1.0  ,CF.0  1 .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     7   . Cargo Hold Basic                    0.0  ,PC.0  . .....
+#
+#   TONS   # VEHICLES                            MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     2   . Pod Grapples (70t max)              2.0  ,VO.0  . .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

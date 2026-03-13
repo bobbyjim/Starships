@@ -1,0 +1,62 @@
+ |name         = Aruiwo class Cruiser
+ |image        = 
+ |caption      = 
+ |tdes         = C
+ |type         = Cruiser
+ | 
+ |size-cat    = ACS
+ |size        = 600
+ |hull        = Lifting Body Hull
+ |aerodynam   = Streamlined Hull
+ |TL          = 13
+ | 
+ |model       = Model/3 std
+ |jump        = 3
+ |g           = 5
+ |fuelTreatment = IP,BP,SP
+ | 
+ |hp          = 6
+ |weapons     =
+ |screens     = 
+ | 
+ |staterooms  = 
+ |bunks       = 
+ |seats       = 
+ |lowberths   = 
+ | 
+ |crew        = 
+ |officers    = 
+ |enlisted    = 
+ |pilots      = 
+ |marines     = 
+ |frozenwatch = 
+ |passengers  = 
+ |steerage    = 
+ |Lpass       = 
+ | 
+ |cargo       = 10
+ |fuel        = 189
+ |craft       = B1
+ |
+ |construction = 
+ |origin       = Third Imperium
+ |manufacturer = Various
+ |IOC          = Unknown
+ |EOS          = Still in active service.
+ |
+ |cost         = 335.3
+ |architect    = 
+ | 
+ |QSP         = C-FL53
+ |USP         =
+ |
+ |blueprint   = 
+ |illustration =  
+ | 
+ |alsosee     = Cruiser
+ |canon       = Yes
+ |designer    = 
+ |designSystem = Traveller5
+ |era         = 1105
+ |ref         = {{Ludography ref|name= Starships|version= Classic Traveller |page= 19}}
+ |footnote    = [[Starship]]s are designed with the [[Classic Traveller]] format, using [[Traveller 5]].

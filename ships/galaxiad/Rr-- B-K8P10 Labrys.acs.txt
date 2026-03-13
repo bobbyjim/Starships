@@ -1,0 +1,66 @@
+--- 
+ACS1.0: Wed Apr  3 18:18:55 2024
+Mission: Monitor
+QSP: B-K8P10 
+Cx: 
+Vx: B50
+Name: Labrys
+Tons: 8000
+TL: 16 
+Undertonnage: 644
+MCr: 1753.2
+Owner: Republic of Regina
+Allegiance: Rr
+
+Crew comfort: -5
+Passengers: 0
+Passenger demand: -5
+Low berths: 
+Cargo: 20
+Fuel: 160
+Fuel treatment: 
+Computer: Model/6 fib
+
+Comments: |-
+   
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -  8000   . Planetoid Hull                     80.0  ,HH.0  P .....
+ -   -40   . No Landers                          0.0  ,HL.1 n/ .....
+ -  2240   . Armor: 8 EMP FeN                    0.0  ,HA.1  . .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . Jump Fuel (0  parsec)               0.0  ,DF.0  . .....
+ -   160   . Plant Fuel (2 months)               0.0  ,DF.0  . .....
+ -    78   . Maneuver Drive-1 (V2)             156.0  ,DM13 V2 .....
+ -   122   . PowerPlant-1 (V2)                 122.0  ,DP14 V2 .....
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    12   . Computer Model/6 fib               58.5  ,OC61  . .....
+ -    14   . Spacious Bridge                     0.7  ,OB.0  2 .....
+#
+#   TONS   # S-SENSORS                           MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . AR Surf Basic C-R-T                 6.0  ,SS.1  . .....
+ -     0   . LR Surf Basic C-E-N-T              10.0  ,SS.1  . .....
+#
+#   TONS   # WEAPONS                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -  3200  8x LR M Meson Gun                    520.0  ,WW.1 10 .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    20   . Cargo Hold Basic                    0.0  ,PC.0  . .....
+#
+#   TONS   # VEHICLES                            MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    50 50x Grapple                            50.0  ,VO.0  . .....
+ -  1500 50x Fast Boat                         750.0  ,VO.0 MF .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

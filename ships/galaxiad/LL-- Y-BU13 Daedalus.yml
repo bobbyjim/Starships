@@ -1,0 +1,742 @@
+--- 
+components: 
+   - 
+      CP: 0
+      r: 0
+      q: 0
+      s: 0
+      totalTons: 200
+      e: 0
+      totalMCr: 8
+      notes: 'U, lifters, 2 a/l free'
+      eff: 1
+      tons: 200
+      code: 'U'
+      mult: 1
+      tl: 10
+      preMult: 1
+      config: 'Unstreamlined'
+      mcr: 8
+      label: 'Unstreamlined Hull, lifters, 2 a/l free'
+      name: 'Hull'
+      Sq: 400
+      b: 0
+      type: 'Hull'
+      category: 'Hull'
+      howMany: 1
+      target: 10
+
+   - 
+      e: 0
+      r: 0
+      b: 0
+      target: 10
+      s: 0
+      totalTons: 0
+      CP: 1
+      totalMCr: 6
+      notes: ''
+      eff: 1
+      mount: 'Surf'
+      config: 'Sensor'
+      tl: 10
+      tons: 0
+      mcr: 6
+      label: 'AR Surf Basic C-R-T'
+      basetl: 10
+      range: 'AR'
+      name: 'Basic C-R-T'
+      category: 'AR Surf Basic C-R-T'
+      type: 'Sensor'
+      mod: 0
+      howMany: 1
+      q: 0
+
+   - 
+      mcr: 0
+      r: 0
+      label: 'Jump Fuel (3  parsecs)'
+      tl: 10
+      q: 0
+      s: 0
+      totalTons: 54
+      CP: 0
+      totalMCr: 0
+      notes: '3 parsec jump, at 18t per parsec'
+      Sq: 108
+      category: 'Jump Fuel'
+      type: 'Drive'
+      tons: 54
+      b: 0
+      eff: 1
+      howMany: 1
+      e: 0
+      target: 10
+
+   - 
+      mcr: 0
+      r: 0
+      label: 'Plant Fuel (one month)'
+      tl: 10
+      q: 0
+      s: 0
+      totalTons: 5.4
+      CP: 0
+      totalMCr: 0
+      notes: 'one month'
+      Sq: 10.8
+      category: 'Powerplant Fuel'
+      type: 'Drive'
+      tons: 5.4
+      b: 0
+      eff: 1
+      howMany: 1
+      e: 0
+      target: 10
+
+   - 
+      tons: 2
+      CP: 1
+      e: 0
+      r: 0
+      label: 'Landing legs with pads'
+      Sq: 4
+      q: 0
+      s: 0
+      totalTons: 2
+      mcr: 2
+      tonsPercent: 1
+      category: 'landers'
+      note: 'K'
+      name: 'Landing legs with pads'
+      b: 0
+      type: 'Hull'
+      totalMCr: 2
+      mcrPerTon: 1
+      code: 'K'
+      eff: 1
+      howMany: 1
+      tl: 16
+      target: 16
+
+   - 
+      CP: 1
+      r: 0
+      category: 'Maneuver Drive'
+      target: 16
+      s: 0
+      totalTons: 2
+      e: 0
+      totalMCr: 4
+      notes: '1 G'
+      eff: 1
+      tons: 2
+      code: 'A'
+      B: 0
+      tl: 16
+      Q: 0
+      E: 0
+      R: 0
+      label: 'Maneuver Drive-1 (A)'
+      rating: 1
+      basetl: 9
+      S: 0
+      Sq: 4
+      name: 'Maneuver Drive'
+      b: 0
+      type: 'Drive'
+      autoAdjust: 1
+      howMany: 1
+      mcr: 4
+      q: 0
+
+   - 
+      code: 'S'
+      e: 0
+      r: 0
+      label: 'Fuel Scoops'
+      b: 0
+      q: 0
+      s: 0
+      totalTons: 1
+      Sq: 2
+      totalMCr: 0.1
+      mcr: 0.1
+      notes: '100 t/hr'
+      CP: 1
+      type: 'Drive'
+      tons: 1
+      category: 'Fuel Scoops'
+      eff: 1
+      howMany: 1
+      tl: 8
+      target: 8
+
+   - 
+      code: 'I'
+      e: 0
+      r: 0
+      label: 'Fuel Intakes'
+      b: 0
+      q: 0
+      s: 0
+      totalTons: 1
+      Sq: 2
+      totalMCr: 0.1
+      mcr: 0.1
+      notes: '40 t/hr'
+      CP: 1
+      type: 'Drive'
+      tons: 1
+      category: 'Fuel Intakes'
+      eff: 1
+      howMany: 1
+      tl: 8
+      target: 8
+
+   - 
+      e: 0
+      r: 0
+      q: 0
+      s: 0
+      totalTons: 0
+      CP: 1
+      mod: ''
+      totalMCr: 0
+      notes: ''
+      eff: 1
+      mount: 'EMP'
+      config: 'Armor'
+      tl: 16
+      tons: 0
+      mcr: 0
+      label: 'AV=32. 1 EMP Charged'
+      basetl: 14
+      range: '1'
+      name: 'Charged'
+      category: 'AV=32. 1 EMP Charged'
+      type: 'Armor'
+      b: 0
+      howMany: 1
+      target: 16
+
+   - 
+      e: 0
+      r: 0
+      target: 19
+      s: 0
+      totalTons: 3
+      CP: 1
+      mod: 3
+      totalMCr: 10.5
+      notes: ''
+      eff: 1
+      mount: 'Model/3'
+      config: 'Ops'
+      tl: 16
+      tons: 3
+      mcr: 10.5
+      label: 'Computer Model/3  '
+      basetl: 11
+      range: 's'
+      Sq: 6
+      name: 'Computer'
+      category: 'Computer Model/3  '
+      type: 'Ops'
+      b: 0
+      howMany: 1
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      target: 17
+      s: 0
+      totalTons: 1
+      CP: 1
+      mod: 1
+      totalMCr: 4.5
+      notes: ''
+      eff: 1
+      mount: 'Ant'
+      config: 'Sensor'
+      tl: 16
+      tons: 1
+      mcr: 4.5
+      label: 'AR Ant Basic C-E-N-T'
+      basetl: 12
+      range: 'AR'
+      Sq: 2
+      name: 'Basic C-E-N-T'
+      category: 'AR Ant Basic C-E-N-T'
+      type: 'Sensor'
+      b: 0
+      howMany: 1
+      q: 0
+
+   - 
+      CP: 0
+      r: 0
+      label: 'Life Support Long Term'
+      tl: 16
+      q: 0
+      s: 0
+      totalTons: 2
+      mcr: 2
+      totalMCr: 2
+      notes: '84 people'
+      Sq: 4
+      b: 0
+      type: 'Ops'
+      tons: 2
+      eff: 1
+      howMany: 1
+      e: 0
+      target: 16
+
+   - 
+      e: 0
+      r: 0
+      label: 'Clinic'
+      tl: 16
+      q: 0
+      s: 0
+      totalTons: 2
+      CP: 1
+      totalMCr: 1
+      notes: ''
+      Sq: 4
+      b: 0
+      type: 'Ops'
+      tons: 2
+      eff: 1
+      howMany: 1
+      mcr: 1
+      target: 16
+
+   - 
+      e: 0
+      r: 0
+      label: 'Crew Triple'
+      target: 16
+      totalSleeps: 6
+      s: 0
+      totalTons: 4
+      CP: 0
+      totalMCr: 0.2
+      notes: '3 crew'
+      Sq: 8
+      mcr: 0.1
+      type: 'Crew'
+      tons: 2
+      eff: 1
+      sleeps: 3
+      b: 0
+      howMany: 2
+      tl: 16
+      q: 0
+
+   - 
+      CP: 0
+      r: 0
+      label: 'Crew Common Fresher'
+      tl: 16
+      q: 0
+      s: 0
+      totalTons: 1
+      mcr: 1
+      totalMCr: 1
+      notes: '10 crew'
+      Sq: 2
+      b: 0
+      type: 'Crew'
+      tons: 1
+      eff: 1
+      howMany: 1
+      e: 0
+      target: 16
+
+   - 
+      CP: 1
+      r: 2
+      category: 'Jump Drive'
+      target: 16
+      s: 5
+      original: 
+         CP: 1
+         r: 0
+         category: 'Jump Drive'
+         target: 16
+         s: 0
+         totalTons: 20
+         e: 0
+         mod: 0
+         totalMCr: 20
+         notes: 'J 3'
+         B: 0
+         tons: 20
+         code: 'C'
+         eff: 1
+         rating: 3
+         Q: 0
+         jumpFuelUsage: 0.1
+         E: 0
+         R: 0
+         label: 'Jump Drive-3 (C)'
+         tl: 16
+         basetl: 12
+         S: 0
+         Sq: 40
+         name: 'Jump Drive'
+         b: 0
+         type: 'Drive'
+         autoAdjust: 1
+         howMany: 1
+         mcr: 20
+         q: 0
+      e: 3
+      autoAdjust: 1
+      howMany: 1
+      totalMCr: 10
+      notes: 'R3'
+      totalTons: 10
+      eff: 1.1
+      tons: 10
+      code: 'C'
+      B: 0
+      rating: 3
+      Q: 0
+      jumpFuelUsage: 0.1
+      E: 0
+      R: 0
+      label: 'Mod Jump Drive C (R3)'
+      tl: 14
+      basetl: 12
+      S: 0
+      Sq: 20
+      name: 'Jump Drive'
+      b: -2
+      type: 'Drive'
+      mod: 2
+      stage: 'Mod'
+      mcr: 10
+      q: 3
+
+   - 
+      e: 0
+      r: 0
+      label: 'Stateroom Cluster'
+      q: 0
+      totalSleeps: 4
+      s: 0
+      totalTons: 17
+      CP: 0
+      totalMCr: 0.9
+      notes: '4 + common + fresher'
+      Sq: 34
+      mcr: 0.9
+      type: 'Passenger'
+      tons: 17
+      b: 0
+      sleeps: 4
+      eff: 1
+      howMany: 1
+      tl: 16
+      target: 16
+
+   - 
+      e: 0
+      r: 4
+      category: 'PowerPlant'
+      Sq: 10
+      target: 16
+      s: 5
+      original: 
+         e: 0
+         r: 0
+         category: 'PowerPlant'
+         target: 16
+         s: 0
+         totalTons: 10
+         CP: 1
+         mod: 0
+         totalMCr: 10
+         notes: 'P 3'
+         B: 0
+         E: 0
+         tons: 10
+         code: 'C'
+         eff: 1
+         tl: 16
+         Q: 0
+         powerFuelUsage: 0.01
+         R: 0
+         label: 'PowerPlant-3 (C)'
+         rating: 3
+         basetl: 10
+         S: 0
+         name: 'PowerPlant'
+         Sq: 20
+         b: 0
+         type: 'Drive'
+         autoAdjust: 1
+         howMany: 1
+         mcr: 10
+         q: 0
+      CP: 1
+      autoAdjust: 1
+      howMany: 1
+      totalMCr: 5
+      notes: 'R3'
+      totalTons: 5
+      eff: 1.1
+      tons: 5
+      code: 'C'
+      B: 0
+      rating: 3
+      Q: 0
+      powerFuelUsage: 0.01
+      R: 0
+      label: 'Mod PowerPlant C (R3)'
+      tl: 14
+      basetl: 10
+      S: 0
+      E: 0
+      name: 'PowerPlant'
+      b: -1
+      type: 'Drive'
+      mod: 2
+      stage: 'Mod'
+      mcr: 5
+      q: 10
+
+   - 
+      e: 0
+      r: 0
+      label: 'Hangar Lock'
+      tl: 16
+      q: 0
+      s: 0
+      totalTons: 10
+      CP: 1
+      totalMCr: 0
+      notes: ''
+      Sq: 20
+      b: 0
+      type: 'Vehicle'
+      tons: 10
+      eff: 1
+      howMany: 1
+      mcr: 0
+      target: 16
+
+   - 
+      speed: '6G'
+      mcr: 15
+      r: 0
+      label: 'Fast Boat + Hangar'
+      load: 16
+      target: 13
+      s: 0
+      totalTons: 40
+      e: 0
+      totalMCr: 15
+      tl: 13
+      notes: 'm1bis 3'
+      Sq: 80
+      eff: 1
+      type: 'Vehicle'
+      tons: 40
+      code: 'MFQB'
+      av: 13
+      b: 0
+      howMany: 1
+      CP: 0
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      label: 'Cargo Hold Basic'
+      tl: 10
+      target: 10
+      s: 0
+      totalTons: 4
+      CP: 0
+      totalMCr: 0
+      notes: ''
+      Sq: 8
+      category: 'Cargo'
+      type: 'Payload'
+      tons: 4
+      b: 0
+      eff: 1
+      howMany: 1
+      mcr: 0
+      q: 0
+
+   - 
+      e: 0
+      CP: 0
+      r: 0
+      label: 'Standard Stateroom'
+      q: 0
+      totalSleeps: 1
+      s: 0
+      totalTons: 2
+      mcr: 0.1
+      totalMCr: 0.1
+      notes: '1 passenger'
+      Sq: 4
+      b: 0
+      type: 'Passenger'
+      tons: 2
+      sleeps: 1
+      eff: 1
+      howMany: 1
+      tl: 16
+      target: 16
+
+   - 
+      CP: 0
+      r: 0
+      label: 'Shared Fresher'
+      tl: 16
+      q: 0
+      s: 0
+      totalTons: 0.5
+      mcr: 0.5
+      totalMCr: 0.5
+      notes: '4 passengers'
+      Sq: 1
+      b: 0
+      type: 'Passenger'
+      tons: 0.5
+      eff: 1
+      howMany: 1
+      e: 0
+      target: 16
+
+   - 
+      e: 0
+      CP: 0
+      r: 0
+      label: 'Passenger Commons'
+      target: 16
+      s: 0
+      totalTons: 3
+      mcr: 0
+      totalMCr: 0
+      notes: ''
+      Sq: 6
+      b: 0
+      type: 'Passenger'
+      tons: 3
+      eff: 1
+      howMany: 1
+      tl: 16
+      q: 0
+
+   - 
+      CP: 0
+      r: 0
+      label: 'Life Support Luxury'
+      tl: 16
+      q: 0
+      s: 0
+      totalTons: 1
+      mcr: 1
+      totalMCr: 1
+      notes: '4 high passengers'
+      Sq: 2
+      b: 0
+      type: 'Ops'
+      tons: 1
+      eff: 1
+      howMany: 1
+      e: 0
+      target: 16
+
+   - 
+      e: 0
+      r: 0
+      label: 'Crew Commons'
+      tl: 16
+      q: 0
+      s: 0
+      totalTons: 23
+      CP: 0
+      totalMCr: 0
+      notes: ''
+      Sq: 46
+      b: 0
+      type: 'Crew'
+      tons: 23
+      eff: 1
+      howMany: 1
+      mcr: 0
+      target: 16
+
+   - 
+      CP: 0
+      r: 0
+      q: 0
+      s: 0
+      totalTons: 6
+      e: 0
+      mod: 0
+      ws: 1
+      notes: '1cc 4op 1ws'
+      cc: 1
+      eff: 1
+      totalMCr: 0.6
+      tons: 6
+      tl: 16
+      mcr: 0.6
+      label: 'Standard Bridge'
+      op: 4
+      Sq: 12
+      name: 'Bridge'
+      b: 0
+      type: 'Ops'
+      category: 'Bridge'
+      howMany: 1
+      target: 16
+header: 
+   workstations: 1
+   lifters: 'y'
+   format: 'T5-ACS-1'
+   shipname: 'Daedalus'
+   crewComfort: 0
+   demand: 0
+   passengers: 5
+   mission: 'Y'
+   totalMCr: 72.5
+   undertons: 0.5
+   controlConsoles: 1
+   jumpFuelPercentage: 0.09
+   jf: 3
+   config: 'U'
+   powerFuelPercentage: 0.027
+   mult: 1
+   tl: 16
+   qsp: 'Y-BU13'
+   preMult: 1
+   tons: 200
+   comments: |
+      Using a 200-ton, TL16 hull, the Daedalus-class Yacht is a Llellewyloly noble’s transport. It mounts jump drive-C, maneuver drive-A, and power plant-C, giving a performance of jump-3 and 1G acceleration. Fuel tankage supports a 3 parsec jump, at 18t per parsec, and one month of operations. Attached to the bridge is a Computer Model/3. There are two crew staterooms capable of carrying six Llellewyloly crew, five passenger staterooms, and no low berths. Cargo capacity is 4 tons. The ship has an unstreamlined hull, with scoops and intakes for frontier refueling. 
+      The ship carries one Fast Boat in a hangar. The ship requires 6 crew, and typically carries three high passengers and eight assistants.
+      
+   pf: 1
+   shifts: 1
+   tonsFree: 0.5
+   low: 0
+   crewLocked: 'no'
+   troops: 0
+   crew: 7
+   staff: 0
+   missionLabel: 'Yacht'
+   owner: 'Llellewyloly'
+   spaciousness: 1
+   operatingConsoles: 4
+   totalCargoSpace: 4

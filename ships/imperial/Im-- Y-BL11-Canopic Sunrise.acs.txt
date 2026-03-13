@@ -1,0 +1,80 @@
+--- 
+ACS1.0: Wed Apr  3 18:18:48 2024
+Mission: Yacht
+QSP: Y-BL11 
+Cx: ABCD
+Vx: B1 H1
+Name: Canopic Sunrise
+Tons: 200
+TL: 15 
+Undertonnage: 5
+MCr: 114.8
+Allegiance: Im
+
+Crew comfort: 0
+Passengers: 8
+Passenger demand: 2
+Low berths: 
+Cargo: 5
+Fuel: 4
+Fuel treatment: 
+Computer: Model/4  
+
+Comments: |-
+   Using a 200-ton, TL15 hull, the Canopic Sunrise mounts jump drive-A, maneuver drive-A, and power plant-A, giving a performance of jump-1 and 1G acceleration. Fuel tankage supports 2 months of operations. A Collector supports the jump drive. Attached to the bridge is a Computer Model/4. There are 8 crew staterooms and 8 high-passage  staterooms. There is one T2 Beam Laser. Cargo capacity is 5 tons. The ship has an aerodynamic lift body hull.
+   
+   Carried craft include 1 Gig, and 1 Grav Speeder. The ship requires four crew: Pilot, Astrogator, Engineer, and Medic. Up to four additional crew can be hired as stewards, though all crew members should have training as footman, valet, or butler. A gunner may also be hired. The pilot operates the gig.
+   
+   The ship can carry 8 high passengers. 
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   200   . Lift body Hull                     28.0  ,HH.0  L .....
+ -     2   . Landing legs with pads              2.0  ,HL.1  K .....
+ -     0   . Armor: 1 Rad Charged                0.0  ,HA.1  . .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . Jump Fuel (0  parsec)               0.0  ,DF.0  . .....
+ -     4   . Plant Fuel (2 months)               0.0  ,DF.0  . .....
+ -     2   . Maneuver Drive-1 (A)                4.0  ,DM11  A .....
+ -    10   . Jump Drive-1 (A)                   10.0  ,DJ11  A .....
+ -     4   . PowerPlant-1 (A)                    4.0  ,DP11  A .....
+ -    20   . Collector-1 (A)                    10.0  ,DC11  A .....
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     2  2x Life Support Luxury                 2.0  ,OLU0  . .....
+ -     1   . Life Support Standard               1.0  ,OLS0  . .....
+ -     2   . Clinic                              1.0  ,OM.1  . .....
+ -     4   . Computer Model/4                   18.0  ,OC41  . .....
+ -    12   . Spacious Bridge                     0.6  ,OB.0  2 .....
+#
+#   TONS   # S-SENSORS                           MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . LR Surf Basic C-E-N-T              10.0  ,SS.1  . .....
+#
+#   TONS   # WEAPONS                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . Vd T2 Beam Laser                    1.0  ,WW.1 -1 .....
+#
+#   TONS   # CREW                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    34  2x Crew Cluster                        1.8  ,CO.0  4 .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    48  2x Luxury Cluster                      3.2  ,PO.0  4 .....
+ -     5   . Cargo Hold Basic                    0.0  ,PC.0  . .....
+ -     8  2x Passenger Commons                   0.0  ,PC.0  . .....
+#
+#   TONS   # VEHICLES                            MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    20   . Gig                                18.0  ,VO.0 LM .....
+ -    10   . Hangar Lock                         0.0  ,VO.1  . .....
+ -     6   . Grav Speeder                        0.2  ,VO.0 FP .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

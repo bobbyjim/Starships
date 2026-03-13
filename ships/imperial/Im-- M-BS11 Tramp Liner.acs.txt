@@ -1,0 +1,86 @@
+--- 
+ACS1.0: Wed Apr  3 18:18:44 2024
+Mission: Liner
+QSP: M-BS11 
+Cx: 
+Vx: V0
+Name: Tramp Liner
+Tons: 200
+TL: 10 
+Undertonnage: 2
+MCr: 37
+Allegiance: Im
+Architect: Copper Hamster
+
+Crew comfort: -1
+Passengers: 20
+Passenger demand: -1
+Low berths: 8
+Cargo: 51
+Fuel: 24
+Fuel treatment: I1,S1
+Computer: Gen Computer Model/1 std
+
+Comments: |-
+   Using  200 ton streamlined hull, the TL10 Tramp Liner and ships liker her are designed to service the fringes of known space where ships are infrequent and travellers sometimes desperate.
+   
+   Mounting Generic Jump, Maneuver and Power Plants -A gives the ship a performance of Jump-1 and 1G accelleration. Standard fittings in the cargo bay include a collapsable 24 ton fuel cell giving the ship extended power duration and the ability to perform 2 Jump-1's in a row. The ship is equipped with Fuel Scoops for skimming and liquid handling systems for fueling from nearby lakes and streams. Many Captains make installation of a fuel purification plant a priority, however some do not care.
+   
+   Standard crew compliment is 5, a Pilot, Astrogator, Engineer, Steward, and Medic, but it is not unusual to find someone pulling double or triple duty.  Adjacent to the somewhat small bridge is a generic Model 1 Computer.
+   
+   There are 20 passenger staterooms and 8 low berths. 'Luxury' life support is not provided and the quarters are cramped, but Captains will readily accept your High Passage ticket for a trip offworld. With the extra fuel tanks collapsed the cargo hold is 51 tons.
+   
+   The ship is nominally unarmed but many Captains will find some turrets to put on the ship's two hardpoints. The only normal ship's craft is an Air/Raft tied down in the cargo bay.
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   200   . Streamlined hull                   14.0  ,HH.0  S .....
+ -     0   . Jump Plates                         0.2  ,HJ.1  P .....
+ -     0   . Armor: 1 Kinetic Plate              0.0  ,HA.1  . .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    22   . Jump Fuel (1  parsec)               0.0  ,DF.0  . .....
+ -     2   . Plant Fuel (one month)              0.0  ,DF.0  . .....
+ -     1   . Fuel Intakes 40t/hr                 0.1  ,DF.1 I1 .....
+ -     1   . Fuel Scoops 100t/hr                 0.1  ,DF.1 S1 .....
+ -     4   . Gen PowerPlant-1 (A)                2.0  ,DP11 -2 5A51A
+ -     2   . Gen Maneuver Drive-1 (A)            2.0  ,DM11 -2 520D1
+ -    10   . Gen Jump Drive-1 (A)                5.0  ,DJ11 -2 301D3
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . Gen Computer Model/1 std            0.7  ,OC-11  . 5A410
+ -     7   . Standard Controls                   0.0  ,OB.0  . .....
+#
+#   TONS   # WEAPONS                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . Hardpoint                           0.0  ,WW.1 -2 .....
+ -     1   . Hardpoint                           0.0  ,WW.1 -2 .....
+#
+#   TONS   # CREW                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    10  5x Crew Stateroom                      0.5  ,CS.0  1 .....
+ -     8   . Crew Lounge                         0.0  ,CC.0  . .....
+ -     1   . Crew Common Fresher                 1.0  ,CF.0  2 .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . Med Console                         0.5  ,PM.0  . .....
+ -     3   . Life Support                        3.0  ,PL.0  . .....
+ -    40 20x Standard Stateroom                  2.0  ,PS.0  1 .....
+ -    20   . Passenger Lounge                    0.0  ,PC.0  . .....
+ -     2  2x Common Fresher                      2.0  ,PF.0  2 .....
+ -     2   . Stowage, Air/Raft                   0.0  ,PO.0  . .....
+ -     4  8x Low Berth                           0.8  ,PL.0  . .....
+ -     0 24x Collapsable Fuel Tankage 24 ton     2.4  ,PF.0  . .....
+ -    51   . Cargo Hold Basic                    0.0  ,PC.0  . .....
+#
+#   TONS   # VEHICLES                            MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     4   . Air/Raft Enclosed                   0.1  ,VO.0 EL .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

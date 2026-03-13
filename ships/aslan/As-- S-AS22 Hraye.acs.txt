@@ -1,0 +1,74 @@
+--- 
+ACS1.0: Wed Apr  3 18:18:39 2024
+Mission: Scout/Courier
+QSP: S-AS22 
+Cx: 
+Vx: V1
+Name: Hraye
+Tons: 100
+TL: 11 
+Undertonnage: 11.5
+MCr: 38.4
+Owner: Aslan
+Allegiance: As
+
+Crew comfort: 1
+Passengers: 0
+Passenger demand: -5
+Low berths: 
+Cargo: 4
+Fuel: 22
+Fuel treatment: S
+Computer: Model/1bis  
+
+Comments: |-
+   Using a 100-ton hull, the Hraye-class Scout/Courier the Aslan scout is intended primarily for exploration duties. It mounts jump drive-A, maneuver drive-A, and power plant-A, giving a performance of jump-2 and 2G acceleration. Fuel tankage supports a 2 parsec jump, at 10t per parsec, and one month of operations. Attached to the bridge is a Computer Model/1bis. There are 2 staterooms and no low berths. Installed weaponry consists of a T2 Missile. Cargo capacity is 4 tons. The ship has a streamlined hull, with scoops for frontier refueling. 
+   
+   The ship carries an ATV in a garage.
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   100   . Streamlined Hull                    8.0  ,HH.0  S .....
+ -     1   . Landing legs with pads              1.0  ,HL.1  K .....
+ -     1   . Flotation hull                      1.0  ,HF.1  D .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    20   . Jump Fuel (2  parsecs)              0.0  ,DF.0  . .....
+ -     2   . Plant Fuel (one month)              0.0  ,DF.0  . .....
+ -    10   . Jump Drive-2 (A)                   10.0  ,DJ21  A .....
+ -     2   . Maneuver Drive-2 (A)                4.0  ,DM21  A .....
+ -     4   . PowerPlant-2 (A)                    4.0  ,DP21  A .....
+ -     6   . All fuel processors                 3.3  ,DF.6  S .....
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     2   . Clinic                              1.0  ,OM.1  . .....
+ -     1   . Life Support Standard               1.0  ,OLS0  . .....
+ -     1   . Computer Model/1bis                 3.0  ,OC21  . .....
+ -    12   . Spacious Bridge                     0.6  ,OB.0  2 .....
+#
+#   TONS   # WEAPONS                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . AR T2 Missile                       0.7  ,WW.1 -1 .....
+#
+#   TONS   # CREW                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . Crew Shared Fresher                 0.5  ,CF.0  1 .....
+ -     4  2x Crew Stateroom                      0.2  ,CS.0  1 .....
+ -     1   . Aslan Hero's Shrine                 0.0  ,CO.0  . .....
+ -     8  2x Crew Commons                        0.0  ,CC.0  . .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     4   . Cargo Hold Basic                    0.0  ,PC.0  . .....
+#
+#   TONS   # VEHICLES                            MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     4   . ATV garage                          0.1  ,VO.0 EL .....
+ -     4   . Vehicle Lock                        0.0  ,VO.1  . .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

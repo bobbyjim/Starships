@@ -1,0 +1,70 @@
+--- 
+ACS1.0: Wed Apr  3 18:18:48 2024
+Mission: Freighter
+QSP: F-K5S11 
+Cx: 14
+Vx: N1
+Name: Hercules
+Tons: 5000
+TL: 9 
+Overtonnage: 1.5
+MCr: 658.8
+Owner: Akerut
+Allegiance: ImAk
+
+Crew comfort: -2
+Passengers: 1
+Passenger demand: -5
+Low berths: 
+Cargo: 4069
+Fuel: 550
+Fuel treatment: 
+Computer: Model/2bis std
+
+Comments: |-
+   Using a 5000-ton hull, the Hercules heavy merchant is a bulk and containerized cargo carrier developed and produced for operations in the Aramis and neighboringsubsectors by Akerut. It mounts jump drive-W, maneuver drive-W, and power plant-W, giving performance of jump-1 and 1G acceleration. On the bridge is a computer Model/2bis. There are fifteen staterooms and no low berths. The ship has four triple turrets, each mounting beam lasers. There is one ship's vehicle: a 40-ton pinnace. 
+   
+   The Hercules heavy merchant requires a crew of 15: pilot/captain, astrogator, 7 engineers, medic, 4 gunners, and pinnace pilot. The ship does not carry passengers.
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -  5000   . Streamlined Hull                  302.0  ,HH.0  S .....
+ -     0   . AV=9. 1 Kinetic Plate               0.0  ,HA.1  . .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   500   . Jump Fuel (1  parsec)               0.0  ,DF.0  . .....
+ -    50   . Plant Fuel (one month)              0.0  ,DF.0  . .....
+ -    79   . PowerPlant-1 (N2)                  79.0  ,DP13 N2 .....
+ -   135   . Jump Drive-1 (N2)                 135.0  ,DJ14 N2 .....
+ -    51   . Maneuver Drive-1 (N2)             102.0  ,DM12 N2 .....
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     3   . Computer Model/2bis std             7.5  ,OC31  . .....
+ -     1   . Life Support Standard               1.0  ,OLS0  . .....
+ -    28   . Spacious Controls                   0.0  ,OB.0  2 .....
+#
+#   TONS   # WEAPONS                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     6  4x D T3de Beam Laser                  10.0  ,WW.1  . .....
+#
+#   TONS   # CREW                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . Crew Common Fresher                 1.0  ,CF.0  2 .....
+ -     0   . Crew Shared Fresher                 0.5  ,CF.0  1 .....
+ -    28 14x Crew Stateroom                      1.4  ,CS.0  1 .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -  4069   . Cargo Hold Basic                    0.0  ,PC.0  . .....
+#
+#   TONS   # VEHICLES                            MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    40   . Slow Pinnace                       18.0  ,VO.0 MS .....
+ -    10   . Large Vehicle Lock                  0.0  ,VO.1  . .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

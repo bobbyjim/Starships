@@ -1,0 +1,78 @@
+--- 
+ACS1.0: Wed Apr  3 18:18:46 2024
+Mission: Transport
+QSP: T-VS66 
+Cx: 9
+Vx: S1
+Name: Imperiallines TJ
+Tons: 2000
+TL: 15 
+Overtonnage: 28
+MCr: 1099
+Allegiance: Im
+
+Crew comfort: -1
+Passengers: 0
+Passenger demand: -5
+Low berths: 10
+Cargo: 194
+Fuel: 1300
+Fuel treatment: 
+Computer: Model/6  
+
+Comments: |-
+   Using a 2000-ton hull, the frontier transport is a cargo-carrying freighter employed to serve worlds off the main trade ruutes. It mounts jump drive-V3, maneuver drive S3, and power plant-S3, giving a performance of jump-6 and 6G acceleration. Fuel tankage for 1300 tons supports the power plant, and allows one jump-6. Adjacent to the bridge is a computer Model/6. There are 10 staterooms and ten low berths. The ship has 10 triple beam laser turrets. There is one ship's vehicle: a 45 ton shuttle. Cargo capacity is 194 tons (not including the shuttle's cargo bay). The hull is streamlined. 
+   
+   The frontier transport requires a crew of 10: captain/pilot, astrogator, medic, shuttle pilot, and 6 engineers. Gunners may be added as needed, with the spacer niches turning into hot bunk niches. The ship does not normally carry passengers. 
+   
+   Externally identical to the type TI frontier transpott, the type TJ is never openly identified as such by its owners. The type TJ fulfills Imperiallines' major covert mission: to provide a jump-6 transport system within the Imperium for material, agents, information, and equipment necessary for various Imperial activities.
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -  2000   . Streamlined Hull                  122.0  ,HH.0  S .....
+ -    20   . Landing legs with pads             20.0  ,HL.1  K .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -  1200   . Jump Fuel (6  parsecs)              0.0  ,DF.0  . .....
+ -   100   . Plant Fuel (one month)              0.0  ,DF.0  . .....
+ -   315   . Jump Drive-6 (V3)                 315.0  ,DJ69 V3 .....
+ -    51   . Adv PowerPlant S3 (R6)            156.0  ,DP65 S3 505D4
+ -    24   . Ult Maneuver Drive S3 (R6)        396.0  ,DM63 S3 752B5
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     6   . Computer Model/6                   39.0  ,OC61  . .....
+ -     1   . Life Support Standard               1.0  ,OLS0  . .....
+ -    11   . Standard Bridge                     1.1  ,OB.0  . .....
+#
+#   TONS   # S-SENSORS                           MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . LR Surf Basic C-E-N-T              10.0  ,SS.1  . .....
+#
+#   TONS   # WEAPONS                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    10 10x Vd T3 Beam Laser                   15.0  ,WW.1  . .....
+#
+#   TONS   # CREW                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    18   . Crew Cluster                        0.9  ,CO.0  4 .....
+ -     6   . Officer Suite                       0.4  ,CS.1  1 .....
+ -     1   . Crew Common Fresher                 1.0  ,CF.0  2 .....
+ -     6  6x Spacer Niche                        0.6  ,CS.0  1 .....
+ -     4   . Crew Commons                        0.0  ,CC.0  . .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     5 10x Low Berth                           1.0  ,PL.0  . .....
+ -   194   . Cargo Hold Basic                    0.0  ,PC.0  . .....
+#
+#   TONS   # VEHICLES                            MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    10   . Hangar Lock                         0.0  ,VO.1  . .....
+ -    45   . Light Shuttle                      20.0  ,VO.0 LM .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

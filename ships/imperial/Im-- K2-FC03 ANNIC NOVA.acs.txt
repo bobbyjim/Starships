@@ -1,0 +1,89 @@
+--- 
+ACS1.0: Wed Apr  3 18:18:44 2024
+Mission: Excursion Ship
+QSP: K2-FC03 
+Cx: 
+Vx: N2
+Name: ANNIC NOVA
+Tons: 600
+TL: 18 
+Undertonnage: 50.5
+MCr: 213.7
+Owner: Exotic
+Allegiance: Im
+
+Crew comfort: 0
+Passengers: 0
+Passenger demand: -5
+Low berths: 
+Cargo: 
+Fuel: 0
+Fuel treatment: 
+Computer: Model/3 flu
+
+Comments: |-
+   Using a cluster 600 ton frame and hull, this artifact is allowed in Imperial commerce under the salvage laws provided the ship is registered with Imperial authorities (typical registration fee: Cr 100,000).  
+   
+   The ship has two jump-drives (jump drive-F, and jump drive-J) which operate independently (at J-2 and J-3, respectively). There are no maneuver drives (the pinnaces working together may pull the ship at 0.6G); there is no power plant (subsystems are self-powered by integral Fusion+ modules).  A Collector absorbs and collects energy for internal power ant jump drives. Two single turrets each mount a single beam laser. Cargo bays hold up to 150 tons. The computer is a non-standard model equivalent to a Model/3.  The ship is not streamlined.
+   
+   The ship has 8 staterooms (four single and four double) for the crew (pilot/astrogator, chief engineer, two ordinary engineers, and medic), with provision for ordinary members (gunners, pinnace pilots, or passengers). There are no low berths. 
+   
+   Two 40 ton pinnaces travel in trailing positions. Each holds 12 tons of fuel. One is equipped to carry four passengers for relatively long periods of time; the other can shuttle up to 16 passengers or 12 tons of cargo.
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   600   . Cluster Hull, no lifters           16.0  ,HH.0  C .....
+ -    -6   . No landing gear                    -6.0  ,HL.1 no .....
+ -     0   . AV=9. 1 Rad Organic                 0.0  ,HA.1  . .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . Jump Fuel (0  parsec)               0.0  ,DF.0  . .....
+ -     0   . Plant Fuel (0 months)               0.0  ,DF.0  . .....
+ -   150   . Collector-5 (Q)                    75.0  ,DC55  Q .....
+ -    17   . Mod Jump Drive-2 (F)               17.5  ,DJ21  2 023D3
+ -    25   . Gen Jump Drive-3 (J)               25.0  ,DJ32 -2 032DA
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     6   . Computer Model/3 flu               21.0  ,OC31  . .....
+ -    20   . Spacious bridge                     0.0  ,OB.0  2 .....
+ -    16  4x Hydroponic Garden                   1.6  ,OO.1  . .....
+#
+#   TONS   # S-SENSORS                           MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . AR Surf Communicator                1.0  ,SS.1  . .....
+ -     1   . AR Ant EMS                          1.5  ,SS.1  1 .....
+ -     0   . AR Surf HoloVisor                   1.0  ,SS.1  . .....
+#
+#   TONS   # W-SENSORS                           MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . G Surf Deep Radar                   0.1  ,WS.1  . .....
+ -     0   . G Surf Proximeter                   0.1  ,WS.1  . .....
+#
+#   TONS   # WEAPONS                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     2  2x Vd T1 Beam Laser                    1.4  ,WW.1 -3 .....
+#
+#   TONS   # CREW                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    16  4x Crew Single Stateroom               2.0  ,CS.0  1 .....
+ -    16  4x Crew Double Stateroom               2.0  ,CS.0  2 .....
+ -    20  5x Crew Lounge                         2.5  ,CC.0  . .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    10   . Machine Shop                        0.0  ,PO.1  . .....
+ -     5   . Electronics Shop                    0.0  ,PO.1  . .....
+ -     5   . Metallurgical Shop                  0.0  ,PO.1  . .....
+ -   150   . Cargo Hold Basic                    0.0  ,PC.0  . .....
+#
+#   TONS   # VEHICLES                            MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    80  2x Pinnace                            36.0  ,VO.0 MF .....
+ -    16  8x Grapples                           16.0  ,VO.0  . .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

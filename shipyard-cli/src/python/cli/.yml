@@ -1,0 +1,4 @@
+Components:
+ -    Hull  H 0   1  9 000000 0  200    0 Streamlined, 200 tons
+ -    Driv  J 1   1  9 000000 0   10   10 Jump Drive
+ -    Driv  M 1   1  9 000000 0    2    4 Maneuver Drive

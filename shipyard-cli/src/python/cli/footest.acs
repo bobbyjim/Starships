@@ -1,0 +1,6 @@
+Components:
+ a    Hull  H 0   1  9 000000 0  200 14.0 Streamlined, 200 tons
+ a    Driv  J 1   1  9 000000 0   10   10 Jump Drive
+ a    Driv  M 1   1  9 000000 0    2    4 Maneuver Drive
+ a    Ssen  C 1   1  9 000000 1    0  0.0 Communicator
+ a    Wwpn  K 1   1  9 000000 0    1  0.3 T1 Pulse Laser

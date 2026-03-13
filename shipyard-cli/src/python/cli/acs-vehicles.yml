@@ -1,0 +1,279 @@
+- av: '60,20,20,30,20,0,20,20'
+  label: XRD Recon Drone
+  type: Vehicle
+  notes: 3 days endurance
+  code: MRQD
+  load: 0.2
+  mcr: 19.75
+  speed: 6
+  tl: 12
+  tons: 10
+
+- av: '46,12,16,20,18,26,30'
+  label: Wiseman Yards MUSC-C
+  type: Vehicle
+  notes: weeks endurance
+  code: MUFQC
+  load: 33
+  mcr: 39
+  speed: 5
+  tl: 12
+  tons: 57
+
+- av: '33,10,14,23,44,18,6'
+  label: METEOR Drop Capsule-B
+  type: Vehicle
+  notes: 10 caps per 1 ton
+  code: UtlVlLTC
+  load: 1
+  mcr: 3.73
+  speed: 6
+  tl: 11
+  tons: 1
+
+- av: '4,0,,4,0,4,12,0'
+  label: PUMA Hvy Combat Car
+  type: Vehicle
+  notes: aDAGaC-12 = 7D
+  code: FWpnEBHGC
+  load: -1
+  mcr: 0.146
+  speed: 5
+  tl: 12
+  tons: 3
+
+- av: '78,14,16,10,42,50,40'
+  label: ATHENA Command Carrier
+  type: Vehicle
+  notes: RaFGaT-12 = 7D
+  code: WpnFDHGRC
+  load: 1
+  mcr: 0.146
+  speed: 5
+  tl: 12
+  tons: 3.835
+
+- av: '108,14,16,10,32,50,40'
+  label: SLAMMER Hvy Grav Tank
+  type: Vehicle
+  notes: RHPCV-12 = 11D
+  code: WpnReDHGT
+  load: -1
+  mcr: 4.525
+  speed: 4
+  tl: 12
+  tons: 7
+
+- av: '30,10,14,13,24,15,3'
+  label: HERMES-E Space Ambulance
+  type: Vehicle
+  notes: 9 tons for casualties
+  code: AdvVlMPL
+  load: 9
+  mcr: 10
+  speed: 6G
+  tl: 14
+  tons: 15
+
+- av: '59,20,24,25,54,22,10'
+  label: MAMBA-15 Attack Launch
+  type: Vehicle
+  notes:  for boarding actions
+  code: AdvWLMAL
+  load: 6
+  mcr: 35
+  speed: 7G
+  tl: 15
+  tons: 15
+
+- av: '66,12,16,10,38,26.30'
+  label: CORSAIR-F Adv Fighter
+  type: Vehicle
+  notes: 2 lasers + missile
+  code: AdvMWQF
+  load: 2
+  mcr: 23
+  speed: 8G
+  tl: 15
+  tons: 8
+
+- av: '20,10,20,20,10,20,20'
+  label: EIE-B Mining Buggy
+  type: Vehicle
+  code: LMUQP
+  tl: 11
+  tons: 4
+  speed: 2G
+  load: 5.5
+  mcr: 5
+
+- av: '15,10,10,10,12,22,20'
+  label: Grav Speeder
+  type: Vehicle
+  code: FPGPH
+  load: 1
+  mcr: 0.28
+  speed: 6
+  tl: 13
+  tons: 6
+
+- label: Air/Raft Enclosed
+  type: Vehicle
+  load: 2
+  mcr: 0.1
+  speed: 3
+  tl: 9
+  tons: 4
+  code: ELPV
+  av: '9,0,4,0,4,0,24,0'
+
+- av: '140,30,40,40,50,50,50'
+  label: GCarrier
+  type: Vehicle
+  code: AltHGC
+  load: 4
+  mcr: 3
+  speed: 4
+  tl: 13
+  tons: 8
+
+- av: '160,30,40,40,50,50,50'
+  label: Heavy Grav Tank
+  type: Vehicle
+  code: AltHGT
+  load: 0
+  mcr: 4.2
+  speed: 4
+  tl: 14
+  tons: 10
+
+- av: 9
+  mcr: 13
+  label: Launch
+  type: Vehicle
+  code: MSQL
+  load: 11
+  speed: 1G
+  tl: 9
+  tons: 20
+  notes: m1bis C L0
+
+- av: 13
+  label: Fast Boat
+  type: Vehicle
+  load: 16
+  code: MFQB
+  mcr: 15
+  speed: 6G
+  tl: 13
+  tons: 30
+  notes: m1bis 3
+
+- av: 10
+  label: Slow Boat
+  type: Vehicle
+  code: MSQB
+  load: 20
+  mcr: 13
+  speed: 3G
+  tl: 10
+  tons: 30
+  notes: m1 C
+
+- av: 12
+  label: Pinnace
+  type: Vehicle
+  load: 24
+  code: MFQN
+  mcr: 19
+  speed: 5G
+  tl: 12
+  tons: 40
+  notes: m2 3 L2
+
+- av: 9
+  label: Slow Pinnace
+  type: Vehicle
+  load: 30
+  code: MSQN
+  mcr: 15
+  speed: 2G
+  tl: 9
+  tons: 40
+  notes: m1bis C
+
+- av: 11
+  label: Modular Cutter
+  type: Vehicle
+  code: MQC
+  load: 3
+  mcr: 28
+  speed: 4G
+  tl: 11
+  tons: 50
+  notes: m3bis 3
+
+- av: 14
+  label: Sloop
+  type: Vehicle
+  load: 5
+  mcr: 39
+  speed: 7G
+  tl: 14
+  tons: 80
+  notes: m2bis 5 V
+
+- av: 10
+  label: Shuttle
+  type: Vehicle
+  load: 71
+  code: MCQS
+  mcr: 32
+  speed: 3G
+  tl: 10
+  tons: 95
+  notes: m3 3 K L2 +5
+
+- av: 12
+  label: Light Shuttle
+  type: Vehicle
+  load: 23
+  code: LMQS
+  mcr: 18
+  speed: 5G
+  tl: 12
+  tons: 40
+  notes: m1bis 3 B S
+
+- av: 15
+  label: Gig
+  type: Vehicle
+  code: LMAQB
+  load: 7.5
+  mcr: 18
+  speed: 8G
+  tl: 15
+  tons: 20
+  notes: m2 B C
+
+- av: 15
+  label: Fighter
+  type: Vehicle
+  load: 1.3
+  code: MQF
+  mcr: 16.5
+  speed: 8G
+  tl: 15
+  tons: 10
+  notes: m2bis C L0
+
+- av: 14
+  label: Lt Fighter
+  type: Vehicle
+  load: 0.33
+  code: MQF
+  mcr: 12
+  speed: 7G
+  tl: 14
+  tons: 8
+  notes: m1bis C L0

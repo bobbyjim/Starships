@@ -1,0 +1,5 @@
+Components:
+ -    Hull  H 0   1  9 000000 0  400 26.0 Streamlined, 400 tons
+ -    Driv  J 3   1  9 000000 0   35   35 Jump Drive
+ -    Driv  M 5   1  9 000000 0   19   38 Maneuver Drive
+ -    Swpn  A 1   1  9 000000 0    1  2.5 T1 Particle Accelerator

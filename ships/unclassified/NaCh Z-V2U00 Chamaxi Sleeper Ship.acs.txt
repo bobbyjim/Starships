@@ -1,0 +1,62 @@
+--- 
+ACS1.0: Wed Apr  3 18:18:53 2024
+Mission: Unclassified
+QSP: Z-V2U00 
+Cx: 
+Vx: 
+Name: Chamaxi Sleeper Ship
+Tons: 4000
+TL: 9 
+Undertonnage: 81
+MCr: 708.1
+Builder: šahî Shipyards
+Owner: kärvîkvriyä
+Disposition: Lost
+Allegiance: NaCh
+
+Crew comfort: -5
+Passengers: 0
+Passenger demand: 0
+Low berths: 
+Cargo: 200
+Fuel: 400
+Fuel treatment: 
+Computer: Model/1 std
+
+Comments: |-
+   A relic sleeper ship from the doomed planet of Chamax, this vessel carries Chamaxi refugees in suspended animation. 
+   
+   Typically displacing 1,000 to 4,000 tons, it relies on a single NAFAL-1 drive for propulsion, engineered with exceptional quality in order to last the long journey.
+   
+   The ship accelerates for a short time, then cuts out and coasts. After that, the ship powers down everything but computer monitors. The passengers hibernate in irregular-sized rooms. 
+   
+   Each ton of hibernation space accommodates up to four Chamax sophonts. This 4,000 ton ship has room for about 10,000 hibernating Chamaxi. The ships' internal power sources are sufficient to preseve the occupants for journeys lasting centuries.
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -  4000   . Unstreamlined Hull, lifters       162.0  ,HH.0  U .....
+ -    40   . Flotation hull                     40.0  ,HF.1  D .....
+ -     0   . AV=9. 1 Kinetic Plate               0.0  ,HA.1  . .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . Jump Fuel (0  parsec)               0.0  ,DF.0  . .....
+ -   400   . Plant Fuel (10 months)              0.0  ,DF.0  . .....
+ -    61   . PowerPlant-1 (V)                   61.0  ,DP12  V .....
+ -    40   . NAFAL-1 (V)                        40.0  ,DN12  V .....
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . Computer Model/1 std                1.5  ,OC11  . .....
+ -   403   . Life support (16120 people/month)  403.0  ,OL.41  . .....
+ -    24   . Spacious Controls                   0.0  ,OB.0  2 .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   200   . Cargo Hold Basic                    0.0  ,PC.0  . .....
+ -  2750   . Hibernation Rooms                   0.0  ,PO.0  . .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

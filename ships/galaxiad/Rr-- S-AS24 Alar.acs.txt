@@ -1,0 +1,77 @@
+--- 
+ACS1.0: Wed Apr  3 18:18:57 2024
+Mission: Scout/Courier
+QSP: S-AS24 
+Cx: 
+Vx: V1
+Name: Alar
+Tons: 100
+TL: 16 
+
+MCr: 52.7
+Owner: Republic of Regina
+Allegiance: Rr
+
+Crew comfort: 0
+Passengers: 0
+Passenger demand: -5
+Low berths: 4
+Cargo: 1
+Fuel: 39
+Fuel treatment: S
+Computer: Model/2  
+
+Comments: |-
+   
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   100   . Streamlined Hull                    8.0  ,HH.0  S .....
+ -     1   . Landing legs with pads              1.0  ,HL.1  K .....
+ -     1   . Flotation hull                      1.0  ,HF.1  D .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    36   . Jump Fuel (4  parsecs)              0.0  ,DF.0  . .....
+ -     3   . Plant Fuel (one month)              0.0  ,DF.0  . .....
+ -     2   . Maneuver Drive-2 (A)                4.0  ,DM21  A .....
+ -    10   . Mod Jump Drive B (R4)              10.0  ,DJ41  2 5A101
+ -     4   . Mod PowerPlant B (R4)               4.0  ,DP41  2 1023A0
+ -     6   . All fuel processors                 3.3  ,DF.6  S .....
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     2   . Computer Model/2                    5.0  ,OC21  . .....
+ -     1   . Life Support Standard               1.0  ,OLS0  . .....
+ -     1   . Life Support Luxury                 1.0  ,OLU0  . .....
+ -     1   . Life Support Adaptable              1.0  ,OLA0  . .....
+ -     0   . Med Console                         0.5  ,OM.0  . .....
+ -     4   . Standard Bridge                     0.5  ,OB.0  . .....
+#
+#   TONS   # S-SENSORS                           MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . AR Surf Basic C-R-T                 6.0  ,SS.1  . .....
+#
+#   TONS   # WEAPONS                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . Vd T3 Hybrid L-S-M                  2.0  ,WW.1  . .....
+#
+#   TONS   # CREW                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    17   . Crew Cluster                        0.9  ,CO.0  4 .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     2  4x Low Berth                           0.4  ,PL.0  . .....
+ -     1   . Cargo Hold Basic                    0.0  ,PC.0  . .....
+ -     1   . Mail Vault                          1.0  ,PO.0  . .....
+#
+#   TONS   # VEHICLES                            MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     4   . Air/Raft Enclosed                   0.1  ,VO.0 EL .....
+ -     1   . Bracket Streamlined                 2.0  ,VO.0  . .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

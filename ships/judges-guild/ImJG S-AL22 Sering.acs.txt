@@ -1,0 +1,85 @@
+--- 
+ACS1.0: Wed Apr  3 18:18:51 2024
+Mission: Scout/Courier
+QSP: S-AL22 
+Cx: 
+Vx: V1
+Name: Sering
+Tons: 100
+TL: 12 
+Undertonnage: 0.5
+MCr: 42.1
+Builder: Ling Standard
+Owner: Judges Guild
+Disposition: In Service
+Allegiance: ImJG
+Architect: M. McCabe
+
+Crew comfort: 2
+Passengers: 0
+Passenger demand: -5
+Low berths: 
+Cargo: 3
+Fuel: 23
+Fuel treatment: SP,IP,BP
+Computer: Mod Computer Model/1 std
+
+Comments: |-
+   Using a 100-ton, TL12 hull, the MC&S Sering class Scout mounts A-series drives, giving a performance of jump-2 and 2G acceleration. Fuel tankage supports a 2 parsec jump, at 10t per parsec, and up to two months of operations. Attached to the bridge is a Computer Model/2. There are 4 staterooms and no low berths. An empty double turret is installed. Cargo capacity is 3 tons. The hull is streamlined, with scoops for frontier refueling.
+   
+   The ship carries an enclosed Air/Raft. 
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   100   . Lift body Hull                     16.0  ,HH.0  L .....
+ -     1   . Landing legs with pads              1.0  ,HL.1  K .....
+ -     4   . Armor: 2 Kinetic Plate              0.0  ,HA.1  . .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    20   . Jump Fuel (2  parsecs)              0.0  ,DF.0  . .....
+ -     3   . Plant Fuel (2 months)               0.0  ,DF.0  . .....
+ -     2   . Fuel Scoops with Purifier           1.1  ,DF.2 SP .....
+ -     2   . Fuel Intakes with Purifier          1.1  ,DF.2 IP .....
+ -     2   . Fuel Bins with Purifier             1.1  ,DF.2 BP .....
+ -    10   . Jump Drive-2 (A)                   10.0  ,DJ21  A .....
+ -     4   . Mod PowerPlant A (R2)               2.0  ,DP21  2 8430A
+ -     2   . Mod Maneuver Drive A (R2)           2.0  ,DM21  2 25211
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . Life Support Standard               1.0  ,OLS0  . .....
+ -     1   . Mod Computer Model/1 std            0.7  ,OC31  . 7A0C0
+ -     6   . Spacious Bridge                     0.5  ,OB.0  2 .....
+#
+#   TONS   # S-SENSORS                           MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . Mod AR Surf Communicator            1.0  ,SS.1  2 632B0
+ -     0   . Mod AR Surf Neutrino Detector       1.0  ,SS.1  2 514B1
+ -     0   . Mod AR Surf Scope                   1.0  ,SS.1  2 104400
+ -     0   . Mod AR Surf Radar                   1.0  ,SS.1  2 55520
+#
+#   TONS   # WEAPONS                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . AR T2 Empty                         0.5  ,WW.1 -1 .....
+#
+#   TONS   # CREW                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . Crew Shared Fresher                 0.5  ,CF.0  1 .....
+ -    12  4x Crew Stateroom                      0.4  ,CS.0  1 .....
+ -    16  4x Crew Commons                        0.0  ,CC.0  . .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     3   . Cargo Hold Basic                    0.0  ,PC.0  . .....
+ -     0   . Personnel Air Lock                  0.1  ,PO.1  . .....
+#
+#   TONS   # VEHICLES                            MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     4   . Air/Raft Enclosed                   0.1  ,VO.0 EL .....
+ -     4   . Air/Raft Lock                       0.0  ,VO.1  . .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

@@ -1,0 +1,84 @@
+--- 
+ACS1.0: Wed Apr  3 18:18:53 2024
+Mission: Escort
+QSP: E-HA86 
+Cx: 
+Vx: F1
+Name: Warlock
+Tons: 800
+TL: 17 
+Undertonnage: 4
+MCr: 1293.6
+Owner: D. Hevelin
+Allegiance: NaHu
+
+Crew comfort: 3
+Passengers: 1
+Passenger demand: -5
+Low berths: 
+Cargo: 30
+Fuel: 70
+Fuel treatment: S1,I1,B2
+Computer: 
+
+Comments: |-
+   
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   800   . Airframe Hull, lifters             66.0  ,HH.0  A .....
+ -    16   . Submergence hull                   32.0  ,HF.1  E .....
+ -     8   . Landing legs with pads              8.0  ,HL.1  K .....
+ -    16   . Wings and fins                     16.0  ,HW.1  W .....
+ -   160   . Armor: 3 Kinetic Charged            0.0  ,HA.1  . .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . Jump Fuel (0  parsec)               0.0  ,DF.0  . .....
+ -    70   . Plant Fuel (one month)              0.0  ,DF.0  . .....
+ -     1   . Fuel Scoops 100t/hr                 0.1  ,DF.1 S1 .....
+ -     1   . Fuel Intakes 40t/hr                 0.1  ,DF.1 I1 .....
+ -     2   . Fuel Bins 40t/hr                    0.2  ,DF.1 B2 .....
+ -   120   . Mod PowerPlant-8 (V4)             120.5  ,DP83 R2 .....
+ -    39   . Ult Maneuver Drive-8 (V4)         636.0  ,DM82 R2 .....
+ -   152   . Mod Jump Drive-6 (V3)             152.5  ,DJ64  2 .....
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    12   . Positronic Brain Model/6 fib       58.5  ,OP.1  6 .....
+ -     4   . Squad Barracks                      0.2  ,OO.0  . .....
+ -    18   . Spacious Controls                   0.0  ,OB.0  2 .....
+#
+#   TONS   # WEAPONS                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    25   . Ult LR Bay Salvo Rack              50.0  ,WW.1  9 511D3
+ -     5  2x Ult LR B2 Particle Accelerator     58.0  ,WW.1  7 633E1
+ -     2   . Ult LR B2 Missile                  24.4  ,WW.1  7 1021D5
+ -     0  2x Ult L B2 Sandcaster                 8.4  ,WW.1  7 1032D5
+ -     0  6x Ult *FP* L T4 Beam Laser           14.4  ,WW.1  5 1052D1
+ -     1   . Magazine                            0.0  ,WM.0  . .....
+#
+#   TONS   # DEFENSES                            MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . Ult B2 Nuclear Damper              10.0  ,DD.1  7 1054E5
+ -     1   . Ult B2 Meson Screen                10.0  ,DD.1  7 940C3
+#
+#   TONS   # CREW                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    80   . Crew Module                         4.0  ,CO.0 10 .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . Mail Vault                          0.0  ,PO.0  . .....
+ -     1  2x Air Lock                            0.2  ,PO.1  . .....
+ -    30   . Cargo Hold Basic                    0.0  ,PC.0  . .....
+#
+#   TONS   # VEHICLES                            MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    15   . CORSAIR-F Adv Fighter              23.0  ,VO.0 Ad .....
+ -    10   . Large Vehicle Lock                  0.0  ,VO.1  . .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

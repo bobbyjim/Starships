@@ -1,0 +1,24 @@
+;
+;  Let's implement a generic horizontal slider in BASIC!
+;
+;  We need some information to do this:
+;
+;  sl$    = the label variable
+;  sn%    = the number of items to choose from
+;  si$(n) = an array of items
+;  sl%    = the current selected item
+;  sr$    = the result variable
+;
+{:run horizontal slider}
+   for x = 1 to sn%
+;
+;  Hey we also need to print the open/closed circle thingy
+;
+      ? si$(n);
+   next x
+;
+;  Now read from the keyboard and move the cursor
+;  between items, and detect <return> to return the
+;  current value
+;   
+return

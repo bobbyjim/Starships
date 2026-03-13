@@ -1,0 +1,41 @@
+
+{:set qsp}
+? "current qsp: " z$; "-"; h$; g$; m$; j$ 
+?:gosub {:set mission} :?
+?:gosub {:set volume}  :?
+?:gosub {:set hull config} :?
+?:gosub {:set maneuver} :?
+?:gosub {:set jump} :?
+return
+
+{:set armor}
+   ? "key armor layers [1-9]: ";
+   {:get armor} get a$ :if a$<"1" or a$>"9" goto {:get armor}
+
+   a% = val(a$)
+   av% = (a%-1) * 4 * vn%
+return
+
+{:set hull config}
+   ? "key hull config [cbpusal]: ";
+   {:get hull config} get g$
+   if g$>="a" and g$<="c" then return
+   if g$="p" or g$="u" or g$="s" or g$="l" then return
+   goto {:get hull config}
+
+{:set volume}
+   input "input hull tons (100-2400)"; v%
+   if v% < 100 or v% > 2400 goto {:set volume}
+   vn% = v% / 100
+
+   h$ = chr$(64 + vn%)
+   if vn% > 8  then h$ = chr$(64 + vn% +1) :rem i
+   if vn% > 14 then h$ = chr$(64 + vn% +2) :rem o
+
+return
+
+{:set mission}
+   ? "key mission code [a-z]: ";
+   {:get mission code} get z$
+   if z$ < "a" or z$ > "z" goto {:get mission code}
+return

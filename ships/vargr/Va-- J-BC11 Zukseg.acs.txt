@@ -1,0 +1,80 @@
+--- 
+ACS1.0: Wed Apr  3 18:19:00 2024
+Mission: Prospector
+QSP: J-BC11 
+Cx: ACD
+Vx: B1
+Name: Zukseg
+Tons: 200
+TL: 9 
+Undertonnage: 1
+MCr: 58.1
+Owner: Vargr
+Allegiance: Va
+
+Crew comfort: 0
+Passengers: 0
+Passenger demand: -5
+Low berths: 
+Cargo: 65
+Fuel: 24
+Fuel treatment: B1
+Computer: Model/1 std
+
+Comments: |-
+   Using a 200-ton cluster hull, the Vargr Type J is a wide-ranging prospecting and mining vessel. It mounts jump drive-A, maneuver drive-A, and power plant-A, providing a performance of jump-1 and 1G acceleration. Fuel tankage for 24 tons supports one jump-1 and two months' operations. On to the bridge is a Model/1 computer. There are four staterooms and one emergency low berth. The ship has two hardpoints, with two deployable single turrets: each mounts one mining laser. The weaponry is primarily used for mining operations. There is one ship's vehicle: a ship's boat, grappled to the hull. Cargo capacity (primarily for ore) is 65 tons. It has fuel bins for refuelling from asteroid ice.
+   
+   The Vargr seeker requires a crew of four: pilot, navigator, engineer, and medic. Additional crew members may be added as workers. The pilot operates the ship's boat. The ship does not normally carry passengers. 
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   200   . Cluster Hull, lifters               6.0  ,HH.0  C .....
+ -    -1   . No Landers                          0.0  ,HL.1 n/ .....
+ -     0   . AV=9. 1 Kinetic Plate               0.0  ,HA.1  . .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    20   . Jump Fuel (1  parsec)               0.0  ,DF.0  . .....
+ -     4   . Plant Fuel (2 months)               0.0  ,DF.0  . .....
+ -     4   . PowerPlant-1 (A)                    4.0  ,DP11  A .....
+ -    10   . Jump Drive-1 (A)                   10.0  ,DJ11  A .....
+ -     2   . Maneuver Drive-1 (A)                4.0  ,DM11  A .....
+ -     1   . Fuel Bins 20t/hr                    0.1  ,DF.1 B1 .....
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     2   . Clinic                              1.0  ,OM.1  . .....
+ -     2   . Life Support Long Term              2.0  ,OLL0  . .....
+ -     1   . Computer Model/1 std                1.5  ,OC11  . .....
+ -    16   . Spacious Bridge                     1.2  ,OB.0  2 .....
+#
+#   TONS   # W-SENSORS                           MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . Vd Surf Mass Sensor                 0.6  ,WS.1  . .....
+ -     0   . Vd Surf Densitometer                0.6  ,WS.1  . .....
+ -     0   . Vd Surf Proximeter                  0.6  ,WS.1  . .....
+#
+#   TONS   # WEAPONS                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     6  2x Vd T1de Mining Laser                7.4  ,WW.1 -2 .....
+#
+#   TONS   # CREW                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     2  4x Crew Shared Fresher                 2.0  ,CF.0  1 .....
+ -    12  6x Crew Stateroom                      0.6  ,CS.0  1 .....
+ -    20  5x Crew Lounge                         0.0  ,CC.0  . .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    65   . Cargo Hold Basic                    0.0  ,PC.0  . .....
+ -     1   . Emergency Low Berth                 0.5  ,PL.0  . .....
+#
+#   TONS   # VEHICLES                            MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    30   . Slow Boat                          14.0  ,VO.0 MS .....
+ -     2   . Grapple Set Single                  2.0  ,VO.0  . .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

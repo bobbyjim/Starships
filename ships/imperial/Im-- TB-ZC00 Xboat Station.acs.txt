@@ -1,0 +1,70 @@
+--- 
+ACS1.0: Wed Apr  3 18:18:46 2024
+Mission: Assault
+QSP: TB-ZC00 
+Cx: 
+Vx: 
+Name: Xboat Station
+Tons: 2400
+TL: 14 
+Undertonnage: 1487
+MCr: 264.9
+Owner: Imperial
+Allegiance: Im
+
+Crew comfort: 3
+Passengers: 1
+Passenger demand: -5
+Low berths: 
+Cargo: 0
+Fuel: 0
+Fuel treatment: 
+Computer: Model/0 std
+
+Comments: |-
+   Built on the modular Imperial Assault Carrier frame, this Xboat Station exists to serve as a communications link between incoming and departing Xboats. The communicator array is mounted in an attached modular deep space large bay, for exceptional power and reach.
+   
+   There are crew niches for 50 persons, typically allocated for replacement crew.  The cramped living quarters are compensated for by ten large crew lounges (16 tons each) plus two breathtaking observation lounges overlooking the ship structure and space (100 tons each). There are enough army-surplus meals to feed 400 people for a month.
+   
+   This model has grapples for holding up to 1575 tons of auxiliaries; typically most of these are used by fuel barges, for refueling support shuttles and Scout craft, but there are usually grapples available (roll Good Flux for the actual number available) for use by ships displacing up to 105 tons.
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -  2400   . Cluster Hull                       48.0  ,HH.0  C .....
+ -     0   . Armor: 1 Kinetic Charged            0.0  ,HA.1  . .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . Jump Fuel (0  parsec)               0.0  ,DF.0  . .....
+ -     0   . Plant Fuel (0 months)               0.0  ,DF.0  . .....
+ -   108   . Gen Gravitic Drive-1 (M)           27.0  ,DG14 -2 534A2
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . Computer Model/0 std                0.1  ,OC.1  . .....
+ -    20 10x Life Support Long Term             20.0  ,OLL0  . .....
+ -     2   . Clinic                              1.0  ,OM.1  . .....
+ -     2   . Counsellor                          0.2  ,OO.1  . .....
+ -     2   . Cramped Controls                    0.0  ,OB.0 -2 .....
+#
+#   TONS   # S-SENSORS                           MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     9   . DS Ext Scope                        8.5  ,SS.1  4 .....
+ -     9   . DS Ext EMS                          8.5  ,SS.1  4 .....
+ -   300   . DS LBay Communicator               51.0  ,SS.1  8 .....
+#
+#   TONS   # CREW                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   200  2x Observation Lounge                  0.0  ,CC.0  . .....
+ -   160 10x Crew Lounge                         0.0  ,CC.0  . .....
+ -    50 50x Spacer Niche                        5.0  ,CS.0  1 .....
+ -     5  5x Crew Common Fresher                 5.0  ,CF.0  2 .....
+#
+#   TONS   # VEHICLES                            MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    45 45x Grapples (1575 tons max)           90.0  ,VO.0  . .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

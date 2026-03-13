@@ -1,0 +1,83 @@
+--- 
+ACS1.0: Wed Apr  3 18:18:53 2024
+Mission: Ship's Boat
+QSP: QB-10L33 
+Cx: 
+Vx: 
+Name: Redship
+Tons: 100
+TL: 18 
+Undertonnage: 56.5
+MCr: 101.7
+Allegiance: NaHu
+
+Crew comfort: 0
+Passengers: 0
+Passenger demand: -5
+Low berths: 
+Cargo: 2
+Fuel: 2
+Fuel treatment: SP,IP,BP
+Computer: Model/3 std
+
+Comments: |-
+   Using a 40-ton, TL18 hull, the Redship Class Ship's Boat mounts jump drive-B, maneuver drive-B, and power plant-B, giving a performance of jump-3 and 3G acceleration fully loaded. Jump supports a 3 parsec jump, at 7t of fuel per parsec; the ship carries fuel for one month of operations. Attached to the cramped bridge is a Computer Model/3 std. There are 6 stasis bunk/berths. Installed weaponry include 1 T3 Hybrid L-S-M. Cargo capacity is 2 tons. The ship has a lift body hull, with scoops, intakes, and bins for frontier refueling. 
+   
+   Behind the cockpit are 2 groups of stasis/sleep pods. These pods are similar to low berths, only without unpleasant side affects. They are stacked 3 high. They can be used as crew bunks.
+   
+   Behind sleep pods are two 1 ton unloadable cargo modules.
+   
+   The ship has connectors for up to 12 custom-built 5t drop pods. Each pod holds 4.5t of cargo or fuel. These pods must be built at the same TL as the ship (i.e. they can't be built, but they may be found).
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   100   . Lift body Hull                     16.0  ,HH.0  L .....
+ -     1   . Landing legs with pads              1.0  ,HL.1  K .....
+ -     2   . Submergence hull                    2.0  ,HF.1  E .....
+ -     0   . Armor: 1 Kinetic Charged            0.0  ,HA.1  . .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . Jump Fuel (0  parsec)               0.0  ,DF.0  . .....
+ -     2   . Plant Fuel (one month)              0.0  ,DF.0  . .....
+ -     2   . Fuel Scoops with Purifier           1.1  ,DF.2 SP .....
+ -     2   . Fuel Intakes with Purifier          1.1  ,DF.2 IP .....
+ -     2   . Fuel Bins with Purifier             1.1  ,DF.2 BP .....
+ -     4   . Ult PowerPlant B (R3)              14.0  ,DP31  4 1055C3
+ -    10   . Ult Jump Drive B (R3)              30.0  ,DJ31  4 55205
+ -     2   . Adv Maneuver Drive B (R3)           6.0  ,DM31  3 852C0
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     3   . Computer Model/3 std               10.5  ,OC31  . .....
+ -     1   . Life Support Standard               1.0  ,OLS0  . .....
+ -     1   . Medical Stasis Berth                0.5  ,OM.0  . .....
+ -     1   . Life Support Adaptable              1.0  ,OLA0  . .....
+ -     3   . Cramped Bridge                      0.8  ,OB.0 -2 .....
+#
+#   TONS   # S-SENSORS                           MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . AR Surf Communicator                2.0  ,SS.1  . .....
+ -     0   . AR Surf Jammer                      2.0  ,SS.1  . .....
+ -     0   . AR Surf Neutrino Detector           2.0  ,SS.1  . .....
+ -     0   . AR Surf EMS                         2.0  ,SS.1  . .....
+ -     0   . AR Surf Stealth Mask                2.0  ,SS.1  . .....
+ -     0   . AR Surf Visor                       2.0  ,SS.1  . .....
+#
+#   TONS   # WEAPONS                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . Vd T3 Hybrid L-S-M                  2.0  ,WW.1  . .....
+#
+#   TONS   # CREW                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1  2x Crew Shared Fresher                 1.0  ,CF.0  1 .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     3  6x Stasis Berth                        0.6  ,PO.0  . .....
+ -     2   . Cargo Hold Basic                    0.0  ,PC.0  . .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

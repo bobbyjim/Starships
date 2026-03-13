@@ -1,0 +1,81 @@
+--- 
+ACS1.0: Wed Apr  3 18:18:41 2024
+Mission: Transport
+QSP: T-KU33 
+Cx: 16
+Vx: C1
+Name: Bretremoy
+Tons: 1000
+TL: 15 
+Undertonnage: 19
+MCr: 334.2
+Allegiance: Dr
+
+Crew comfort: -1
+Passengers: 24
+Passenger demand: 1
+Low berths: 
+Cargo: 278
+Fuel: 297
+Fuel treatment: SP,IP,BP
+Computer: Model/3  
+
+Comments: |-
+   Using a 1000-ton hull, the Bretremoy-class Transport is a military ship typically placed in service for a Droyne oytrip. It mounts jump drive Q, maneuver drive Q, and power plant Q, giving a performance of jump-3 and 3-G acceleration. Fuel tankage supports a 3 parsec jump, at 90t per parsec, and one month of operations. Adjacent to the bridge is a computer Model/3. There are two Droyne crew staterooms, a gunner squad barracks, a troop squad barracks, 24 standard passenger staterooms, and no low berths. The ship  has 10 deployable single turrets armed with beam lasers. There is one ship's vehicle: a cutter. Cargo capacity is 278 tons. The ship has an unstreamlined hull, with scoops, intakes, and bins for frontier refueling. Its undertonnage design gives it a +1 on aerodynamic operations.
+   
+   The ship requires a crew of 16: pilot, astrogator, 5 engineers, medic, 3 stewards, and 5 gunners. The ship can carry 24 high passengers. 
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -  1000   . Unstreamlined Hull                 32.0  ,HH.0  U .....
+ -    10   . Landing legs with pads             10.0  ,HL.1  K .....
+ -     0   . Armor: 1 Kinetic Charged            0.0  ,HA.1  . .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   270   . Jump Fuel (3  parsecs)              0.0  ,DF.0  . .....
+ -    27   . Plant Fuel (one month)              0.0  ,DF.0  . .....
+ -     2   . Fuel Scoops with Purifier           1.1  ,DF.2 SP .....
+ -     2   . Fuel Intakes with Purifier          1.1  ,DF.2 IP .....
+ -     2   . Fuel Bins with Purifier             1.1  ,DF.2 BP .....
+ -     7   . Ult Maneuver Drive Q (R3)         116.0  ,DM31  4 535C5
+ -    40   . Mod Jump Drive Q (R3)              40.0  ,DJ33  2 10A501
+ -    23   . Mod PowerPlant Q (R3)              23.0  ,DP32  2 81401
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     3   . Computer Model/3                   10.5  ,OC31  . .....
+ -     2   . Life Support Long Term              2.0  ,OLL0  . .....
+ -     4   . Security Barracks                   0.2  ,OO.0  . .....
+ -     4   . Squad Barracks                      0.2  ,OO.0  . .....
+ -     6  6x Life Support Luxury                 6.0  ,OLU0  . .....
+ -     6  6x Life Support Adaptable              6.0  ,OLA0  . .....
+ -    20   . Spacious Bridge                     0.9  ,OB.0  2 .....
+#
+#   TONS   # S-SENSORS                           MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . AR Surf Military Sensors 14         8.0  ,SS.1  . .....
+#
+#   TONS   # WEAPONS                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    30 10x Vd T1de Beam Laser                 37.0  ,WW.1 -2 .....
+#
+#   TONS   # CREW                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    13  2x Droyne Crew                         1.6  ,CO.0  6 .....
+ -    28  7x Crew Commons                        0.0  ,CC.0  . .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   144  6x Luxury Cluster                      9.6  ,PO.0  4 .....
+ -   278   . Cargo Hold Basic                    0.0  ,PC.0  . .....
+#
+#   TONS   # VEHICLES                            MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    10   . Hangar Lock                         0.0  ,VO.1  . .....
+ -    50   . Modular Cutter                     28.0  ,VO.0 MQ .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

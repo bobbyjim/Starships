@@ -1,0 +1,65 @@
+--- 
+ACS1.0: Wed Apr  3 18:18:57 2024
+Mission: Subsidized Liner
+QSP: MK-AP01 
+Cx: 
+Vx: 
+Name: Chiipsikaat
+Tons: 100
+TL: 12 
+
+MCr: 14
+Allegiance: Rr
+
+Crew comfort: -3
+Passengers: 10
+Passenger demand: -1
+Low berths: 9
+Cargo: 30
+Fuel: 9
+Fuel treatment: 
+Computer: Model/0 std
+
+Comments: |-
+   Using a 100-ton, TL12 hull, the Chiipsikaat-class Subsidized Liner is mounts jump drive-A, maneuver drive-A, and power plant-A, giving a performance of jump-1 and 0G acceleration. Fuel tankage supports a 1 parsec jump, at 9t per parsec, and one month of operations. Attached to the bridge is a Computer Model/0 std. There are 10 staterooms and 14 low berths. Cargo capacity is 50 tons. The ship has a planetoid hull. 
+   
+   The ship has 4 crew, and can carry 10 passengers and 14 low passengers. 
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   100   . Planetoid Hull                      1.0  ,HH.0  P .....
+ -     0   . Armor: 1 Kinetic FeN                0.0  ,HA.1  . .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     9   . Jump Fuel (1  parsec)               0.0  ,DF.0  . .....
+ -     0   . Plant Fuel (one month)              0.0  ,DF.0  . .....
+ -     2   . Gen Maneuver Drive A (R0)           2.0  ,DM.1 -2 400D0
+ -    10   . Mod Jump Drive A (R1)               5.0  ,DJ11  2 500E3
+ -     4   . Mod PowerPlant A (R1)               2.0  ,DP11  2 1045B3
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . Computer Model/0 std                0.1  ,OC.1  . .....
+ -     1   . Non-bridge Console                  0.2  ,OC.0  . .....
+ -     1   . Life Support Standard               1.0  ,OLS0  . .....
+#
+#   TONS   # CREW                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . Crew Shared Fresher                 0.5  ,CF.0  1 .....
+ -     2   . Crew Cramped                        0.1  ,CS.0  4 .....
+ -     4   . Crew Commons                        0.0  ,CC.0  . .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    24  6x Passenger Commons                   0.0  ,PC.0  . .....
+ -     1   . Common Fresher                      1.0  ,PF.0  2 .....
+ -     4  2x Stateroom Cramped                   0.2  ,PS.0  4 .....
+ -    30   . Cargo Hold Basic                    0.0  ,PC.0  . .....
+ -     2   . Stateroom Double                    0.1  ,PS.0  2 .....
+ -     4  9x Low Berth                           0.9  ,PL.0  . .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

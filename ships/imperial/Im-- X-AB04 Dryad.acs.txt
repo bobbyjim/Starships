@@ -1,0 +1,66 @@
+--- 
+ACS1.0: Wed Apr  3 18:18:47 2024
+Mission: Express Courier
+QSP: X-AB04 
+Cx: 
+Vx: 
+Name: Dryad
+Tons: 100
+TL: 13 
+
+MCr: 56.7
+Builder: Arshani, Etran
+Disposition: In Service
+Allegiance: Im
+
+Crew comfort: 0
+Passengers: 1
+Passenger demand: -5
+Low berths: 
+Cargo: 0
+Fuel: 48
+Fuel treatment: 
+Computer: Model/4 std
+
+Comments: |-
+   Constructed using the 100 ton hull, the express boat is fitted with drives producing jump-4, and nothing else. There is no power plant or maneuver drive installation. Fuel tankage is sufficient for one jump. The cramped bridge is complemented by a Model/4 computer. The ship has two staterooms; one is necessary for the single crew member, while the other can carry a passenger. More often, the pilot uses the second room for additional living space. There is a one ton cargo bay which is occasionally used to carry vital cargo such as vaccines or sophisticated repair parts.
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   100   . Braced Hull                         3.0  ,HH.0  B .....
+ -     0   . No Landers                          0.0  ,HL.1 n/ .....
+ -     0   . Jump Grid                           1.0  ,HJ.1  G .....
+ -     1   . Flotation hull                      1.0  ,HF.1  D .....
+ -     0   . Armor: 1 Rad Plate                  0.0  ,HA.1  . .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    40   . Jump Fuel (4  parsecs)              0.0  ,DF.0  . .....
+ -     8   . Plant Fuel (2 months)               0.0  ,DF.0  . .....
+ -     7   . PowerPlant-4 (B)                    7.0  ,DP41  B .....
+ -    15   . Jump Drive-4 (B)                   15.0  ,DJ41  B .....
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     4   . Computer Model/4 std               18.0  ,OC41  . .....
+ -     2   . Life support (80 people/month)      2.0  ,OL.1  . .....
+ -     2   . Cramped Controls                    0.0  ,OB.0 -2 .....
+#
+#   TONS   # S-SENSORS                           MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     9   . DS Ext Communicator                 8.5  ,SS.1  4 .....
+#
+#   TONS   # CREW                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     4  2x Crew Stateroom                      0.2  ,CS.0  1 .....
+ -     0   . Crew Shared Fresher                 0.5  ,CF.0  1 .....
+ -     7   . Crew Lounge                         0.0  ,CC.0  . .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . Mail Vault                          0.0  ,PO.0  . .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

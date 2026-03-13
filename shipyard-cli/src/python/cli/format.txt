@@ -1,0 +1,61 @@
+Mission: Far Trader
+QSP: A2-FS22
+TL: 14
+Name: Far Trader
+Actual Tons: 600
+
+MCr: 154.1
+Crew comfort:     +0
+Passenger demand: -1
+
+Comments: Using a 600-ton TL 14 streamlined hull, the far trader ranges 
+far and wide, and deals with every world it finds.
+
+Even amber zones and red zones are not considered off limits by its captains, 
+provided there is profit to be made and the risk of being caught is slight. 
+It has drives capable of jump-2 and 2-G acceleration. Fuel tankage supports 
+jump-2 and two months of operation, and the ship incorporates fuel scoops 
+and fuel intakes for wilderness refuelling. The bridge is standard and has a 
+computer Model/ 1bis and a basic sensor suite.
+
+There are two hardpoints, but no weapons are mounted. Like the free trader, 
+the far trader is built around its cargo bay, in this case just over 300 tons, 
+plus passenger staterooms.
+
+A single air/raft is carried for various ship duties. The ship is streamlined, 
+and can land on uneven terrain.  The far trader requires a crew of four: 
+pilot/astrogator, two engineers, and a steward.
+
+Components:
+ - Hull 600  1  38 DD 000000 0 Streamlined Hull, lifters
+ - Hull   6  1   6 FF 000000 1 Landing legs with pads
+ - Armo   0  1   0 FF 000000 1 AV=28. 1 Kinetic Charged
+ - Armo   0  1   0 FF 000000 1 Ablat Coating
+ - Driv  99  1   0 DD 000000 0 Jump Fuel (2  parsecs)
+ - Driv  19  1   0 DD 000000 0 Plant Fuel (2 months)
+ - Driv 6.3  1  19 CF 000000 1 Adv PowerPlant F
+ - Driv  12  1  35 CF 000000 1 Adv Jump Drive F
+ - Driv 3.6  1  22 CF 000000 1 Adv Maneuver Drive F
+ - Driv   9  1 6.5 99 000000 6 Complete Fuel Collection
+ - Oper .33  1   3 CH 000000 1 Adv Computer Model/1bis std
+ - Oper 0.5  1 0.5 FF 000000 0 Med Console
+ - Oper   2  2   1 FF 000000 0 Emergency Low Berth
+ - Oper   2  2   2 FF 000000 0 Life Support Standard
+ - Oper   8  1 0.4 FH 000000 0 Spacious Bridge
+ - Vehi   4  1 0.1 AA 000000 0 Air/Raft Enclosed
+ - Crew   6  1 0.4 FF 000000 1 Owner's Suite
+ - Crew   6  3 0.3 FF 000000 0 Crew Staterooms
+ - Crew 0.5  1 0.5 FF 000000 0 Crew's Shared Fresher
+ - Crew   5  1   0 FF 000000 0 Crew Lounge
+ - Payl 0.5  1 0.1 FF 000000 1 Personnel Air Lock
+ - Payl 320  1   0 DD 000000 0 Cargo Hold
+ - Payl   1  1   1 FF 000000 0 Container Handler
+ - Payl   8  1 1.8 FF 000000 1 Large Cargo Lock
+ - Pass  30  5   2 FF 000000 0 Luxury Stateroom
+ - Pass  40 20   2 FF 000000 0 Standard Stateroom
+ - Pass   2  2   2 FF 000000 0 Common Fresher
+ - Pass  10  1   0 FF 000000 0 Passenger Lounge + Commons
+ - Sens   0  1 3.5 CF 000000 1 Adv DS Surf Communicator
+ - Sens   0  1 3.5 CF 000000 1 Adv DS Surf Scope
+ - Sens   0  1 3.5 CF 000000 1 Adv DS Surf Radar
+

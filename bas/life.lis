@@ -1,0 +1,13 @@
+{:set life support}
+   ? "key in (s)td or (l)ong term: ";
+   {:get ls} get l$
+      if l$="s" then ls% = 21 :lt%=1 :return
+	  if l$="l" then ls% = 84 :lt%=2 :return
+	  goto {:get ls}
+return
+
+{:set staterooms}
+   input "input # of staterooms"; s%
+   input "input # of low berths"; lb%
+return
+

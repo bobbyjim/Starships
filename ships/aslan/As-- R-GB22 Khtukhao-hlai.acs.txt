@@ -1,0 +1,83 @@
+--- 
+ACS1.0: Wed Apr  3 18:18:39 2024
+Mission: Merchant
+QSP: R-GB22 
+Cx: ABCCCE
+Vx: S1
+Name: Khtukhao-hlai
+Tons: 700
+TL: 15 
+Overtonnage: 33.5
+MCr: 162.7
+Owner: Republic of Regina
+Allegiance: As
+
+Crew comfort: 0
+Passengers: 24
+Passenger demand: 0
+Low berths: 30
+Cargo: 135
+Fuel: 138
+Fuel treatment: 
+Computer: Model/3  
+
+Comments: |-
+   Using a 700-ton hull, the Khtukhao-hlai clan transport is a large freight and passenger vessel used by clans and companies for service of major trade routes. It has “G”-class drives, giving the ship performance of jump-2 and 2-G acceleration. Fuel tankage of 139 tons supports one month of operations and allows one jump-2. Adjacent to the bridge is a Model/3 computer. There is an officer’s suite, eight crew staterooms (in two clusters), a gunner/security barracks, 24 passenger staterooms (in six clusters), and 30 low berths. There are six hardpoints; no weaponry is initially installed. A 95-ton shuttle (capable of transporting 20 passengers and 55 tons of cargo) is grappled as ship's vehicle. Cargo capacity is 100 tons, with 4 external grapples rated to carry 35-ton modules, up to a total of 140 external tons carried. The shuttle cargo bay is generally filled as well, adding another 60 tons of capacity. Maximum carrying capacity is 300 tons. The ship is a braced cluster of modular units, and is equipped with spare grapples for orbital docking. 
+   
+   The transport requires a crew of seven: pilot, astrogator, three engineers, freight-master, and purser. Stewards must be added if nobles or high passengers are carried. A medic may be added if desired, and gunners can be added if the ship is armed. The ship can carry up to 24 passengers and thirty low passengers. The pilot operates the shuttle. 
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   700   . Braced Hull                        21.0  ,HH.0  B .....
+ -    -3   . No Landers                          0.0  ,HL.1 n/ .....
+ -     0   . Armor: 1 EMP Charged                0.0  ,HA.1  . .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   126   . Jump Fuel (2  parsecs)              0.0  ,DF.0  . .....
+ -    12   . Plant Fuel (one month)              0.0  ,DF.0  . .....
+ -    20   . Mod Jump Drive G (R2)              20.0  ,DJ22  2 804D2
+ -    11   . Mod PowerPlant G (R2)              11.0  ,DP21  2 72502
+ -     6   . Mod Maneuver Drive G (R2)          13.0  ,DM21  2 9240B
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     3   . Computer Model/3                   10.5  ,OC31  . .....
+ -     2   . Life Support Long Term              2.0  ,OLL0  . .....
+ -     1   . Life Support Adaptable              1.0  ,OLA0  . .....
+ -     1   . Life Support Luxury                 1.0  ,OLU0  . .....
+ -     2   . Clinic                              1.0  ,OM.1  . .....
+ -     4   . Security Barracks                   0.2  ,OO.0  . .....
+ -    14   . Spacious Bridge                     0.7  ,OB.0  2 .....
+#
+#   TONS   # S-SENSORS                           MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     2   . LR Ant Communicator                 2.5  ,SS.1  1 .....
+ -     2   . LR Ant EMS                          2.5  ,SS.1  1 .....
+ -     2   . LR Ant Visor                        2.5  ,SS.1  1 .....
+#
+#   TONS   # WEAPONS                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     6  6x AR T1 Empty                         1.2  ,WW.1 -2 .....
+#
+#   TONS   # CREW                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    34  2x Crew Cluster                        1.8  ,CO.0  4 .....
+ -     6   . Officer Suite                       0.4  ,CS.1  1 .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   102  6x Stateroom Cluster                   5.4  ,PS.0  4 .....
+ -    15 30x Low Berth                           3.0  ,PL.0  . .....
+ -   100   . Cargo Hold Basic                    0.0  ,PC.0  . .....
+ -   140  4x Cargo Module (Grappled)             0.0  ,PO.0  . .....
+#
+#   TONS   # VEHICLES                            MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    95   . Shuttle                            32.0  ,VO.0 MC .....
+ -    30 30x Grapple                            30.0  ,VO.0  . .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

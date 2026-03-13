@@ -1,0 +1,78 @@
+--- 
+ACS1.0: Wed Apr  3 18:18:47 2024
+Mission: Express Courier
+QSP: X-AU04 
+Cx: 
+Vx: 
+Name: Express Boat
+Tons: 100
+TL: 13 
+
+MCr: 54.3
+Owner: Imperium Government
+Disposition: In Service
+Allegiance: Im
+Architect: Copper Hamster
+
+Crew comfort: 0
+Passengers: 1
+Passenger demand: -5
+Low berths: 
+Cargo: 1
+Fuel: 54
+Fuel treatment: 
+Computer: Model/4 std
+
+Comments: |-
+   Constructed using the 100 ton hull, the express boat is fitted with drives producing jump-4, but no maneuver drive. Fuel tankage is sufficient for one jump. The cramped bridge is complemented by a Model/4 computer. 
+   The ship has two staterooms; one is necessary for the single crew member, while the other can carry a passenger. More often, the pilot uses the second room for additional living space. 
+   There is a one ton cargo bay which is occasionally used to carry vital cargo such as vaccines or sophisticated repair parts.
+   
+   The ship carries no weapons or hardpoints.
+   
+   It is equipped with Jump drive-B and a Modified Power Plant-C, and carries sufficient fuel for one Jump-4, and 1 month of operations. Note that the ship when in Jump space can effectivly operate in low power mode thanks to the minimal systems needs and Fusion+ distributed power system. 
+   
+   Transfer pumps enable double jumps via detachable drop tanks, which the X-boat service produces in a 'standard' 100 ton size to enable quick refueling and jump procedures for the normal X-boat fleet if the tender itself is too busy to dock with the X-boat.
+   
+   The extremely advanced surface communicator is used to tight-beam sensitive encrypted communications to pre-set system 'listening posts' bypassing the need to pass these messages through the X-boat tender crews.
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   100   . Unstreamlined Hull, lifters         6.0  ,HH.0  U .....
+ -     0   . Jump Grid                           1.0  ,HJ.1  G .....
+ -     0   . No Landers                          0.0  ,HL.1 n/ .....
+ -     0   . Armor: 1 Rad Plate                  0.0  ,HA.1  . .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    50   . Jump Fuel (5  parsecs)              0.0  ,DF.0  . .....
+ -     4   . Plant Fuel (one month)              0.0  ,DF.0  . .....
+ -     1   . Fuel Transfer Pumps                 1.0  ,DF.1 X1 .....
+ -    15   . Jump Drive-4 (B)                   15.0  ,DJ41  B .....
+ -     7   . PowerPlant-4 (B)                    7.0  ,DP41  B .....
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     4   . Computer Model/4 std               18.0  ,OC41  . .....
+ -     6   . Spacious Controls                   0.0  ,OB.0  2 .....
+#
+#   TONS   # S-SENSORS                           MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . DS Surf Communicator                3.5  ,SS.1  . .....
+#
+#   TONS   # CREW                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . Crew Shared Fresher                 0.5  ,CF.0  1 .....
+ -     4  2x Crew Stateroom                      0.2  ,CS.0  1 .....
+ -     6   . Crew Lounge                         0.0  ,CC.0  . .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . Medical Console                     0.5  ,PM.0  . .....
+ -     1   . Life Support                        1.0  ,PL.0  . .....
+ -     1   . Cargo Hold Basic                    0.0  ,PO.0  . .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

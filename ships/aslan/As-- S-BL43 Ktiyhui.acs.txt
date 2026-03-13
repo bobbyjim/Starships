@@ -1,0 +1,88 @@
+--- 
+ACS1.0: Wed Apr  3 18:18:40 2024
+Mission: Scout/Courier
+QSP: S-BL43 
+Cx: ABCC
+Vx: L1
+Name: Ktiyhui
+Tons: 200
+TL: 13 
+
+MCr: 114.2
+Owner: Aslan
+Allegiance: As
+
+Crew comfort: 0
+Passengers: 1
+Passenger demand: -5
+Low berths: 
+Cargo: 16
+Fuel: 58
+Fuel treatment: S,I
+Computer: Model/4 std
+
+Comments: |-
+   Using a custom 200-ton hull, the courier is a fast, long-range ship used to conduct clan business across interstellar distances.
+   
+   It sports the Ieya 3 Grid C3 jump drive, the Wareie Gravitics D4.0 maneuver drive, and the Feiweaaea D4+w power plant, giving performance of Jump-3 and 4G acceleration. Fuel tankage of supports 2 weeks of operations and one jump-3. On the bridge is a computer Model/4.
+   
+   There are eight staterooms and no low berths. Two double turrets are installed: a triple missile turret and a hybrid L-S-M turret. There is one Ship's Boat. Cargo capacity is 16 tons. The ship is streamlined.
+   
+   The courier requires a crew of four: pilot, astrogator, and two engineers. Gunners and extra crew are carried when needed.
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   200   . Lift body Hull, lifters            30.0  ,HH.0  L .....
+ -     2   . Landing legs with pads              2.0  ,HL.1  K .....
+ -     0   . Armor: 1 Blast Plate                0.0  ,HA.1  . .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    54   . Jump Fuel (3  parsecs)              0.0  ,DF.0  . .....
+ -     4   . Plant Fuel (0.5 months)             0.0  ,DF.0  . .....
+ -     1   . Fuel Scoops                         0.1  ,DF.1  S .....
+ -     1   . Fuel Intakes                        0.1  ,DF.1  I .....
+ -     2  2x Fuel Purifiers                      0.2  ,DF.1  P .....
+ -    20   . Imp Jump Drive-3 (C)               20.0  ,DJ31  1 91102
+ -    13   . Gen PowerPlant-4 (D)                6.5  ,DP41 -2 3530B
+ -     3   . Mod Maneuver Drive-4 (D)            7.0  ,DM41  2 50300
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     4   . Computer Model/4 std               18.0  ,OC41  . .....
+ -     1   . Life Support Standard               1.0  ,OLS0  . .....
+ -    12   . Spacious Controls                   0.0  ,OB.0  2 .....
+#
+#   TONS   # S-SENSORS                           MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . AR Surf Communicator                1.5  ,SS.1  . .....
+ -     0   . AR Surf Jammer                      1.5  ,SS.1  . .....
+ -     0   . AR Surf Scope                       1.5  ,SS.1  . .....
+ -     0   . AR Surf Neutrino Detector           1.5  ,SS.1  . .....
+ -     0   . AR Surf EMS                         1.5  ,SS.1  . .....
+#
+#   TONS   # WEAPONS                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . AR T3 Missile                       1.2  ,WW.1  . .....
+ -     1   . Vd T3 Hybrid L-S-M                  2.0  ,WW.1  . .....
+#
+#   TONS   # CREW                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    16  8x Crew Stateroom                      0.8  ,CS.0  1 .....
+ -    16  4x Crew Lounge                         0.0  ,CC.0  . .....
+ -     1  2x Crew Shared Fresher                 1.0  ,CF.0  1 .....
+ -     1   . Hero's Shrine                       0.0  ,CO.0  . .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    16   . Cargo Hold Basic                    0.0  ,PC.0  . .....
+ -     0   . Air Lock                            0.1  ,PO.1  . .....
+#
+#   TONS   # VEHICLES                            MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    30   . Ship's Boat + hangar               16.0  ,VO.0 MS .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

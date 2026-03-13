@@ -1,0 +1,63 @@
+--- 
+ACS1.0: Wed Apr  3 18:18:47 2024
+Mission: Barge
+QSP: W-AS21 
+Cx: 
+Vx: 
+Name: Shumshuga
+Tons: 100
+TL: 9 
+Overtonnage: 0.5
+MCr: 32.1
+Allegiance: Im
+
+Crew comfort: -4
+Passengers: 1
+Passenger demand: -5
+Low berths: 
+Cargo: 20
+Fuel: 50
+Fuel treatment: I1,S1
+Computer: Model/1 std
+
+Comments: |-
+   Displacing 100 tons, the Type W Barge is a low-tech level, utilitarian vessel designed to haul small amounts of critical material across space as cheaply as possible.  As a result, the ship is slow (Jump-1), and uncomfortable, with a cramped bridge, one four-ton lounge, a shared fresher, and four bunks for the crew (comfort = -4).  It is slightly (0.5 tons) overtonnage, making it somewhat ungainly. The barge typically carries 12 tons of fuel – sufficient for a one parsec jump and one month of operations – a fuel purifier, fuel scoops, fuel intakes, and 38 tons of cargo.  This barge carries 50 tons of fuel and also has transfer pumps to refuel other ships. It costs MCr 31.5.
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   100   . Streamlined Hull                    8.0  ,HH.0  S .....
+ -     1   . Flotation hull                      1.0  ,HF.1  D .....
+ -     0   . Folding wings                       0.0  ,HW.1  G .....
+ -     0   . AV=9. 1 Kinetic Plate               0.0  ,HA.1  . .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    40   . Jump Fuel (4  parsecs)              0.0  ,DF.0  . .....
+ -    10   . Plant Fuel (5 months)               0.0  ,DF.0  . .....
+ -     4   . PowerPlant-2 (A)                    4.0  ,DP21  A .....
+ -    10   . Jump Drive-1 (A)                   10.0  ,DJ11  A .....
+ -     2   . Maneuver Drive-2 (A)                4.0  ,DM21  A .....
+ -     1   . Fuel Purifiers 4t/hr                1.0  ,DF.1 P1 .....
+ -     1   . Fuel Intakes 40t/hr                 0.1  ,DF.1 I1 .....
+ -     1   . Fuel Scoops 100t/hr                 0.1  ,DF.1 S1 .....
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . Life Support Standard               1.0  ,OLS0  . .....
+ -     1   . Computer Model/1 std                1.5  ,OC11  . .....
+ -     2   . Cramped Controls                    0.0  ,OB.0 -2 .....
+#
+#   TONS   # CREW                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     2  4x Spacer Bunks                        0.4  ,CS.0  2 .....
+ -     4   . Crew Lounge                         0.0  ,CC.0  . .....
+ -     0   . Crew Shared Fresher                 0.5  ,CF.0  1 .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    20   . Cargo Hold Basic                    0.0  ,PC.0  . .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

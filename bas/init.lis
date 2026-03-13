@@ -1,0 +1,50 @@
+;
+;  A blank line for clearing a portion of the screen
+;
+cl$ = "                                        "
+cl$ = cl$ + "                                   "
+
+;
+;  Starting ship
+;
+v% = 200 : rem tons
+vn% = v% / 100
+z$ = "a" : rem mission
+h$ = "b" : rem size
+g$ = "s" : rem cfg
+m$ = "1" : rem mn 
+j$ = "1" : rem jn
+
+cr = 0 : rem mcr
+
+
+vload "petfont.bin",8,1,0
+poke $9f36, 128
+;
+;  Stage Cost
+;
+sc%(0) = 100 :rem default
+sc%(2) = 200 :rem early
+sc%(3) = 100 :rem standard
+sc%(6) = 100 :rem improved
+sc%(8) = 100 :rem modified
+sc%(9) = 200 :rem advanced
+;
+;  Stage Efficiency
+;
+se%(0) = 100 :rem default
+se%(2) = 110 :rem early
+se%(3) = 100 :rem standard
+se%(6) = 90  :rem improved
+se%(8) = 90  :rem modified
+se%(9) = 80  :rem advanced
+;
+;  Stage Tonnage
+;
+st%(0) = 100 :rem default
+st%(2) = 100 :rem early
+st%(3) = 100 :rem standard
+st%(6) = 100 :rem improved
+st%(8) = 50  :rem modified
+st%(9) = 33  :rem advanced
+

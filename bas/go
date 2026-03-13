@@ -1,0 +1,3 @@
+cat init.lis splash.lis main.lis show-ship.lis components.lis computer.lis drives.lis fuel.lis hull.lis life.lis vehicles.lis data.lis > program.lis
+perl basic-labelmaster.pl program.lis > acs-builder.bas
+../../x16 -bas acs-builder.bas -scale 2

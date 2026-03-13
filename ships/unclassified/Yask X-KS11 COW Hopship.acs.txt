@@ -1,0 +1,73 @@
+--- 
+ACS1.0: Wed Apr  3 18:19:01 2024
+Mission: Express Courier
+QSP: X-KS11 
+Cx: 
+Vx: 
+Name: COW Hopship
+Tons: 1000
+TL: 24 
+Undertonnage: 85
+MCr: 627.6
+Allegiance: Yask
+Architect: Yaskoydray
+
+Crew comfort: 1
+Passengers: 0
+Passenger demand: -5
+Low berths: 
+Cargo: 2
+Fuel: 593
+Fuel treatment: 
+Computer: Model/9  
+
+Comments: |-
+   Using a 1000-ton, TL24 hull, the COW Hopship is a Mediating Particle between COWs. It mounts jump drive-E, maneuver drive-E, and power plant-Q2, giving a performance of jump-1 and 1G acceleration and Hop-6. Fuel tankage supports a 60 parsec hop, at 90t per 10 parsecs, and one month of operations. Attached to the bridge is a Computer Model/9. There are 8 staterooms and no low berths. Cargo capacity is 2 tons. The ship has a streamlined hull. 
+   
+   The ship has 8 crew. 
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -  1000   . Streamlined Hull                   62.0  ,HH.0  S .....
+ -    10   . Landing legs with pads             10.0  ,HL.1  K .....
+ -    20   . Submergence hull                   20.0  ,HF.1  E .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   540   . Jump Fuel (6  parsecs)              0.0  ,DF.0  . .....
+ -    53   . Plant Fuel (one month)              0.0  ,DF.0  . .....
+ -    23   . Ult PowerPlant Q2 (R7)            184.0  ,DP73 Q2 852C4
+ -     9   . Adv Jump Drive E (R1)              30.0  ,DJ11  3 101BEA
+ -     2   . Ult Maneuver Drive E (R1)          36.0  ,DM11  4 550A3
+ -   160   . Imp Hop Drive Q2 (R6)             160.0  ,DH65 Q2 9A3B0
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     9   . Computer Model/9                   85.0  ,OC91  . .....
+ -     1   . Life Support Standard               1.0  ,OLS0  . .....
+ -     2   . Clinic                              1.0  ,OM.1  . .....
+ -    16   . Spacious Bridge                     0.9  ,OB.0  2 .....
+#
+#   TONS   # S-SENSORS                           MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . AR Surf Basic                       6.0  ,SS.1  . .....
+ -     9   . DS Ext Jammer                       6.0  ,SS.1  4 .....
+ -     9   . DS Ext Stealth Mask                 6.0  ,SS.1  4 .....
+ -     0   . DS Surf Scanner                     6.0  ,SS.1  . .....
+ -     0   . DS Surf HoloVisor                   6.0  ,SS.1  . .....
+ -     0   . DS Surf CommPlus                    6.0  ,SS.1  . .....
+#
+#   TONS   # CREW                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . Crew Common Fresher                 1.0  ,CF.0  2 .....
+ -    16  8x Crew Stateroom                      0.8  ,CS.0  1 .....
+ -    32  8x Crew Commons                        0.0  ,CC.0  . .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     2   . Cargo Hold Basic                    0.0  ,PC.0  . .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

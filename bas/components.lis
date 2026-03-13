@@ -1,0 +1,15 @@
+{:set defenses}
+return
+
+
+{:set sensors}
+return
+
+
+{:set weapons}
+   ? "key in weapon type:"
+   gosub {:show weapons}
+
+   {:get weapon} get w$ :if w$="" goto {:get weapon}
+
+return

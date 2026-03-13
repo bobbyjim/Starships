@@ -1,0 +1,581 @@
+--- 
+components: 
+   - 
+      e: 0
+      r: 0
+      category: 'Hull'
+      Sq: 200
+      howMany: 1
+      s: 0
+      CP: 0
+      code: 'P'
+      totalTons: 100
+      totalMCr: 1
+      notes: 'P, lifters, 1 a/l free'
+      label: 'Planetoid Hull, lifters, 1 a/l free'
+      eff: 1
+      name: 'Hull'
+      config: 'Planetoid'
+      mult: 1
+      tl: 12
+      preMult: 1
+      tons: 100
+      type: 'Hull'
+      mcr: 1
+      b: 0
+      q: 0
+      target: 12
+
+   - 
+      totalMCr: 0
+      e: 0
+      notes: '1 parsec jump, at 9t per parsec'
+      label: 'Jump Fuel (1  parsec)'
+      category: 'Jump Fuel'
+      Sq: 18
+      s: 0
+      r: 0
+      eff: 1
+      howMany: 1
+      tl: 12
+      tons: 9
+      type: 'Drive'
+      CP: 0
+      q: 0
+      b: 0
+      totalTons: 9
+      mcr: 0
+      target: 12
+
+   - 
+      totalMCr: 0
+      e: 0
+      notes: 'one month'
+      label: 'Plant Fuel (one month)'
+      category: 'Powerplant Fuel'
+      Sq: 1.8
+      s: 0
+      r: 0
+      eff: 1
+      howMany: 1
+      tl: 12
+      tons: 0.9
+      type: 'Drive'
+      CP: 0
+      q: 0
+      b: 0
+      totalTons: 0.9
+      mcr: 0
+      target: 12
+
+   - 
+      e: 0
+      r: 0
+      autoAdjust: 1
+      category: 'Maneuver Drive'
+      Sq: 4
+      notes: 'R0'
+      mod: -2
+      howMany: 1
+      s: 0
+      B: 0
+      CP: 1
+      code: 'A'
+      totalTons: 2
+      Q: 0
+      totalMCr: 2
+      E: 0
+      R: 0
+      label: 'Gen Maneuver Drive A (R0)'
+      eff: 0.9
+      S: 0
+      name: 'Maneuver Drive'
+      tons: 2
+      original: 
+         e: 0
+         r: 0
+         category: 'Maneuver Drive'
+         Sq: 4
+         notes: '1 G'
+         mod: 0
+         howMany: 1
+         s: 0
+         B: 0
+         CP: 1
+         code: 'A'
+         totalTons: 2
+         Q: 0
+         totalMCr: 4
+         E: 0
+         R: 0
+         label: 'Maneuver Drive-1 (A)'
+         eff: 1
+         S: 0
+         name: 'Maneuver Drive'
+         tons: 2
+         rating: 1
+         b: 0
+         type: 'Drive'
+         mcr: 4
+         tl: 12
+         basetl: 9
+         autoAdjust: 1
+         q: 0
+         target: 12
+      rating: 0
+      b: -4
+      type: 'Drive'
+      mcr: 2
+      tl: 11
+      basetl: 9
+      stage: 'Gen'
+      q: 4
+      target: 9
+
+   - 
+      e: 0
+      r: 0
+      autoAdjust: 1
+      type: 'Drive'
+      category: 'Jump Drive'
+      Sq: 20
+      s: 3
+      mod: 2
+      howMany: 1
+      B: 0
+      CP: 1
+      code: 'A'
+      totalTons: 10
+      Q: 0
+      totalMCr: 5
+      E: 0
+      notes: 'R1'
+      label: 'Mod Jump Drive A (R1)'
+      eff: 1.1
+      S: 0
+      name: 'Jump Drive'
+      jumpFuelUsage: 0.1
+      original: 
+         e: 0
+         r: 0
+         category: 'Jump Drive'
+         Sq: 20
+         s: 0
+         q: 0
+         mod: 0
+         howMany: 1
+         B: 0
+         CP: 1
+         code: 'A'
+         totalTons: 10
+         Q: 0
+         totalMCr: 10
+         E: 0
+         notes: 'J 1'
+         label: 'Jump Drive-1 (A)'
+         eff: 1
+         S: 0
+         name: 'Jump Drive'
+         jumpFuelUsage: 0.1
+         rating: 1
+         tons: 10
+         type: 'Drive'
+         mcr: 10
+         tl: 12
+         basetl: 9
+         b: 0
+         autoAdjust: 1
+         target: 12
+         R: 0
+      rating: 1
+      tons: 10
+      R: 0
+      mcr: 5
+      tl: 10
+      basetl: 9
+      b: -5
+      stage: 'Mod'
+      q: 5
+      target: 12
+
+   - 
+      e: 5
+      r: 4
+      autoAdjust: 1
+      type: 'Drive'
+      category: 'PowerPlant'
+      Sq: 8
+      target: 12
+      mod: 2
+      howMany: 1
+      s: 3
+      B: 0
+      CP: 1
+      code: 'A'
+      totalTons: 4
+      Q: 0
+      totalMCr: 2
+      E: 0
+      R: 0
+      label: 'Mod PowerPlant A (R1)'
+      eff: 1.1
+      S: 0
+      name: 'PowerPlant'
+      tons: 4
+      original: 
+         e: 0
+         r: 0
+         autoAdjust: 1
+         category: 'PowerPlant'
+         Sq: 8
+         target: 12
+         mod: 0
+         howMany: 1
+         s: 0
+         B: 0
+         CP: 1
+         code: 'A'
+         totalTons: 4
+         Q: 0
+         totalMCr: 4
+         E: 0
+         notes: 'P 1'
+         label: 'PowerPlant-1 (A)'
+         eff: 1
+         S: 0
+         name: 'PowerPlant'
+         tons: 4
+         rating: 1
+         b: 0
+         R: 0
+         mcr: 4
+         tl: 12
+         basetl: 8
+         type: 'Drive'
+         powerFuelUsage: 0.01
+         q: 0
+      rating: 1
+      b: -2
+      notes: 'R1'
+      mcr: 2
+      tl: 10
+      basetl: 8
+      stage: 'Mod'
+      powerFuelUsage: 0.01
+      q: 10
+
+   - 
+      e: 0
+      r: 0
+      b: 0
+      category: 'AV=20. 1 Kinetic FeN'
+      s: 0
+      mod: ''
+      howMany: 1
+      CP: 1
+      q: 0
+      totalTons: 0
+      totalMCr: 0
+      notes: ''
+      label: 'AV=20. 1 Kinetic FeN'
+      eff: 1
+      name: 'FeN'
+      config: 'Armor'
+      tl: 12
+      tons: 0
+      type: 'Armor'
+      mcr: 0
+      basetl: 5
+      range: '1'
+      mount: 'Kinetic'
+      target: 12
+
+   - 
+      e: 0
+      r: 0
+      b: 0
+      category: 'Computer Model/0 std'
+      Sq: 1
+      mod: 0
+      howMany: 1
+      s: 0
+      CP: 1
+      target: 12
+      totalTons: 0.5
+      totalMCr: 0.1
+      notes: ''
+      label: 'Computer Model/0 std'
+      eff: 1
+      name: 'Computer'
+      config: 'Ops'
+      tl: 12
+      tons: 0.5
+      type: 'Ops'
+      mcr: 0.1
+      basetl: 8
+      range: 's'
+      mount: 'Model/0'
+      q: 0
+
+   - 
+      totalMCr: 0.2
+      e: 0
+      notes: 'Custom Console'
+      label: 'Non-bridge Console'
+      eff: 1
+      Sq: 2
+      s: 0
+      r: 0
+      howMany: 1
+      tl: 12
+      tons: 1
+      type: 'Ops'
+      mcr: 0.2
+      q: 0
+      b: 0
+      totalTons: 1
+      CP: 0
+      target: 12
+
+   - 
+      totalMCr: 1
+      e: 0
+      notes: '10 person-months'
+      label: 'Life Support Standard'
+      eff: 1
+      Sq: 2
+      s: 0
+      r: 0
+      howMany: 1
+      tl: 12
+      tons: 1
+      type: 'Ops'
+      mcr: 1
+      q: 0
+      b: 0
+      totalTons: 1
+      CP: 0
+      target: 12
+
+   - 
+      totalMCr: 0.5
+      e: 0
+      notes: '4 crew'
+      label: 'Crew Shared Fresher'
+      eff: 1
+      Sq: 1
+      s: 0
+      r: 0
+      howMany: 1
+      tl: 12
+      tons: 0.5
+      type: 'Crew'
+      mcr: 0.5
+      q: 0
+      b: 0
+      totalTons: 0.5
+      CP: 0
+      target: 12
+
+   - 
+      totalMCr: 0.1
+      e: 0
+      notes: '4 crew'
+      label: 'Crew Cramped'
+      eff: 1
+      Sq: 4
+      s: 0
+      q: 0
+      r: 0
+      sleeps: 4
+      howMany: 1
+      tl: 12
+      tons: 2
+      type: 'Crew'
+      CP: 0
+      totalSleeps: 4
+      b: 0
+      totalTons: 2
+      mcr: 0.1
+      target: 12
+
+   - 
+      totalMCr: 0
+      e: 0
+      notes: ''
+      label: 'Crew Commons'
+      eff: 1
+      Sq: 8
+      s: 0
+      r: 0
+      howMany: 1
+      tl: 12
+      tons: 4
+      type: 'Crew'
+      mcr: 0
+      q: 0
+      b: 0
+      totalTons: 4
+      CP: 0
+      target: 12
+
+   - 
+      totalMCr: 0
+      e: 0
+      notes: ''
+      label: 'Passenger Commons'
+      eff: 1
+      Sq: 48
+      s: 0
+      r: 0
+      howMany: 6
+      tl: 12
+      tons: 4
+      type: 'Passenger'
+      mcr: 0
+      q: 0
+      b: 0
+      totalTons: 24
+      CP: 0
+      target: 12
+
+   - 
+      totalMCr: 1
+      e: 0
+      notes: '10 passengers'
+      label: 'Common Fresher'
+      eff: 1
+      Sq: 2
+      s: 0
+      r: 0
+      howMany: 1
+      tl: 12
+      tons: 1
+      type: 'Passenger'
+      mcr: 1
+      target: 12
+      b: 0
+      totalTons: 1
+      CP: 0
+      q: 0
+
+   - 
+      totalMCr: 0.2
+      e: 0
+      notes: '4 passengers'
+      label: 'Stateroom Cramped'
+      eff: 1
+      Sq: 8
+      s: 0
+      target: 12
+      r: 0
+      sleeps: 4
+      howMany: 2
+      tl: 12
+      tons: 2
+      type: 'Passenger'
+      CP: 0
+      totalSleeps: 8
+      b: 0
+      totalTons: 4
+      mcr: 0.1
+      q: 0
+
+   - 
+      totalMCr: 0
+      e: 0
+      notes: ''
+      label: 'Cargo Hold Basic'
+      eff: 1
+      Sq: 60
+      s: 0
+      r: 0
+      category: 'Cargo'
+      howMany: 1
+      tons: 30
+      type: 'Payload'
+      mcr: 0
+      tl: 12
+      q: 0
+      b: 0
+      totalTons: 30
+      CP: 0
+      target: 12
+
+   - 
+      totalMCr: 0.1
+      e: 0
+      notes: '2 passengers'
+      label: 'Stateroom Double'
+      eff: 1
+      Sq: 4
+      s: 0
+      q: 0
+      r: 0
+      sleeps: 2
+      howMany: 1
+      tl: 12
+      tons: 2
+      type: 'Passenger'
+      CP: 0
+      totalSleeps: 2
+      b: 0
+      totalTons: 2
+      mcr: 0.1
+      target: 12
+
+   - 
+      totalMCr: 0.9
+      e: 0
+      notes: '1 passenger'
+      label: 'Low Berth'
+      eff: 1
+      Sq: 9
+      s: 0
+      r: 0
+      howMany: 9
+      tl: 12
+      tons: 0.5
+      type: 'Payload'
+      mcr: 0.1
+      q: 0
+      b: 0
+      totalTons: 4.5
+      CP: 0
+      target: 12
+header: 
+   crew: 4
+   format: 'T5-ACS-1'
+   staff: 0
+   missionLabel: 'Subsidized Liner'
+   totalCargoSpace: 30
+   spaciousness: 0.5
+   operatingConsoles: 2
+   controlConsoles: 1
+   workstations: 0
+   lifters: 'y'
+   passengers: 10
+   overtons: 1.5
+   shipname: 'Chiipsikaat'
+   crewComfort: -3
+   demand: -1
+   mission: 'MK'
+   comments: |
+      Using a 100-ton, TL12 hull, the Chiipsikaat-class Subsidized Liner is mounts jump drive-A, maneuver drive-A, and power plant-A, giving a performance of jump-1 and 0G acceleration. Fuel tankage supports a 1 parsec jump, at 9t per parsec, and one month of operations. Attached to the bridge is a Computer Model/0 std. There are 10 staterooms and 14 low berths. Cargo capacity is 50 tons. The ship has a planetoid hull. 
+      
+      The ship has 4 crew, and can carry 10 passengers and 14 low passengers. 
+   jumpFuelPercentage: 0.09
+   jf: 1
+   low: 0
+   tons: 100
+   powerFuelPercentage: 0.009
+   pf: 1
+   tl: 12
+   qsp: 'MK-AP01'
+   totalMCr: 14
+   config: 'P'
+   mult: 1
+   shifts: 1
+   tonsFree: 0
+   preMult: 1
+   troops: 0

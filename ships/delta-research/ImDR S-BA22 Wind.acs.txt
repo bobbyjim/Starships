@@ -1,0 +1,77 @@
+--- 
+ACS1.0: Wed Apr  3 18:18:49 2024
+Mission: Scout/Courier
+QSP: S-BA22 
+Cx: 
+Vx: V2
+Name: Wind
+Tons: 200
+TL: 12 
+Undertonnage: 50
+MCr: 69.7
+Owner: Paranoia Press, LIC
+Allegiance: ImDR
+Architect: Paranoia Press, LIC
+
+Crew comfort: 4
+Passengers: 1
+Passenger demand: -5
+Low berths: 
+Cargo: 3
+Fuel: 44
+Fuel treatment: S1
+Computer: Model/2 std
+
+Comments: |-
+   The Wind-class Extended Scout is a undertonned 200t airframe hull, designed as a larger, TL12 version of its Serpent-class Scout.  The ship sports Jump and Maneuver-2.  Its fuel tanks support one jump-2 and 4 weeks of operations.  It has one hardpoint, with a hybrid L-M-S triple turret installed.  It has one vehicle: an Air/Raft in a fitted niche.
+   
+   The Extended Scout has a crew of two: Pilot/Astrogator and Gunner/Engineer.  The ship can carry up to four crew members.  There are 3 tons of cargo space, and one 30-ton module for mission-defined space.
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   200   . Airframe Hull, lifters             18.0  ,HH.0  A .....
+ -     6   . Landing wheels                      9.0  ,HL.1  M .....
+ -     2   . Flotation hull                      2.0  ,HF.1  D .....
+ -     8   . Armor: 2 Blast Plate                0.0  ,HA.1  . .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    40   . Jump Fuel (2  parsecs)              0.0  ,DF.0  . .....
+ -     4   . Plant Fuel (one month)              0.0  ,DF.0  . .....
+ -     7   . PowerPlant-2 (B)                    7.0  ,DP21  B .....
+ -    15   . Jump Drive-2 (B)                   15.0  ,DJ21  B .....
+ -     3   . Maneuver Drive-2 (B)                6.0  ,DM21  B .....
+ -     1   . Fuel Purifiers 4t/hr                1.0  ,DF.1 P1 .....
+ -     1   . Fuel Scoop/Intakes 50t/20t per hr    0.1  ,DF.1 S1 .....
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     2   . Computer Model/2 std                5.0  ,OC21  . .....
+ -     2   . Life Support Long Term              2.0  ,OLL0  . .....
+ -    10   . Spacious Controls                   0.0  ,OB.0  2 .....
+#
+#   TONS   # WEAPONS                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . Vd T3 Hybrid L-S-M                  2.0  ,WW.1  . .....
+#
+#   TONS   # CREW                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    30   . Mission Component                   0.0  ,CO.0  . .....
+ -     8  4x Crew Stateroom                      0.4  ,CS.0  1 .....
+ -     0   . Crew Shared Fresher                 0.5  ,CF.0  1 .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     3   . Cargo Hold Basic                    0.0  ,PC.0  . .....
+ -     1   . Mail Vault                          0.0  ,PO.0  . .....
+ -     0   . Air Lock                            0.1  ,PO.1  . .....
+#
+#   TONS   # VEHICLES                            MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     4   . Air/Raft Enclosed                   0.1  ,VO.0 EL .....
+ -     1   . Air/Raft Niche                      1.0  ,VO.0 EL .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

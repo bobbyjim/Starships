@@ -1,0 +1,84 @@
+--- 
+ACS1.0: Wed Apr  3 18:18:51 2024
+Mission: Freighter
+QSP: F-KS13 
+Cx: 10
+Vx: V2
+Name: Susa
+Tons: 1000
+TL: 12 
+
+MCr: 228.9
+Owner: Oberlindes
+Allegiance: ImOL
+Architect: Oberlindes
+
+Crew comfort: 0
+Passengers: 12
+Passenger demand: 1
+Low berths: 10
+Cargo: 417
+Fuel: 316
+Fuel treatment: S,I
+Computer: Model/3 std
+
+Comments: |-
+   Using the 1000-ton hull, the Susa is a freight transport vessel typical of the cargo carrier ships operated by Oberlindes lines. It is equipped with the Systems Inc. L-392Q jump drive, the Slipstream Ek.91 maneuver drive, and the Qf-3 Cold Sun power plant, giving a performance of Jump-3 and 1G acceleration. Fuel tankage supports 2 weeks of operations and one jump-3. Adjacent to the bridge is a computer Model/3.
+   
+   There are 17 staterooms, 10 low berths, and gunner barracks. Its three triple turret lasers are deployable to serve as emergency lifepods; the remaining seven hardpoints are unused. There is one ship's vehicle: an air/raft. Cargo capacity is 417 tons. The hull is streamlined, and has fins to improve its performance in atmosphere.
+   
+   The cargo carrier requires a crew of 10: captain/pilot, astrogator, 4 engineers, medic, and 3 gunners. The astrogator typically operates the air/raft. The ship can carry 12 passengers and 10 low passengers. 
+   
+   The cargo carrier is a standard design commissioned by Oberlindes, and is reflective of its total fleet. Oberlindes ships show no consistent system of naming.
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -  1000   . Streamlined Hull, lifters          72.0  ,HH.0  S .....
+ -     5   . Fins                                2.5  ,HW.1  F .....
+ -    10   . Landing legs with pads             10.0  ,HL.1  K .....
+ -     0   . Armor: 1 Kinetic Plate              0.0  ,HA.1  . .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   300   . Jump Fuel (3  parsecs)              0.0  ,DF.0  . .....
+ -    16   . Plant Fuel (0.5 months)             0.0  ,DF.0  . .....
+ -    80   . Jump Drive-3 (Q)                   80.0  ,DJ33  Q .....
+ -    23   . Mod PowerPlant-3 (Q)               23.0  ,DP32  2 72101
+ -     4   . Mod Maneuver Drive-1 (E)            9.0  ,DM11  2 74330
+ -     1   . Fuel Scoops                         0.1  ,DF.1  S .....
+ -     1   . Fuel Intakes                        0.1  ,DF.1  I .....
+ -     2  2x Fuel Purifiers                      0.2  ,DF.1  P .....
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     3   . Computer Model/3 std               10.5  ,OC31  . .....
+ -     4   . Gunner Barracks                     0.2  ,OO.0  . .....
+ -    10   . Standard Controls                   0.0  ,OB.0  . .....
+#
+#   TONS   # WEAPONS                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     9  3x Vd T3de Beam Laser                 13.5  ,WW.1  . .....
+#
+#   TONS   # CREW                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . Crew Common Fresher                 1.0  ,CF.0  2 .....
+ -    14  7x Crew Stateroom                      0.7  ,CS.0  1 .....
+ -    16  4x Crew Lounge                         0.0  ,CC.0  . .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . Common Fresher                      1.0  ,PF.0  2 .....
+ -     5 10x Low Berth                           1.0  ,PL.0  . .....
+ -    24 12x Standard Stateroom                  1.2  ,PS.0  1 .....
+ -    48 12x Passenger Lounge                    0.0  ,PC.0  . .....
+ -   417   . Cargo Hold Basic                    0.0  ,PC.0  . .....
+#
+#   TONS   # VEHICLES                            MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     4   . Air/Raft Enclosed                   0.1  ,VO.0 EL .....
+ -     1   . Air/Raft Streamlined Bracket        2.0  ,VO.0 EL .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

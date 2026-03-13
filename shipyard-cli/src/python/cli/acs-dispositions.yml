@@ -1,0 +1,66 @@
+---
+catalogs:
+   - { code: Im,  label: Imperial     }
+   - { code: Al,  label: Al Morai     }
+   - { code: Ar,  label: Arkesh Spacers }
+   - { code: As,  label: Aslan        }
+   - { code: Bt,  label: Baraccai Technum }
+   - { code: Ca,  label: Carrillian   }
+   - { code: Da,  label: Darrian      }
+   - { code: Dr,  label: Droyne       }
+   - { code: Fr,  label: Freedonian   }
+   - { code: Mc,  label: McClellan Factors }
+   - { code: Mk,  label: Makhidkarun  }
+   - { code: Ob,  label: Oberlindes   }
+   - { code: Rc,  label: Reformation Coalition }
+   - { code: Rr,  label: Republic of Regina }
+   - { code: Rm,  label: Rule of Man  }
+   - { code: Sw,  label: Sword Worlds }
+   - { code: Tk,  label: Tukera       }
+   - { code: Va,  label: Vargr        }
+   - { code: Zh,  label: Zhodani      }
+   - { code: Zs,  label: Ziru Sirka   }
+ 
+dispositions:
+   - { code: OO, label: On order     }
+   - { code: BU, label: Building     }
+   - { code: FO, label: Fitting Out  }
+   - { code: in svc, label: In Service   }
+   - { code: DD, label: Detached Duty }
+   - { code: R, label: Reserve }
+   - { code: MB, label: Mothballed }
+   - { code: C, label: Captured      }
+   - { code: DX, label: Destroyed     }
+   - { code: MIA, label: Missing       }
+   - { code: L, label: Lost          }
+   - { code: X, label: Scrapped      }
+
+shipbuilders: 
+   - { code: AE,  label: 'Arshani, Etran' }
+   - { code: AH,  label: 'AHG, AG' }
+   - { code: BY,  label: Bilstein Yards }
+   - { code: CS,  label: Clan Severn }
+   - { code: CO,  label: Commonal }
+   - { code: DV,  label: Delvani }
+   - { code: GA1, label: Gashidda No. 1 }
+   - { code: GA2, label: Gashidda No. 2 }
+   - { code: GA3, label: Gashidda No. 3 }
+   - { code: GY,  label: General Shipyards }
+   - { code: GS,  label: GsBAG }
+   - { code: HL,  label: Highlans }
+   - { code: LS,  label: Ling Standard }
+   - { code: MA,  label: Mars }
+   - { code: PB,  label: Piorabanti }
+   - { code: SB,  label: Sabaald }
+   - { code: TK,  label: Tukera }
+   - { code: VL1, label: Vlandian No. 1 }
+   - { code: VL2, label: Vlandian No. 2 }
+   - { code: 111, label: Yard 11 No. 1 }
+   - { code: 112, label: Yard 11 No. 2 }
+   - { code: 161, label: Yard 16 No. 1 }
+   - { code: 162, label: Yard 16 No. 2 }
+   - { code: 163, label: Yard 16 No. 3 }
+   - { code: 164, label: Yard 16 No. 4 }
+   - { code: 17,  label: Yard 17 }
+   - { code: 221, label: Yard 22 No. 1 }
+   - { code: ZG,  label: Zagado }

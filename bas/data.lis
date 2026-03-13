@@ -1,0 +1,59 @@
+;
+;  Here's where we store ship-component data.
+;
+;  I'm going to try to reference it as a database.
+;  Yes, that will make it slow, but hopefully it
+;  will help keep the memory footprint low.
+;
+{:skip a section}
+read d1
+for y = 1 to d1
+   for x = 1 to 7 :read d2$ :next x
+next y
+return
+
+{:print a section}
+read d1
+for y = 1 to d1
+   read d2$ :print d2$; " - ";
+   read d2$ :print d2$
+   for x = 1 to 5 :read d2$ :next x
+next y
+return
+
+{:show weapons}
+   restore
+   gosub {:skip a section}
+   gosub {:print a section}
+return
+
+;
+;  Now throw all that important data here.
+;
+;  We'll have to build it according to a fixed schema.
+;  Since I expect to store component data here, I will follow a generalized
+;  7-field row-record structure like this:
+;
+;    code, label,    tl, mod, range/oc, tons/mult, cost/mult
+;
+;  Stage Effects
+;
+;     C     LABEL     TL   M  OC   x  CM
+data 1
+data  st,  standard,  0,  0, 100, 0, 1
+;data ult,  ultimate,  4,  4, 130, 0, 2
+;data  ad,  advanced,  3,  3, 120, 0, 1
+;data mod,  modified,  2,  2, 110, 0, 0.5
+;data  im,  improved,  1,  0, 110, 0, 1
+;data  er,  early,    -1,  0, 90,  0, 2
+;
+;  Weapons
+;
+;    C  LABEL                 TL  x R x  MCR
+data 6
+data a, particle accelerator, 11, 0,1,0, 2.5
+data g, meson gun,            13, 0,1,0, 5
+data m, missile,               8, 0,1,0, 0.2
+data j, mining laser,          8, 0,0,0, 0.5
+data k, pulse laser,           9, 0,0,0, 0.3
+data l, beam laser,           10, 0,0,0, 0.5

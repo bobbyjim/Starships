@@ -1,0 +1,82 @@
+--- 
+ACS1.0: Wed Apr  3 18:18:41 2024
+Mission: Far Trader
+QSP: A2-BS12 
+Cx: ABCE
+Vx: V1
+Name: Empress Marava
+Tons: 200
+TL: 11 
+Overtonnage: 5.5
+MCr: 58.8
+Allegiance: Im
+
+Crew comfort: 0
+Passengers: 7
+Passenger demand: 1
+Low berths: 4
+Cargo: 61
+Fuel: 43
+Fuel treatment: S,I
+Computer: Model/1bis std
+
+Comments: |-
+   Using a 200-ton, TL 10 hull, the far trader ranges far and wide, and deals with every world it finds. Even amber zones and red zones are not considered off limits by its captains, provided there is profit to be made and the risk of being caught is slight. 
+   
+   It is capable of 1-G acceleration and jump-2. Fuel tankage supports jump-2 and one month of operation, and the ship incorporates fuel scoops and intakes for wilderness refuelling. The bridge is standard and has a computer Model/1bis installed. There are two hardpoints, but no weapons are mounted. The ship has ten staterooms (three for the crew; seven for the passengers) and four low berths. A single air/raft is carried (in a fitted hull compartment) for various surface duties. The ship is streamlined, and can land on uneven terrain. Cargo capacity is 61 tons.
+   
+   The far trader requires a crew of three: pilot/astrogator, engineer, and steward.
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   200   . Streamlined hull                   14.0  ,HH.0  S .....
+ -     2   . Landing legs with pads              2.0  ,HL.1  K .....
+ -     0   . Armor: 1 Kinetic Plate              0.0  ,HA.1  . .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    40   . Jump Fuel (2  parsecs)              0.0  ,DF.0  . .....
+ -     3   . Plant Fuel (one month)              0.0  ,DF.0  . .....
+ -     1   . Fuel Scoops                         0.1  ,DF.1  S .....
+ -     1   . Fuel Intakes                        0.1  ,DF.1  I .....
+ -     2   . Maneuver Drive-1 (A)                4.0  ,DM11  A .....
+ -    15   . Jump Drive-2 (B)                   15.0  ,DJ21  B .....
+ -     3   . Mod PowerPlant B (R2)               3.5  ,DP21  2 81005
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . Computer Model/1bis std             3.0  ,OC21  . .....
+ -     1   . Life Support Standard               1.0  ,OLS0  . .....
+ -     2   . Clinic                              1.0  ,OM.1  . .....
+ -     2  2x Life Support Luxury                 2.0  ,OLU0  . .....
+ -     5   . Standard Bridge                     0.6  ,OB.0  . .....
+#
+#   TONS   # S-SENSORS                           MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . AR Surf Basic                       6.0  ,SS.1  . .....
+#
+#   TONS   # WEAPONS                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . Vd T3 Hybrid L-S-M                  2.0  ,WW.1  . .....
+#
+#   TONS   # CREW                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     6  3x Crew Stateroom                      0.3  ,CS.0  1 .....
+ -     0   . Crew Shared Fresher                 0.5  ,CF.0  1 .....
+ -     8  2x Crew Commons                        0.0  ,CC.0  . .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    61   . Cargo Hold Basic                    0.0  ,PC.0  . .....
+ -     2  4x Low Berth                           0.4  ,PL.0  . .....
+ -     2   . Cargo Lock                          0.4  ,PO.1  . .....
+ -    42  7x Luxury Stateroom                    2.8  ,PS.0  1 .....
+#
+#   TONS   # VEHICLES                            MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     4   . Air/Raft (hull compartment)         0.1  ,VO.0 EL .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

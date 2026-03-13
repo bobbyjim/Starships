@@ -1,0 +1,71 @@
+--- 
+ACS1.0: Wed Apr  3 18:18:58 2024
+Mission: Tender
+QSP: TC-VB14 
+Cx: 
+Vx: 
+Name: Survey Tender
+Tons: 2000
+TL: 14 
+Undertonnage: 788
+MCr: 511.4
+Owner: Republic of Regina
+Allegiance: Rr
+
+Crew comfort: -5
+Passengers: 0
+Passenger demand: -5
+Low berths: 
+Cargo: 20
+Fuel: 852
+Fuel treatment: 
+Computer: Model/6 std
+
+Comments: |-
+   Using a 2000-ton, TL14 hull, the Survey Tender Class Tender mounts jump drive-V2, maneuver drive-K, and power plant-V2, giving a performance of jump-4 and 1G acceleration. Fuel tankage supports a 4 parsec jump, at 180t per parsec, and 2 months of operations. Attached to the bridge is a Computer Model/6 std. There are 0 staterooms and no low berths. Installed weaponry include 4 T2 Missiles, 4 T2 DataCasters, 4 T2 Beam Lasers, and 4 T2 Sandcasters. Cargo capacity is 20 tons. The ship has a braced hull. 
+   
+   The ship has 11 crew. 
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -  2000   . Braced Hull                        60.0  ,HH.0  B .....
+ -   -10   . No Landers                          0.0  ,HL.1 n/ .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   720   . Jump Fuel (4  parsecs)              0.0  ,DF.0  . .....
+ -   132   . Plant Fuel (2 months)               0.0  ,DF.0  . .....
+ -    19   . Maneuver Drive-1 (K)               38.0  ,DM11  K .....
+ -   210   . Imp Jump Drive V2 (R4)            210.0  ,DJ46 V2 50101
+ -    40   . Adv PowerPlant V2 (R4)            122.0  ,DP44 V2 433E1
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     6   . Computer Model/6 std               39.0  ,OC61  . .....
+ -    20   . Spacious Bridge                     1.2  ,OB.0  2 .....
+#
+#   TONS   # S-SENSORS                           MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     6   . LR Ext Communicator                 4.0  ,SS.1  4 .....
+ -     6   . LR Ext Jammer                       4.0  ,SS.1  4 .....
+ -     6   . LR Ext Neutrino Detector            4.0  ,SS.1  4 .....
+ -     6   . LR Ext EMS                          4.0  ,SS.1  4 .....
+ -     6   . LR Ext Stealth Mask                 4.0  ,SS.1  4 .....
+ -     6   . LR Ext Grav Sensor                  4.0  ,SS.1  4 .....
+ -     3   . AR Ext Visor                        2.0  ,SS.1  4 .....
+#
+#   TONS   # WEAPONS                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     4  4x AR T2 Missile                       2.8  ,WW.1 -1 .....
+ -     4  4x Vd T2 DataCaster                    6.0  ,WW.1 -1 .....
+ -     4  4x Vd T2 Beam Laser                    4.0  ,WW.1 -1 .....
+ -     4  4x Vd T2 Sandcaster                    2.4  ,WW.1 -1 .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    20   . Cargo Hold Basic                    0.0  ,PC.0  . .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

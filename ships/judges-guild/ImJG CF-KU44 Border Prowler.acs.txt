@@ -1,0 +1,94 @@
+--- 
+ACS1.0: Wed Apr  3 18:18:50 2024
+Mission: Frontier Cruiser
+QSP: CF-KU44 
+Cx: 
+Vx: 
+Name: Border Prowler
+Tons: 1000
+TL: 16 
+Undertonnage: 44.5
+MCr: 271.2
+Owner: Republic of Regina
+Allegiance: ImJG
+
+Crew comfort: 0
+Passengers: 0
+Passenger demand: -5
+Low berths: 
+Cargo: 200
+Fuel: 342
+Fuel treatment: S
+Computer: Model/4  
+
+Comments: |-
+   Using a 1000-ton hull, the Border Prowler Class Frontier Cruiser is a multi-purpose patrol and secure transport vessel. It mounts V-class drives, giving a performance of jump-4 and 4G acceleration. Interlan fuel tankage plus two 50-ton fuel pods provides two months' operations and one jump-4. An added Collector allows an additional jump-1 without fuel. Attached to the bridge is a Computer Model/4. There are 20 staterooms and two gunners' barracks. Installed weaponry include a dual barbette Particle Accelerator, 3 triple Sandcasters, 3 triple Missiles, and 3 triple Beam Lasers. Cargo capacity is 200 tons. The ship has an unstreamlined hull, with scoops, intakes, and bins for frontier refueling.
+   
+   The ship has 18 crew, and can carry 8 passengers.
+   
+   The Prowler is reconfigurable for multiple missions. The fuel pods can be replaced, reducing jump range in exchange for cargo or other uses. A troop module  fits into the cargo bay supporting 100 troops in middle passage. A low passage module supports 250 low berths, 50 tons of equipment, and stateroom for 10 command personnel. Another module provides for 20 troops, 20 tons of equipment, and semi-external carriage of a pair of 40-ton attack shuttles.
+   
+   The Border Prowler Class is designed to show a presence on far-flung borders and long-range scouting missions. In wartime, it is suitable as a commerce raider. In peacetime it is invaluable in moving critical cargo with lower risks. It holds a fair amount of cargo and is armed to discourage pirates. It also serves well as a Modular Merchant Cruiser and Colonial Fleet Cruiser.
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -  1000   . Unstreamlined Hull                 32.0  ,HH.0  U .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   270   . Jump Fuel (3  parsecs)              0.0  ,DF.0  . .....
+ -    72   . Plant Fuel (2 months)               0.0  ,DF.0  . .....
+ -     6   . All fuel processors                 3.3  ,DF.6  S .....
+ -    19   . Mod Maneuver Drive V (R4)          39.0  ,DM42  2 50030
+ -    52   . Mod Jump Drive V (R4)              52.5  ,DJ43  2 8B5A1
+ -    30   . Mod PowerPlant V (R4)              30.5  ,DP42  2 833E0
+ -    30   . Mod Collector E (R1)               15.0  ,DC12  2 92CB3
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     4   . Computer Model/4                   18.0  ,OC41  . .....
+ -     2   . Life Support Long Term              2.0  ,OLL0  . .....
+ -     3  3x Life Support Adaptable              3.0  ,OLA0  . .....
+ -     2   . Clinic                              1.0  ,OM.1  . .....
+ -     2   . Counsellor                          0.2  ,OO.1  . .....
+ -     8  2x Security Barracks                   0.4  ,OO.0  . .....
+ -    26   . Spacious Bridge                     1.6  ,OB.0  2 .....
+#
+#   TONS   # S-SENSORS                           MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . LR Surf Basic C-E-N-T               7.0  ,SS.1  . .....
+#
+#   TONS   # W-SENSORS                           MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . Or Surf Basic Survey 12             3.9  ,WS.1  . .....
+#
+#   TONS   # WEAPONS                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    10   . LR B2 Particle Accelerator         14.5  ,WW.1  3 .....
+ -     6  3x LR T3 Missile                       9.6  ,WW.1  . .....
+ -     3  3x Vd T3 Sandcaster                    3.3  ,WW.1  . .....
+ -     3  3x Vd T3 Beam Laser                    4.5  ,WW.1  . .....
+ -     4  4x Magazine                            0.0  ,WM.0  . .....
+#
+#   TONS   # DEFENSES                            MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     2   . B Meson Screen                      2.0  ,DD.1 -1 .....
+ -     3   . B Nuclear Damper                    2.0  ,DD.1 -1 .....
+ -     2   . B Mag Scrambler                     2.0  ,DD.1 -1 .....
+ -     2   . B Black Globe                       5.0  ,DD.1 -1 .....
+#
+#   TONS   # CREW                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    51  3x Crew Cluster                        2.7  ,CO.0  4 .....
+ -    34  2x Mission or VIP Rooms                1.8  ,CO.0  4 .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   200   . Cargo Hold Basic                    0.0  ,PC.0  . .....
+ -     8  8x Pod Grapples                        8.0  ,PO.0  . .....
+ -   100  2x Fuel Pod (req. 4 grapples)          6.4  ,PF.0  . .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

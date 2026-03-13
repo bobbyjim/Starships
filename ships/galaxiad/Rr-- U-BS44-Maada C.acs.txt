@@ -1,0 +1,83 @@
+--- 
+ACS1.0: Wed Apr  3 18:18:58 2024
+Mission: Packet
+QSP: U-BS44 
+Cx: 
+Vx: 
+Name: Maada C
+Tons: 200
+TL: 16 
+Undertonnage: 6.5
+MCr: 74.6
+Owner: Republic of Regina
+Allegiance: Rr
+
+Crew comfort: 0
+Passengers: 4
+Passenger demand: 0
+Low berths: 8
+Cargo: 20
+Fuel: 79
+Fuel treatment: S
+Computer: Model/2  
+
+Comments: |-
+   Using a 200-ton, TL16 hull, the Maada Class Packet is designed to deliver and retrieve passengers to sensitive locations. It mounts D-class drives, giving a performance of jump-4 and 4G acceleration. Fuel tankage supports a 4 parsec jump, at 18t per parsec, and 1 month of operations. Attached to the bridge is a Computer Model/2. There are 4 crew staterooms, 4 passenger staterooms, and a clinic with 8 low berths. Installed weaponry include a T1 Missile, a T1 Beam Laser, and a T1 Sandcaster. A black globe is bolted in. Cargo capacity is 20 tons. The ship has a streamlined hull, with scoops for frontier refueling. It is capable of submerging into bodies of water for extended periods of time.
+   
+   The ship has room for up to 4 crew. It can carry 4 high or medium passengers and 8 low passengers. 
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   200   . Streamlined Hull                   14.0  ,HH.0  S .....
+ -     2   . Landing legs with pads              2.0  ,HL.1  K .....
+ -     1   . Fins                                1.0  ,HW.1  F .....
+ -     4   . Submergence hull                    4.0  ,HF.1  E .....
+ -     0   . Armor: 1 Rad Plate                  0.0  ,HA.1  . .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    72   . Jump Fuel (4  parsecs)              0.0  ,DF.0  . .....
+ -     7   . Plant Fuel (one month)              0.0  ,DF.0  . .....
+ -     6   . All fuel processors                 3.3  ,DF.6  S .....
+ -     3   . Mod Maneuver Drive D (R4)           7.0  ,DM41  2 85505
+ -    12   . Mod Jump Drive D (R4)              12.5  ,DJ41  2 714CA
+ -     6   . Mod PowerPlant D (R4)               6.5  ,DP41  2 200C1
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     2   . Computer Model/2                    5.0  ,OC21  . .....
+ -     1   . Life Support Standard               1.0  ,OLS0  . .....
+ -     1   . Life Support Luxury                 1.0  ,OLU0  . .....
+ -     2   . Clinic                              1.0  ,OM.1  . .....
+ -     7   . Standard Bridge                     0.9  ,OB.0  . .....
+#
+#   TONS   # S-SENSORS                           MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     0   . AR Surf Basic C-E-N-T               5.0  ,SS.1  . .....
+#
+#   TONS   # WEAPONS                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . AR T1 Missile                       0.4  ,WW.1 -2 .....
+ -     1   . Vd T1 Beam Laser                    0.7  ,WW.1 -2 .....
+ -     1   . Vd T1 Sandcaster                    0.3  ,WW.1 -2 .....
+#
+#   TONS   # DEFENSES                            MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     2   . B Black Globe                       5.0  ,DD.1 -1 .....
+#
+#   TONS   # CREW                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    17   . Crew Cluster                        0.9  ,CO.0  4 .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    20   . Cargo Hold Basic                    0.0  ,PC.0  . .....
+ -     1   . Mail Vault                          1.0  ,PO.0  . .....
+ -     2   . Cargo Lock                          0.4  ,PO.1  . .....
+ -    17   . Stateroom Cluster                   0.9  ,PS.0  4 .....
+ -     4  8x Low Berth                           0.8  ,PL.0  . .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

@@ -1,0 +1,78 @@
+--- 
+ACS1.0: Wed Apr  3 18:18:51 2024
+Mission: Long Liner
+QSP: M2-KU14 
+Cx: 13
+Vx: L1
+Name: Tukera RT
+Tons: 1000
+TL: 15 
+Overtonnage: 33
+MCr: 254.3
+Owner: Tukera
+Allegiance: ImTL
+
+Crew comfort: -1
+Passengers: 36
+Passenger demand: 2
+Low berths: 14
+Cargo: 130
+Fuel: 403
+Fuel treatment: 
+Computer: Model/4 std
+
+Comments: |-
+   Using a 1000-ton streamlined hull, the Tukera Iong-liner is a main-route passenger transport serving much of the Imperium. It mounts a Shva type T14 RE jump drive, the LSP Impulse E1 maneuver drive, and the LSP Power/T power plant, giving performance of Jump-4 and 1G acceleration.  Fuel tankage supports a month of operations and one jump-4. On the bridge is a Model/4 computer. There are 50 staterooms and 5 emergency low berths. The ship has five hardpoints. Only one triple turret is usually installed; it carries a heterogeneous mix of one beam laser, one missile rack, and one sandcaster. The ship carries one vehicle: a 20-ton launch, grappled to the hull. Cargo capacity for the long-liner is 130 tons.
+   
+   The long-liner requires a crew of 13: captain/pilot, astrogator, 6 engineers, medic, 3 stewards, and gunner.  The pilot or astrogator operates the launch. The ship can carry up to 36 passengers.
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -  1000   . Unstreamlined Hull, lifters        42.0  ,HH.0  U .....
+ -     0   . Armor: 1 Kinetic Plate              0.0  ,HA.1  . .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   360   . Jump Fuel (4  parsecs)              0.0  ,DF.0  . .....
+ -    44   . Plant Fuel (one month)              0.0  ,DF.0  . .....
+ -     4   . Mod Maneuver Drive-1 (E)            9.0  ,DM11  2 8A5C1
+ -   105   . Imp Jump Drive-4 (V)              105.0  ,DJ43  1 510AA
+ -    30   . Mod PowerPlant-4 (V)               30.5  ,DP42  2 10A215
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     4   . Computer Model/4 std               18.0  ,OC41  . .....
+ -     2   . Life Support Long Term              2.0  ,OLL0  . .....
+ -     3  3x Life Support Luxury                 3.0  ,OLU0  . .....
+ -     1   . Life Support Adaptable              1.0  ,OLA0  . .....
+ -    14   . Standard Controls                   0.0  ,OB.0  . .....
+#
+#   TONS   # WEAPONS                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . Vd T3 Hybrid L-S-M                  2.0  ,WW.1  . .....
+ -     4  4x AR T1 Empty                         0.8  ,WW.1 -2 .....
+#
+#   TONS   # CREW                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    26 13x Crew Stateroom                      1.3  ,CS.0  1 .....
+ -    12  3x Crew Lounge                         0.0  ,CC.0  . .....
+ -     2  4x Crew Shared Fresher                 2.0  ,CF.0  1 .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   130   . Cargo Hold Basic                    0.0  ,PC.0  . .....
+ -     7 14x Low Berth                           1.4  ,PL.0  . .....
+ -   216 36x Luxury Stateroom                   14.4  ,PS.0  1 .....
+ -    16  2x Passenger Lounge                    0.0  ,PC.0  . .....
+ -    24  3x Passenger Dining Area               0.0  ,PO.0  . .....
+ -     5  5x Emergency Low Berth                 2.5  ,PL.0  . .....
+#
+#   TONS   # VEHICLES                            MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    20   . Launch                             16.0  ,VO.0 MS .....
+ -     2   . Grapple Set Single                  2.0  ,VO.0  . .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

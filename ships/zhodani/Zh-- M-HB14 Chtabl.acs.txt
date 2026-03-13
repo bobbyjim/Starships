@@ -1,0 +1,76 @@
+--- 
+ACS1.0: Wed Apr  3 18:19:02 2024
+Mission: Liner
+QSP: M-HB14 
+Cx: 10
+Vx: N1
+Name: Chtabl
+Tons: 800
+TL: 12 
+Overtonnage: 3
+MCr: 230
+Owner: Zhodani
+Allegiance: Zh
+
+Crew comfort: -1
+Passengers: 36
+Passenger demand: 0
+Low berths: 34
+Cargo: 57
+Fuel: 334
+Fuel treatment: 
+Computer: 
+
+Comments: |-
+   Using an 800-ton hull, the Zhodani liner Chtabl is a passenger vessel used primarily along the main routes of the Consulate. It sports the Tliadl Engines 4xR jump drive, the Pliets-Shtiaqr 19.D maneuver drive, and the Lians Mk4734-R power plant, giving performance of Jump-4 and 1G acceleration. Fuel tankage supports 2 weeks' normal operations plus one jump-4. Installed on the bridge is an advanced Model/4 computer, with an S2 semi-organic brain. The ship has no hardpoints and cannot carry weaponry.  There is one ship's vehicle, a 40 ton slow pinnace. Cargo capacity is 57 tons. The ship is not streamlined.
+   
+   The Zhodani liner requires a crew of 10: pilot, astrogator, 4 engineers, 3 stewards, and 1 medic. The pilot operates the pinnace. The ship can carry 36 passengers, up to 24 of them in high passage. The ship can also carry up to 34 passengers in low berths.
+
+Components:
+#
+#   TONS   # HULL                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   800   . Braced Hull                        24.0  ,HH.0  B .....
+ -     0   . Armor: 1 Kinetic Charged            0.0  ,HA.1  . .....
+#
+#   TONS   # DRIVES                              MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -   320   . Jump Fuel (4  parsecs)              0.0  ,DF.0  . .....
+ -    14   . Plant Fuel (0.5 months)             0.0  ,DF.0  . .....
+ -    85   . Jump Drive-4 (R)                   85.0  ,DJ43  R .....
+ -    49   . Imp PowerPlant-4 (R)               49.0  ,DP42  1 850E1
+ -     2   . Adv Maneuver Drive-1 (D)           14.0  ,DM11  3 613E2
+#
+#   TONS   # OPERATIONS                          MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     4   . Semi-Organic Model/4 std           18.0  ,OS.1  4 .....
+ -     2   . Life Support Long Term              2.0  ,OLL0  . .....
+ -     3  3x Life Support Luxury                 3.0  ,OLU0  . .....
+ -     7   . Standard Bridge                     0.9  ,OB.0  . .....
+#
+#   TONS   # WEAPONS                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     3  3x Vd T1 Pulse Laser                   1.5  ,WW.1 -2 .....
+#
+#   TONS   # CREW                                MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -     1   . Crew Common Fresher                 1.0  ,CF.0  2 .....
+ -    16  8x Crew Stateroom                      0.8  ,CS.0  1 .....
+ -    12  3x Crew Lounge                         0.0  ,CC.0  . .....
+ -     2  2x Spacer Niche                        0.2  ,CS.0  1 .....
+#
+#   TONS   # PAYLOAD                             MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    72 36x Standard Stateroom                  3.6  ,PS.0  1 .....
+ -     4  4x Common Fresher                      4.0  ,PF.0  2 .....
+ -    17 34x Low Berth                           3.4  ,PL.0  . .....
+ -    72 18x Passenger Lounge                    0.0  ,PC.0  . .....
+ -    57   . Cargo Hold Basic                    0.0  ,PC.0  . .....
+ -     0   . Air Lock                            0.1  ,PO.1  . .....
+#
+#   TONS   # VEHICLES                            MCR   CODE  R QREBS
+#  ----- --- -------------------------------- ------  ,---- -- -----
+ -    60   . Slow Pinnace + niche               19.5  ,VO.0 MS .....
+
+ref: [<a href='http://www.farfuture.net/'>Far Future Enterprises</a>]
+

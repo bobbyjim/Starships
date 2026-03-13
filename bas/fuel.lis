@@ -1,0 +1,23 @@
+{:set fuel}
+   ? "key in number of bins   : [0-9]: ";
+   {:get bins} get b$ :if b$<"0" or b$>"9" goto {:get bins}
+
+   ?:?:? "key in number of intakes: [0-9]: ";
+   {:get intakes} get i$ :if i$<"0" or i$>"9" goto {:get intakes}
+
+   ?:?:? "key in number of scoops : [0-9]: ";
+   {:get scoops} get e$ :if e$<"0" or e$>"9" goto {:get scoops}
+
+   ?:?:? "add refineries? [yn] ";
+   {:get refineries} get fr$ :if fr$<>"n" and fr$<>"y" goto {:get refineries}
+
+   e%  = val(e$)
+   i%  = val(i$)
+   b%  = val(b$)   
+   
+   if fr$="n" then return
+   rem add refinery cost
+   e% = e% * 2
+   i% = i% * 2
+   b% = b% * 2
+return

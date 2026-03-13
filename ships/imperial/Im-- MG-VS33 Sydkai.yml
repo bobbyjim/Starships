@@ -1,0 +1,878 @@
+--- 
+components: 
+   - 
+      e: 0
+      r: 0
+      category: 'Hull'
+      howMany: 1
+      s: 0
+      Sq: 4000
+      CP: 0
+      code: 'S'
+      totalTons: 2000
+      totalMCr: 122
+      notes: 'S, lifters, 20 a/l free'
+      label: 'Streamlined Hull, lifters, 20 a/l free'
+      eff: 1
+      name: 'Hull'
+      config: 'Streamlined'
+      mult: 1
+      tl: 10
+      preMult: 1
+      b: 0
+      type: 'Hull'
+      mcr: 122
+      tons: 2000
+      q: 0
+      target: 10
+
+   - 
+      e: 0
+      r: 0
+      category: 'AR Surf Basic C-R-T'
+      s: 0
+      mod: 0
+      howMany: 1
+      CP: 1
+      target: 10
+      totalTons: 0
+      totalMCr: 6
+      notes: ''
+      label: 'AR Surf Basic C-R-T'
+      eff: 1
+      name: 'Basic C-R-T'
+      tons: 0
+      mount: 'Surf'
+      tl: 10
+      config: 'Sensor'
+      type: 'Sensor'
+      mcr: 6
+      basetl: 10
+      range: 'AR'
+      b: 0
+      q: 0
+
+   - 
+      totalMCr: 0
+      e: 0
+      notes: '3 parsec jump, at 200t per parsec'
+      label: 'Jump Fuel (3  parsecs)'
+      category: 'Jump Fuel'
+      s: 0
+      r: 0
+      eff: 1
+      howMany: 1
+      tl: 10
+      Sq: 1200
+      tons: 600
+      type: 'Drive'
+      CP: 0
+      q: 0
+      b: 0
+      totalTons: 600
+      mcr: 0
+      target: 10
+
+   - 
+      totalMCr: 0
+      e: 0
+      notes: '2 months'
+      label: 'Plant Fuel (2 months)'
+      category: 'Powerplant Fuel'
+      s: 0
+      r: 0
+      eff: 1
+      howMany: 1
+      tl: 10
+      Sq: 240
+      tons: 120
+      type: 'Drive'
+      CP: 0
+      q: 0
+      b: 0
+      totalTons: 120
+      mcr: 0
+      target: 10
+
+   - 
+      e: 0
+      r: 0
+      category: 'AV=60. 2 Kinetic Charged'
+      s: 0
+      mod: ''
+      howMany: 1
+      Sq: 160
+      CP: 1
+      target: 15
+      totalTons: 80
+      totalMCr: 0
+      notes: ''
+      label: 'AV=60. 2 Kinetic Charged'
+      eff: 1
+      name: 'Charged'
+      config: 'Armor'
+      mount: 'Kinetic'
+      tl: 15
+      b: 0
+      type: 'Armor'
+      mcr: 0
+      basetl: 14
+      range: '2'
+      tons: 80
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      category: 'Computer Model/7  '
+      s: 0
+      mod: 7
+      howMany: 1
+      Sq: 14
+      CP: 1
+      target: 22
+      totalTons: 7
+      totalMCr: 52
+      notes: ''
+      label: 'Computer Model/7  '
+      eff: 1
+      name: 'Computer'
+      config: 'Ops'
+      mount: 'Model/7'
+      tl: 15
+      b: 0
+      type: 'Ops'
+      mcr: 52
+      basetl: 15
+      range: 's'
+      tons: 7
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      category: 'AR Surf Military Sensors 14'
+      s: 0
+      mod: 0
+      howMany: 1
+      CP: 1
+      q: 0
+      totalTons: 0
+      totalMCr: 8
+      notes: ''
+      label: 'AR Surf Military Sensors 14'
+      eff: 1
+      name: 'Military Sensors 14'
+      tons: 0
+      mount: 'Surf'
+      tl: 15
+      config: 'Sensor'
+      type: 'Sensor'
+      mcr: 8
+      basetl: 14
+      range: 'AR'
+      b: 0
+      target: 15
+
+   - 
+      e: 0
+      r: 0
+      category: 'AR T3 Missile'
+      s: 0
+      mod: 0
+      howMany: 1
+      Sq: 2
+      CP: 1
+      target: 15
+      totalTons: 1
+      totalMCr: 1.2
+      notes: ''
+      label: 'AR T3 Missile'
+      eff: 1
+      name: 'Missile'
+      config: 'Weapon'
+      mount: 'T3'
+      tl: 15
+      b: 0
+      type: 'Weapon'
+      mcr: 1.2
+      basetl: 7
+      range: 'AR'
+      tons: 1
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      category: 'AR B2 Missile'
+      s: 0
+      mod: 3
+      howMany: 1
+      Sq: 10
+      CP: 1
+      target: 18
+      totalTons: 5
+      totalMCr: 4.2
+      notes: ''
+      label: 'AR B2 Missile'
+      eff: 1
+      name: 'Missile'
+      config: 'Weapon'
+      mount: 'B2'
+      tl: 15
+      b: 0
+      type: 'Weapon'
+      mcr: 4.2
+      basetl: 7
+      range: 'AR'
+      tons: 5
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      category: 'Vd T3 Beam Laser'
+      s: 0
+      mod: 0
+      howMany: 1
+      Sq: 2
+      CP: 1
+      target: 15
+      totalTons: 1
+      totalMCr: 1.5
+      notes: ''
+      label: 'Vd T3 Beam Laser'
+      eff: 1
+      name: 'Beam Laser'
+      config: 'Weapon'
+      mount: 'T3'
+      tl: 15
+      b: 0
+      type: 'Weapon'
+      mcr: 1.5
+      basetl: 10
+      range: 'Vd'
+      tons: 1
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      category: 'B Nuclear Damper'
+      s: 0
+      mod: -1
+      howMany: 1
+      Sq: 6
+      CP: 1
+      target: 14
+      totalTons: 3
+      totalMCr: 2
+      notes: ''
+      label: 'B Nuclear Damper'
+      eff: 1
+      name: 'Nuclear Damper'
+      config: 'Defense'
+      mount: 'B'
+      tl: 15
+      b: 0
+      type: 'Defense'
+      mcr: 2
+      basetl: 12
+      range: ''
+      tons: 3
+      q: 0
+
+   - 
+      totalMCr: 0
+      e: 0
+      notes: ''
+      label: 'Cargo Hold Basic'
+      eff: 1
+      s: 0
+      r: 0
+      category: 'Cargo'
+      howMany: 1
+      Sq: 350
+      tons: 175
+      type: 'Payload'
+      mcr: 0
+      tl: 10
+      q: 0
+      b: 0
+      totalTons: 175
+      CP: 0
+      target: 10
+
+   - 
+      totalMCr: 0.4
+      e: 0
+      notes: ''
+      label: 'Cargo Lock'
+      eff: 1
+      s: 0
+      r: 0
+      howMany: 1
+      tl: 15
+      Sq: 4
+      tons: 2
+      type: 'Payload'
+      CP: 1
+      q: 0
+      b: 0
+      totalTons: 2
+      mcr: 0.4
+      target: 15
+
+   - 
+      totalMCr: 0
+      e: 0
+      notes: ''
+      label: 'Hangar Lock'
+      eff: 1
+      s: 0
+      r: 0
+      howMany: 1
+      tl: 15
+      Sq: 20
+      tons: 10
+      type: 'Vehicle'
+      CP: 1
+      q: 0
+      b: 0
+      totalTons: 10
+      mcr: 0
+      target: 15
+
+   - 
+      totalMCr: 5
+      e: 0
+      notes: '4 individuals'
+      label: 'Emergency Low Berth'
+      eff: 1
+      s: 0
+      r: 0
+      howMany: 10
+      tl: 15
+      Sq: 20
+      tons: 1
+      type: 'Ops'
+      mcr: 0.5
+      target: 15
+      b: 0
+      totalTons: 10
+      CP: 0
+      q: 0
+
+   - 
+      totalMCr: 0
+      e: 0
+      notes: '50 x Size-5'
+      label: 'Magazine'
+      eff: 1
+      s: 0
+      r: 0
+      howMany: 1
+      tl: 15
+      Sq: 2
+      tons: 1
+      type: 'Weapon'
+      mcr: 0
+      q: 0
+      b: 0
+      totalTons: 1
+      CP: 0
+      target: 15
+
+   - 
+      totalMCr: 26.4
+      e: 0
+      notes: 'S/I/B +P'
+      label: 'All fuel processors'
+      category: 'Fuel Scoops'
+      r: 0
+      eff: 1
+      howMany: 8
+      s: 0
+      Sq: 96
+      tons: 6
+      type: 'Drive'
+      CP: 6
+      tl: 8
+      code: 'S'
+      target: 8
+      b: 0
+      totalTons: 48
+      mcr: 3.3
+      q: 0
+
+   - 
+      totalMCr: 2
+      e: 0
+      notes: '1 passenger'
+      label: 'Low Berth'
+      eff: 1
+      s: 0
+      r: 0
+      howMany: 20
+      tl: 15
+      Sq: 20
+      tons: 0.5
+      type: 'Payload'
+      mcr: 0.1
+      target: 15
+      b: 0
+      totalTons: 10
+      CP: 0
+      q: 0
+
+   - 
+      totalMCr: 10.8
+      e: 0
+      notes: '4 + common + fresher'
+      label: 'Crew Cluster'
+      eff: 1
+      s: 0
+      target: 15
+      r: 0
+      sleeps: 4
+      howMany: 12
+      tl: 15
+      Sq: 408
+      tons: 17
+      type: 'Crew'
+      CP: 0
+      totalSleeps: 48
+      b: 0
+      totalTons: 204
+      mcr: 0.9
+      q: 0
+
+   - 
+      totalMCr: 1.2
+      e: 0
+      r: 0
+      label: 'Officer Suite'
+      eff: 1
+      s: 0
+      tons: 6
+      notes: 'fresher + safe'
+      sleeps: 1
+      howMany: 3
+      tl: 15
+      Sq: 36
+      b: 0
+      type: 'Crew'
+      mcr: 0.4
+      totalSleeps: 3
+      target: 15
+      totalTons: 18
+      CP: 1
+      q: 0
+
+   - 
+      totalMCr: 0.4
+      e: 0
+      notes: '(5) R1 R1 R2 R2 R3'
+      label: 'Squad Barracks'
+      eff: 1
+      s: 0
+      r: 0
+      howMany: 2
+      tl: 15
+      Sq: 16
+      tons: 4
+      type: 'Ops'
+      mcr: 0.2
+      target: 15
+      b: 0
+      totalTons: 8
+      CP: 0
+      q: 0
+
+   - 
+      totalMCr: 2
+      e: 0
+      notes: '84 people'
+      label: 'Life Support Long Term'
+      eff: 1
+      s: 0
+      r: 0
+      howMany: 1
+      tl: 15
+      Sq: 4
+      tons: 2
+      type: 'Ops'
+      mcr: 2
+      q: 0
+      b: 0
+      totalTons: 2
+      CP: 0
+      target: 15
+
+   - 
+      totalMCr: 1
+      e: 0
+      notes: ''
+      label: 'Clinic'
+      eff: 1
+      s: 0
+      r: 0
+      howMany: 1
+      tl: 15
+      Sq: 4
+      tons: 2
+      type: 'Ops'
+      CP: 1
+      q: 0
+      b: 0
+      totalTons: 2
+      mcr: 1
+      target: 15
+
+   - 
+      totalMCr: 0.2
+      e: 0
+      notes: ''
+      label: 'Counsellor'
+      eff: 1
+      s: 0
+      r: 0
+      howMany: 1
+      tl: 15
+      Sq: 4
+      tons: 2
+      type: 'Ops'
+      CP: 1
+      q: 0
+      b: 0
+      totalTons: 2
+      mcr: 0.2
+      target: 15
+
+   - 
+      speed: '0G'
+      e: '0'
+      r: '0'
+      q: '0'
+      av: 9
+      mod: ''
+      howMany: 5
+      s: '0'
+      Sq: 200
+      CP: 0
+      code: 'MSQA'
+      totalTons: 100
+      totalMCr: 20
+      notes: 'm0'
+      label: 'Repair Drone'
+      load: 7
+      eff: '1'
+      tons: 20
+      loc: ''
+      tl: '9'
+      b: '0'
+      type: 'Vehicle'
+      mcr: 4
+      target: '9'
+
+   - 
+      speed: '8G'
+      e: 0
+      notes: 'm2 B C'
+      label: 'Gig Picket in Hangar'
+      load: 7.5
+      eff: 1
+      s: 0
+      totalMCr: 144
+      av: 15
+      tons: 30
+      howMany: 8
+      Sq: 480
+      b: 0
+      type: 'Vehicle'
+      mcr: 18
+      tl: 15
+      code: 'LMAQB'
+      q: 0
+      totalTons: 240
+      CP: 0
+      target: 15
+      r: 0
+
+   - 
+      e: 0
+      r: 0
+      category: 'Jump Drive'
+      notes: 'R3'
+      mod: 0
+      howMany: 1
+      s: 0
+      Sq: 320
+      B: 0
+      CP: 5
+      code: 'Q2'
+      original: 
+         e: 0
+         r: 0
+         category: 'Jump Drive'
+         s: 0
+         mod: 0
+         howMany: 1
+         Sq: 320
+         B: 0
+         CP: 5
+         code: 'Q2'
+         totalTons: 160
+         Q: 0
+         autoAdjust: 1
+         totalMCr: 160
+         E: 0
+         R: 0
+         label: 'Jump Drive-3 (Q2)'
+         eff: 1
+         S: 0
+         name: 'Jump Drive'
+         jumpFuelUsage: 0.1
+         rating: 3
+         tons: 160
+         notes: 'J 3'
+         mcr: 160
+         tl: 15
+         basetl: 12
+         b: 0
+         type: 'Drive'
+         target: 15
+         q: 0
+      Q: 0
+      autoAdjust: 1
+      totalMCr: 160
+      E: 0
+      R: 0
+      label: 'Jump Drive-3 (Q2)'
+      eff: 1
+      S: 0
+      name: 'Jump Drive'
+      jumpFuelUsage: 0.1
+      totalTons: 160
+      rating: 3
+      tons: 160
+      type: 'Drive'
+      mcr: 160
+      tl: 15
+      basetl: 12
+      b: 0
+      stage: 'Std'
+      q: 0
+      target: 15
+
+   - 
+      e: 0
+      r: 0
+      stage: 'Std'
+      category: 'PowerPlant'
+      q: 0
+      mod: 0
+      howMany: 1
+      s: 0
+      Sq: 184
+      B: 0
+      CP: 3
+      code: 'Q2'
+      original: 
+         e: 0
+         r: 0
+         category: 'PowerPlant'
+         s: 0
+         target: 15
+         mod: 0
+         howMany: 1
+         Sq: 184
+         B: 0
+         CP: 3
+         code: 'Q2'
+         totalTons: 92
+         Q: 0
+         autoAdjust: 1
+         totalMCr: 92
+         E: 0
+         R: 0
+         label: 'PowerPlant-3 (Q2)'
+         eff: 1
+         S: 0
+         name: 'PowerPlant'
+         notes: 'P 3'
+         rating: 3
+         b: 0
+         type: 'Drive'
+         mcr: 92
+         tl: 15
+         basetl: 10
+         tons: 92
+         powerFuelUsage: 0.01
+         q: 0
+      Q: 0
+      autoAdjust: 1
+      totalMCr: 92
+      E: 0
+      notes: 'R3'
+      label: 'PowerPlant-3 (Q2)'
+      eff: 1
+      S: 0
+      name: 'PowerPlant'
+      tons: 92
+      totalTons: 92
+      rating: 3
+      b: 0
+      R: 0
+      mcr: 92
+      tl: 15
+      basetl: 10
+      type: 'Drive'
+      powerFuelUsage: 0.01
+      target: 15
+
+   - 
+      e: 0
+      r: 0
+      stage: 'Std'
+      category: 'Maneuver Drive'
+      mod: 0
+      howMany: 1
+      s: 0
+      Sq: 116
+      B: 0
+      CP: 2
+      code: 'Q2'
+      original: 
+         e: 0
+         r: 0
+         category: 'Maneuver Drive'
+         s: 0
+         mod: 0
+         howMany: 1
+         Sq: 116
+         B: 0
+         CP: 2
+         code: 'Q2'
+         totalTons: 58
+         Q: 0
+         autoAdjust: 1
+         totalMCr: 116
+         E: 0
+         R: 0
+         label: 'Maneuver Drive-3 (Q2)'
+         eff: 1
+         S: 0
+         name: 'Maneuver Drive'
+         notes: '3 G'
+         rating: 3
+         b: 0
+         type: 'Drive'
+         mcr: 116
+         tl: 15
+         basetl: 10
+         tons: 58
+         q: 0
+         target: 15
+      Q: 0
+      autoAdjust: 1
+      totalMCr: 116
+      E: 0
+      notes: 'R3'
+      label: 'Maneuver Drive-3 (Q2)'
+      eff: 1
+      S: 0
+      name: 'Maneuver Drive'
+      tons: 58
+      totalTons: 58
+      rating: 3
+      b: 0
+      R: 0
+      mcr: 116
+      tl: 15
+      basetl: 10
+      type: 'Drive'
+      target: 15
+      q: 0
+
+   - 
+      totalMCr: 1
+      e: 0
+      notes: '1 pair per 35t'
+      label: 'Docking Grapple'
+      eff: 1
+      s: 0
+      r: 0
+      howMany: 1
+      tl: 15
+      Sq: 2
+      tons: 1
+      type: 'Vehicle'
+      mcr: 1
+      target: 15
+      b: 0
+      totalTons: 1
+      CP: 0
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      cc: 2
+      category: 'Bridge'
+      mod: 2
+      howMany: 1
+      s: 0
+      Sq: 52
+      CP: 0
+      target: 17
+      totalTons: 26
+      ws: 3
+      notes: '2cc 8op 3ws'
+      label: 'Spacious Bridge'
+      eff: 1
+      totalMCr: 1.3
+      name: 'Bridge'
+      tons: 26
+      op: 8
+      tl: 15
+      b: 0
+      type: 'Ops'
+      mcr: 1.3
+      q: 0
+header: 
+   crew: 14
+   format: 'T5-ACS-1'
+   staff: 0
+   missionLabel: 'Mercenary Frigate'
+   totalCargoSpace: 175
+   spaciousness: 2
+   operatingConsoles: 8
+   controlConsoles: 2
+   workstations: 3
+   lifters: 'y'
+   passengers: 0
+   shipname: 'Sydkai'
+   crewComfort: 0
+   demand: -5
+   mission: 'MG'
+   comments: |
+      Designed, built and deployed locally at TL 15 shipyards, the Sydkai-class frigate is a detached long-term patrol gunboat. The Imperial Navy is typically tasked to protect thinly settled and technologically underdeveloped systems along the frontier. However, existing resources have insufficient endurance, and protecting a supply ship is a severe tactical handicap. Smaller patrol and escort craft such as the Fiery, Gazelle, and Lurushaar Kilaalum cannot stand up to the increasingly well-armed corsair vessels. There is a need for a vessel tailored to piracy suppression, capable of operating away from base for extended periods, with enough firepower to meet the increasing threat. The Sydkai, designed by GSbAG in 1100, is capable of defeating two Vargr corsairs in ship-to-ship combat, of supporting limited ground actions, and of patrolling for at least two months without refuel or resupply.  The most effective tactical use of this vessel is to overwhelm corsairs in a surprise attack; since the ship is only lightly armored, protracted battles with martial vessels tend to result in significant damage to the ship. Another common use of this vessel is to "show the flag": by jumping into a system and immediately accelerating toward the mainworld, a typical corsair will tend to flee.  Variants: Modified secondhand models have been seen in colonial navies, separate from Imperial patrols. The Missile Frigate option makes the following changes: energy weapons are replaced by missile and torpedo systems; a dozen small launch tubes replace the large launch tube to support 70 drop capsules. Advanced technology variants also exist, commissioned by wealthy governments and corporations for special operations. The Sidikur-class Detached Cruiser variant trades 150 tons of cargo space for 9 more points of armor, for a total of 12 points of Bonded Superdense, at an additional MCr 8.25.  Crew: The Sydkai typically has three pilots, two vehicle pilots, two navigators, four engineers, twenty gunners, three officers, one jump troop platoon (about 40 troops), and a frozen watch (14).
+      
+   undertons: 14
+   jumpFuelPercentage: 0.1
+   jf: 3
+   low: 0
+   config: 'S'
+   powerFuelPercentage: 0.03
+   pf: 2
+   tl: 15
+   qsp: 'MG-VS33'
+   totalMCr: 780.5
+   tons: 2000
+   mult: 1
+   shifts: 1
+   tonsFree: 14
+   preMult: 1
+   crewLocked: 'no'
+   troops: 0
