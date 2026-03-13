@@ -1,0 +1,835 @@
+--- 
+components: 
+   - 
+      e: 0
+      r: 0
+      target: 10
+      s: 0
+      totalTons: 300
+      CP: 0
+      totalMCr: 20
+      notes: 'S, lifters, 3 a/l free'
+      eff: 1
+      code: 'S'
+      mult: 1
+      preMult: 1
+      label: 'Streamlined Hull, lifters, 3 a/l free'
+      config: 'Streamlined'
+      tl: 10
+      tons: 300
+      mcr: 20
+      name: 'Hull'
+      b: 0
+      category: 'Hull'
+      Sq: 600
+      type: 'Hull'
+      howMany: 1
+      q: 0
+
+   - 
+      e: 0
+      CP: 0
+      label: 'Jump Fuel (3  parsecs)'
+      tons: 74
+      eff: 1
+      s: 0
+      tl: 10
+      r: 0
+      totalMCr: 0
+      notes: '3 parsec jump, at 24t per parsec'
+      totalTons: 74
+      b: 0
+      category: 'Jump Fuel'
+      mcr: 0
+      q: 0
+      Sq: 148
+      type: 'Drive'
+      howMany: 1
+      target: 10
+
+   - 
+      e: 0
+      r: 0
+      label: 'Plant Fuel (2 months)'
+      tons: 15
+      type: 'Drive'
+      s: 0
+      tl: 10
+      CP: 0
+      mcr: 0
+      notes: '2 months'
+      totalTons: 15
+      b: 0
+      category: 'Powerplant Fuel'
+      totalMCr: 0
+      q: 0
+      Sq: 30
+      eff: 1
+      howMany: 1
+      target: 10
+
+   - 
+      code: 'K'
+      e: 0
+      CP: 1
+      label: 'Landing legs with pads'
+      tons: 3
+      type: 'Hull'
+      s: 0
+      tl: 16
+      r: 0
+      q: 0
+      mcr: 3
+      tonsPercent: 1
+      name: 'Landing legs with pads'
+      b: 0
+      category: 'landers'
+      Sq: 6
+      totalMCr: 3
+      mcrPerTon: 1
+      note: 'K'
+      totalTons: 3
+      eff: 1
+      howMany: 1
+      target: 16
+
+   - 
+      mcrPerTon: 1
+      e: 0
+      r: 0
+      label: 'Flotation hull'
+      tons: 3
+      category: 'fittings'
+      s: 0
+      totalTons: 3
+      CP: 1
+      q: 0
+      totalMCr: 3
+      tonsPercent: 1
+      tl: 16
+      b: 0
+      type: 'Hull'
+      Sq: 6
+      mcr: 3
+      code: 'D'
+      note: 'D'
+      name: 'Flotation hull'
+      eff: 1
+      howMany: 1
+      target: 16
+
+   - 
+      e: 0
+      CP: 1
+      label: 'Clinic'
+      tons: 2
+      q: 0
+      s: 0
+      totalTons: 2
+      r: 0
+      mcr: 1
+      notes: ''
+      tl: 16
+      b: 0
+      type: 'Ops'
+      totalMCr: 1
+      Sq: 4
+      eff: 1
+      howMany: 1
+      target: 16
+
+   - 
+      e: 0
+      CP: 0
+      label: 'Crew Cluster'
+      tons: 17
+      q: 0
+      s: 0
+      tl: 16
+      r: 0
+      mcr: 0.9
+      totalSleeps: 16
+      notes: '4 + common + fresher'
+      totalTons: 68
+      b: 0
+      eff: 1
+      totalMCr: 3.6
+      Sq: 136
+      sleeps: 4
+      type: 'Crew'
+      howMany: 4
+      target: 16
+
+   - 
+      e: 0
+      CP: 1
+      target: 23
+      s: 0
+      totalTons: 7
+      r: 0
+      totalMCr: 52
+      mod: 7
+      notes: ''
+      eff: 1
+      mount: 'Model/7'
+      label: 'Computer Model/7  '
+      tons: 7
+      basetl: 15
+      range: 's'
+      tl: 16
+      config: 'Ops'
+      mcr: 52
+      name: 'Computer'
+      b: 0
+      type: 'Ops'
+      Sq: 14
+      category: 'Computer Model/7  '
+      howMany: 1
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      q: 0
+      s: 0
+      totalTons: 5
+      CP: 1
+      totalMCr: 10
+      notes: '2 G'
+      B: 0
+      eff: 1
+      code: 'C'
+      autoAdjust: 1
+      Q: 0
+      E: 0
+      R: 0
+      label: 'Maneuver Drive-2 (C)'
+      tons: 5
+      rating: 2
+      basetl: 10
+      S: 0
+      name: 'Maneuver Drive'
+      mcr: 10
+      tl: 16
+      b: 0
+      type: 'Drive'
+      Sq: 10
+      category: 'Maneuver Drive'
+      howMany: 1
+      target: 16
+
+   - 
+      e: 3
+      r: 2
+      category: 'Jump Drive'
+      target: 16
+      mod: 3
+      totalTons: 9.9
+      CP: 1
+      totalMCr: 30
+      s: 2
+      notes: 'R3'
+      B: 0
+      eff: 1.2
+      original: 
+         e: 0
+         r: 0
+         target: 16
+         s: 0
+         totalTons: 30
+         CP: 1
+         totalMCr: 30
+         mod: 0
+         notes: 'J 3'
+         B: 0
+         eff: 1
+         jumpFuelUsage: 0.1
+         autoAdjust: 1
+         Q: 0
+         code: 'E'
+         E: 0
+         R: 0
+         label: 'Jump Drive-3 (E)'
+         tons: 30
+         rating: 3
+         basetl: 12
+         S: 0
+         name: 'Jump Drive'
+         mcr: 30
+         tl: 16
+         b: 0
+         type: 'Drive'
+         Sq: 60
+         category: 'Jump Drive'
+         howMany: 1
+         q: 0
+      jumpFuelUsage: 0.1
+      autoAdjust: 1
+      Q: 0
+      code: 'E'
+      E: 0
+      R: 0
+      label: 'Adv Jump Drive E (R3)'
+      tons: 9.9
+      rating: 3
+      basetl: 12
+      S: 0
+      name: 'Jump Drive'
+      mcr: 30
+      tl: 13
+      b: -5
+      type: 'Drive'
+      Sq: 19.8
+      stage: 'Adv'
+      howMany: 1
+      q: 9
+
+   - 
+      e: 2
+      r: -1
+      category: 'PowerPlant'
+      target: 16
+      mod: 3
+      totalTons: 5.28
+      CP: 1
+      totalMCr: 16
+      s: 0
+      notes: 'R3'
+      B: 0
+      eff: 1.2
+      original: 
+         e: 0
+         r: 0
+         target: 16
+         s: 0
+         totalTons: 16
+         CP: 1
+         totalMCr: 16
+         mod: 0
+         notes: 'P 3'
+         B: 0
+         eff: 1
+         code: 'E'
+         autoAdjust: 1
+         rating: 3
+         E: 0
+         R: 0
+         label: 'PowerPlant-3 (E)'
+         tons: 16
+         Q: 0
+         basetl: 10
+         S: 0
+         name: 'PowerPlant'
+         powerFuelUsage: 0.01
+         mcr: 16
+         tl: 16
+         b: 0
+         type: 'Drive'
+         Sq: 32
+         category: 'PowerPlant'
+         howMany: 1
+         q: 0
+      code: 'E'
+      autoAdjust: 1
+      rating: 3
+      E: 0
+      R: 0
+      label: 'Adv PowerPlant E (R3)'
+      tons: 5.28
+      Q: 0
+      basetl: 10
+      S: 0
+      name: 'PowerPlant'
+      powerFuelUsage: 0.01
+      mcr: 16
+      tl: 13
+      b: -1
+      type: 'Drive'
+      Sq: 10.56
+      stage: 'Adv'
+      howMany: 1
+      q: 5
+
+   - 
+      e: 0
+      CP: 6
+      label: 'All fuel processors'
+      tons: 6
+      type: 'Drive'
+      s: 0
+      totalTons: 6
+      r: 0
+      mcr: 3.3
+      q: 0
+      notes: 'S/I/B +P'
+      tl: 8
+      b: 0
+      eff: 1
+      totalMCr: 3.3
+      code: 'S'
+      Sq: 12
+      category: 'Fuel Scoops'
+      howMany: 1
+      target: 8
+
+   - 
+      e: 0
+      CP: 1
+      q: 0
+      s: 0
+      totalTons: 0
+      r: 0
+      totalMCr: 7
+      mod: 0
+      notes: ''
+      eff: 1
+      mount: 'Surf'
+      label: 'LR Surf Basic C-E-N-T'
+      tons: 0
+      basetl: 13
+      range: 'LR'
+      tl: 16
+      config: 'Sensor'
+      mcr: 7
+      name: 'Basic C-E-N-T'
+      b: 0
+      type: 'Sensor'
+      category: 'LR Surf Basic C-E-N-T'
+      howMany: 1
+      target: 16
+
+   - 
+      e: 0
+      CP: 1
+      target: 17
+      s: 0
+      totalTons: 2
+      r: 0
+      totalMCr: 1.6
+      mod: 1
+      notes: ''
+      eff: 1
+      mount: 'Ant'
+      label: 'Or Ant Deep Radar'
+      tons: 2
+      basetl: 10
+      range: 'Or'
+      tl: 16
+      config: 'Sensor'
+      mcr: 1.6
+      name: 'Deep Radar'
+      b: 0
+      type: 'Sensor'
+      Sq: 4
+      category: 'Or Ant Deep Radar'
+      howMany: 1
+      q: 0
+
+   - 
+      e: 0
+      CP: 1
+      q: 0
+      mod: 0
+      totalTons: 3
+      r: 0
+      totalMCr: 6
+      s: 0
+      notes: ''
+      eff: 1
+      mount: 'T3'
+      label: 'Vd T3 Hybrid L-S-M'
+      tons: 1
+      basetl: 10
+      range: 'Vd'
+      tl: 16
+      config: 'Weapon'
+      mcr: 2
+      name: 'Hybrid L-S-M'
+      b: 0
+      category: 'Vd T3 Hybrid L-S-M'
+      Sq: 6
+      type: 'Weapon'
+      howMany: 3
+      target: 16
+
+   - 
+      speed: '8G'
+      e: 0
+      CP: 0
+      label: 'Gig'
+      load: 7.5
+      target: 15
+      s: 0
+      tl: 15
+      r: 0
+      tons: 20
+      totalMCr: 36
+      notes: 'm2 B C'
+      totalTons: 40
+      b: 0
+      eff: 1
+      mcr: 18
+      av: 15
+      Sq: 80
+      type: 'Vehicle'
+      howMany: 2
+      q: 0
+      code: 'LMAQB'
+
+   - 
+      e: 0
+      r: 0
+      label: 'Hull Niche'
+      tons: 10
+      target: 16
+      s: 0
+      tl: 16
+      CP: 0
+      mcr: 1.5
+      notes: 'Half Vehicle Volume'
+      totalTons: 20
+      b: 0
+      eff: 1
+      totalMCr: 3
+      Sq: 40
+      type: 'Vehicle'
+      howMany: 2
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      label: 'Cargo Hold Basic'
+      tons: 5
+      eff: 1
+      s: 0
+      tl: 10
+      CP: 0
+      totalMCr: 0
+      notes: ''
+      totalTons: 5
+      b: 0
+      type: 'Payload'
+      mcr: 0
+      q: 0
+      Sq: 10
+      category: 'Cargo'
+      howMany: 1
+      target: 10
+
+   - 
+      e: 0
+      CP: 0
+      label: 'Life Support Standard'
+      tons: 1
+      q: 0
+      s: 0
+      totalTons: 1
+      r: 0
+      mcr: 1
+      notes: '21 people'
+      tl: 16
+      b: 0
+      type: 'Ops'
+      totalMCr: 1
+      Sq: 2
+      eff: 1
+      howMany: 1
+      target: 16
+
+   - 
+      e: 0
+      r: 0
+      label: 'Life Support Adaptable'
+      tons: 1
+      target: 16
+      s: 0
+      tl: 16
+      CP: 0
+      totalMCr: 2
+      notes: '4 sophonts'
+      totalTons: 2
+      b: 0
+      type: 'Ops'
+      mcr: 1
+      Sq: 4
+      eff: 1
+      howMany: 2
+      q: 0
+
+   - 
+      e: 0
+      CP: 1
+      target: 17
+      s: 0
+      totalTons: 2
+      r: 0
+      totalMCr: 1.6
+      mod: 1
+      notes: ''
+      eff: 1
+      mount: 'Ant'
+      label: 'Or Ant Activity Sensor'
+      tons: 2
+      basetl: 12
+      range: 'Or'
+      tl: 16
+      config: 'Sensor'
+      mcr: 1.6
+      name: 'Activity Sensor'
+      b: 0
+      type: 'Sensor'
+      Sq: 4
+      category: 'Or Ant Activity Sensor'
+      howMany: 1
+      q: 0
+
+   - 
+      e: 0
+      CP: 1
+      target: 17
+      s: 0
+      totalTons: 1
+      r: 0
+      totalMCr: 0.6
+      mod: 1
+      notes: ''
+      eff: 1
+      mount: 'Ant'
+      label: 'Vd Ant Sound Sensor'
+      tons: 1
+      basetl: 7
+      range: 'Vd'
+      tl: 16
+      config: 'Sensor'
+      mcr: 0.6
+      name: 'Sound Sensor'
+      b: 0
+      type: 'Sensor'
+      Sq: 2
+      category: 'Vd Ant Sound Sensor'
+      howMany: 1
+      q: 0
+
+   - 
+      e: 0
+      CP: 1
+      target: 17
+      s: 0
+      totalTons: 1
+      r: 0
+      totalMCr: 0.6
+      mod: 1
+      notes: ''
+      eff: 1
+      mount: 'Ant'
+      label: 'Vd Ant Mass Sensor'
+      tons: 1
+      basetl: 8
+      range: 'Vd'
+      tl: 16
+      config: 'Sensor'
+      mcr: 0.6
+      name: 'Mass Sensor'
+      b: 0
+      type: 'Sensor'
+      Sq: 2
+      category: 'Vd Ant Mass Sensor'
+      howMany: 1
+      q: 0
+
+   - 
+      e: 0
+      CP: 1
+      target: 17
+      s: 0
+      totalTons: 1
+      r: 0
+      totalMCr: 0.6
+      mod: 1
+      notes: ''
+      eff: 1
+      mount: 'Ant'
+      label: 'Vd Ant Analyzer/Sniffer'
+      tons: 1
+      basetl: 9
+      range: 'Vd'
+      tl: 16
+      config: 'Sensor'
+      mcr: 0.6
+      name: 'Analyzer/Sniffer'
+      b: 0
+      type: 'Sensor'
+      Sq: 2
+      category: 'Vd Ant Analyzer/Sniffer'
+      howMany: 1
+      q: 0
+
+   - 
+      e: 0
+      CP: 1
+      target: 17
+      s: 0
+      totalTons: 1
+      r: 0
+      totalMCr: 0.6
+      mod: 1
+      notes: ''
+      eff: 1
+      mount: 'Ant'
+      label: 'Vd Ant Densitometer'
+      tons: 1
+      basetl: 10
+      range: 'Vd'
+      tl: 16
+      config: 'Sensor'
+      mcr: 0.6
+      name: 'Densitometer'
+      b: 0
+      type: 'Sensor'
+      Sq: 2
+      category: 'Vd Ant Densitometer'
+      howMany: 1
+      q: 0
+
+   - 
+      e: 0
+      CP: 1
+      target: 17
+      s: 0
+      totalTons: 1
+      r: 0
+      totalMCr: 0.6
+      mod: 1
+      notes: ''
+      eff: 1
+      mount: 'Ant'
+      label: 'Vd Ant Life Detector'
+      tons: 1
+      basetl: 10
+      range: 'Vd'
+      tl: 16
+      config: 'Sensor'
+      mcr: 0.6
+      name: 'Life Detector'
+      b: 0
+      type: 'Sensor'
+      Sq: 2
+      category: 'Vd Ant Life Detector'
+      howMany: 1
+      q: 0
+
+   - 
+      e: 0
+      CP: 1
+      target: 17
+      s: 0
+      totalTons: 1
+      r: 0
+      totalMCr: 0.6
+      mod: 1
+      notes: ''
+      eff: 1
+      mount: 'Ant'
+      label: 'Vd Ant Proximeter'
+      tons: 1
+      basetl: 10
+      range: 'Vd'
+      tl: 16
+      config: 'Sensor'
+      mcr: 0.6
+      name: 'Proximeter'
+      b: 0
+      type: 'Sensor'
+      Sq: 2
+      category: 'Vd Ant Proximeter'
+      howMany: 1
+      q: 0
+
+   - 
+      e: 0
+      CP: 1
+      target: 17
+      s: 0
+      totalTons: 1
+      r: 0
+      totalMCr: 0.6
+      mod: 1
+      notes: ''
+      eff: 1
+      mount: 'Ant'
+      label: 'Vd Ant Field Sensor'
+      tons: 1
+      basetl: 12
+      range: 'Vd'
+      tl: 16
+      config: 'Sensor'
+      mcr: 0.6
+      name: 'Field Sensor'
+      b: 0
+      type: 'Sensor'
+      Sq: 2
+      category: 'Vd Ant Field Sensor'
+      howMany: 1
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      q: 0
+      mod: 2
+      totalTons: 20
+      CP: 0
+      ws: 1
+      s: 0
+      notes: '1cc 8op 1ws'
+      eff: 1
+      totalMCr: 1
+      label: 'Spacious Bridge'
+      tons: 20
+      op: 8
+      name: 'Bridge'
+      mcr: 1
+      tl: 16
+      b: 0
+      category: 'Bridge'
+      cc: 1
+      Sq: 40
+      type: 'Ops'
+      howMany: 1
+      target: 18
+header: 
+   workstations: 1
+   format: 'T5-ACS-1'
+   passengers: 0
+   shipname: 'Kalin Scout Variant'
+   crewComfort: 0
+   demand: -5
+   lifters: 'y'
+   mission: 'NF'
+   totalMCr: 205.2
+   undertons: 20
+   jumpFuelPercentage: 0.083
+   jf: 3
+   powerFuelPercentage: 0.025
+   pf: 2
+   qsp: 'NF-CS23'
+   preMult: 1
+   comments: ''
+   mult: 1
+   shifts: 1
+   tons: 300
+   low: 0
+   tl: 16
+   crewLocked: 'no'
+   config: 'S'
+   crew: 11
+   tonsFree: 0
+   missionLabel: 'Frontier Beagle'
+   troops: 0
+   owner: 'Republic of Regina'
+   controlConsoles: 1
+   staff: 0
+   spaciousness: 2
+   operatingConsoles: 8
+   totalCargoSpace: 5

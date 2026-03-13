@@ -1,0 +1,961 @@
+--- 
+header: 
+   workstations: 1
+   lifters: 'y'
+   format: 'T5-ACS-1'
+   shipname: 'Gantua'
+   crewComfort: 0
+   demand: -5
+   operatingConsoles: 11
+   mission: 'CP'
+   totalMCr: 232.4
+   undertons: 0.5
+   controlConsoles: 2
+   jumpFuelPercentage: 0.09
+   jf: 2
+   config: 'P'
+   powerFuelPercentage: 0.016
+   pf: 2
+   tl: 13
+   qsp: 'CP-GP22'
+   preMult: 1
+   tons: 700
+   comments: |
+      Gantua-class Mercenary Cruiser (CP-GP11, MCr 236). Using a 700-ton, TL13 hull, the Gantua mounts jump drive-G, maneuver drive-G, and power plant-G, giving a performance of jump-2 and 2G acceleration. Fuel tankage supports a 2 parsec jump, at 63t per parsec, and 2 months of operations. A Collector provides refueling options. Attached to the bridge is a Computer Model/3. There are 13 staterooms and no low berths. Barracks provide living space for a platoon of marines. Installed weaponry include two B2de Particle Accelerators, three B2de Missiles, and two B2de Sandcasters. It mounts a nuclear damper, mag scrambler, and a prized black globe. Cargo capacity is 14 tons. The ship is a planetoid hull. 
+      
+      Carried craft include two GCarriers and three 30t Gunboats in Hull Niches. The ship has up to 13 crew: Captain, Pilot, Astrogator, two Engineers, Medic, and up to seven Gunners. 
+   mult: 1
+   shifts: 1
+   tonsFree: 0.5
+   low: 0
+   crewLocked: 'yes'
+   troops: 0
+   crew: 9
+   staff: 0
+   missionLabel: 'Mercenary Cruiser'
+   totalCargoSpace: 14
+   spaciousness: 2
+   passengers: 0
+   owner: 'Republic of Regina'
+components: 
+   - 
+      CP: 0
+      r: 0
+      target: 10
+      s: 0
+      totalTons: 700
+      e: 0
+      totalMCr: 7
+      notes: 'P, lifters, 7 a/l free'
+      eff: 1
+      tons: 700
+      code: 'P'
+      mult: 1
+      tl: 10
+      preMult: 1
+      config: 'Planetoid'
+      mcr: 7
+      label: 'Planetoid Hull, lifters, 7 a/l free'
+      name: 'Hull'
+      b: 0
+      type: 'Hull'
+      category: 'Hull'
+      howMany: 1
+      Sq: 1400
+      q: 0
+
+   - 
+      e: 0
+      Sq: 252
+      r: 0
+      label: 'Jump Fuel (2  parsecs)'
+      tl: 10
+      target: 10
+      s: 0
+      totalTons: 126
+      mcr: 0
+      totalMCr: 0
+      notes: '2 parsec jump, at 63t per parsec'
+      eff: 1
+      type: 'Drive'
+      tons: 126
+      b: 0
+      category: 'Jump Fuel'
+      howMany: 1
+      CP: 0
+      q: 0
+
+   - 
+      mcr: 0
+      r: 0
+      label: 'Plant Fuel (2 months)'
+      category: 'Powerplant Fuel'
+      q: 0
+      s: 0
+      totalTons: 22.4
+      CP: 0
+      totalMCr: 0
+      tl: 10
+      notes: '2 months'
+      Sq: 44.8
+      type: 'Drive'
+      tons: 22.4
+      eff: 1
+      b: 0
+      howMany: 1
+      e: 0
+      target: 10
+
+   - 
+      mcrPerTon: 0
+      code: 'n/a'
+      CP: 1
+      r: 0
+      label: 'No Landers'
+      eff: 1
+      target: 13
+      s: 0
+      totalTons: -3.5
+      mcr: 0
+      totalMCr: 0
+      e: 0
+      note: 'n/a'
+      name: 'No Landers'
+      category: 'landers'
+      type: 'Hull'
+      tons: -3.5
+      tonsPercent: -0.5
+      b: 0
+      howMany: 1
+      tl: 13
+      q: 0
+
+   - 
+      code: 'P'
+      Sq: 2
+      r: 0
+      label: 'Fuel Purifier'
+      b: 0
+      q: 0
+      s: 0
+      totalTons: 1
+      e: 0
+      totalMCr: 1
+      CP: 1
+      notes: ''
+      mcr: 1
+      type: 'Drive'
+      tons: 1
+      eff: 1
+      category: 'Fuel Purifier'
+      howMany: 1
+      tl: 8
+      target: 8
+
+   - 
+      e: 0
+      r: 0
+      target: 14
+      s: 0
+      totalTons: 50
+      CP: 2
+      autoAdjust: 1
+      totalMCr: 25
+      notes: '1 C'
+      eff: 1
+      Sq: 100
+      tons: 50
+      code: 'D'
+      B: 0
+      tl: 14
+      Q: 0
+      mcr: 25
+      R: 0
+      label: 'Collector-1 (D)'
+      rating: 1
+      basetl: 14
+      S: 0
+      name: 'Collector'
+      b: 0
+      type: 'Drive'
+      category: 'Collector'
+      howMany: 1
+      E: 0
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      q: 0
+      s: 0
+      totalTons: 56
+      CP: 1
+      mod: ''
+      totalMCr: 0
+      notes: ''
+      eff: 1
+      tons: 56
+      tl: 13
+      config: 'Armor'
+      Sq: 112
+      label: 'AV=60. 3 Blast FeN'
+      basetl: 5
+      range: '3'
+      name: 'FeN'
+      b: 0
+      type: 'Armor'
+      category: 'AV=60. 3 Blast FeN'
+      howMany: 1
+      mcr: 0
+      target: 13
+      mount: 'Blast'
+
+   - 
+      e: 0
+      r: 0
+      q: 0
+      s: 0
+      totalTons: 3
+      CP: 1
+      mod: 3
+      totalMCr: 10.5
+      notes: ''
+      eff: 1
+      tons: 3
+      tl: 13
+      config: 'Ops'
+      Sq: 6
+      label: 'Computer Model/3  '
+      basetl: 11
+      range: 's'
+      name: 'Computer'
+      b: 0
+      type: 'Ops'
+      category: 'Computer Model/3  '
+      howMany: 1
+      mcr: 10.5
+      target: 16
+      mount: 'Model/3'
+
+   - 
+      CP: 1
+      r: 0
+      target: 13
+      s: 0
+      totalTons: 0
+      e: 0
+      mod: 0
+      totalMCr: 5
+      notes: ''
+      eff: 1
+      tons: 0
+      tl: 13
+      config: 'Sensor'
+      mcr: 5
+      label: 'AR Surf Basic C-E-N-T'
+      basetl: 12
+      range: 'AR'
+      name: 'Basic C-E-N-T'
+      b: 0
+      type: 'Sensor'
+      category: 'AR Surf Basic C-E-N-T'
+      howMany: 1
+      q: 0
+      mount: 'Surf'
+
+   - 
+      CP: 1
+      r: 0
+      target: 16
+      s: 0
+      totalTons: 14
+      e: 0
+      mod: 3
+      totalMCr: 19
+      notes: ''
+      eff: 1
+      config: 'Weapon'
+      tl: 13
+      tons: 7
+      mcr: 9.5
+      label: 'AR B2de Particle Accelerator'
+      basetl: 11
+      range: 'AR'
+      name: 'Particle Accelerator'
+      category: 'AR B2de Particle Accelerator'
+      type: 'Weapon'
+      b: 0
+      howMany: 2
+      Sq: 28
+      q: 0
+      mount: 'B2de'
+
+   - 
+      e: 0
+      r: 0
+      b: 0
+      q: 0
+      s: 0
+      totalTons: 21
+      CP: 1
+      totalMCr: 21.6
+      notes: ''
+      eff: 1
+      config: 'Weapon'
+      tl: 13
+      tons: 7
+      Sq: 42
+      label: 'AR B2de Missile'
+      basetl: 7
+      range: 'AR'
+      name: 'Missile'
+      category: 'AR B2de Missile'
+      type: 'Weapon'
+      mod: 3
+      howMany: 3
+      mcr: 7.2
+      target: 16
+      mount: 'B2de'
+
+   - 
+      CP: 1
+      r: 0
+      b: 0
+      q: 0
+      s: 0
+      totalTons: 7
+      e: 0
+      totalMCr: 7.2
+      notes: ''
+      eff: 1
+      config: 'Weapon'
+      tl: 13
+      tons: 3.5
+      Sq: 14
+      label: 'D B2de Sandcaster'
+      basetl: 8
+      range: 'D'
+      name: 'Sandcaster'
+      category: 'D B2de Sandcaster'
+      type: 'Weapon'
+      mod: 3
+      howMany: 2
+      mcr: 3.6
+      target: 16
+      mount: 'B2de'
+
+   - 
+      e: 0
+      r: 0
+      b: 0
+      q: 0
+      s: 0
+      totalTons: 3
+      CP: 1
+      totalMCr: 2
+      notes: ''
+      eff: 1
+      config: 'Defense'
+      tl: 13
+      tons: 3
+      mcr: 2
+      label: 'B Nuclear Damper'
+      basetl: 12
+      range: ''
+      name: 'Nuclear Damper'
+      category: 'B Nuclear Damper'
+      type: 'Defense'
+      mod: -1
+      howMany: 1
+      Sq: 6
+      target: 12
+      mount: 'B'
+
+   - 
+      e: 0
+      r: 0
+      category: 'B Mag Scrambler'
+      q: 0
+      s: 0
+      totalTons: 2
+      CP: 1
+      totalMCr: 2
+      notes: ''
+      eff: 1
+      config: 'Defense'
+      tl: 14
+      tons: 2
+      mcr: 2
+      label: 'B Mag Scrambler'
+      basetl: 14
+      range: ''
+      name: 'Mag Scrambler'
+      b: 0
+      type: 'Defense'
+      mod: -1
+      howMany: 1
+      Sq: 4
+      target: 13
+      mount: 'B'
+
+   - 
+      CP: 1
+      r: 0
+      b: 0
+      target: 15
+      s: 0
+      totalTons: 2
+      e: 0
+      totalMCr: 5
+      notes: ''
+      eff: 1
+      tons: 2
+      tl: 16
+      config: 'Defense'
+      mcr: 5
+      label: 'B Black Globe'
+      basetl: 16
+      range: ''
+      name: 'Black Globe'
+      category: 'B Black Globe'
+      type: 'Defense'
+      mod: -1
+      howMany: 1
+      Sq: 4
+      q: 0
+      mount: 'B'
+
+   - 
+      e: 0
+      mcr: 2
+      r: 0
+      label: 'Life Support Long Term'
+      tl: 13
+      target: 13
+      s: 0
+      totalTons: 2
+      CP: 0
+      totalMCr: 2
+      notes: '84 people'
+      b: 0
+      type: 'Ops'
+      tons: 2
+      eff: 1
+      howMany: 1
+      Sq: 4
+      q: 0
+
+   - 
+      mcr: 1
+      e: 0
+      r: 0
+      label: 'Clinic'
+      tl: 13
+      target: 13
+      s: 0
+      totalTons: 2
+      CP: 1
+      totalMCr: 1
+      notes: ''
+      b: 0
+      type: 'Ops'
+      tons: 2
+      eff: 1
+      howMany: 1
+      Sq: 4
+      q: 0
+
+   - 
+      Sq: 12
+      r: 0
+      label: 'Officer Suite'
+      tl: 13
+      q: 0
+      totalSleeps: 1
+      s: 0
+      totalTons: 6
+      CP: 1
+      totalMCr: 0.4
+      notes: 'fresher + safe'
+      mcr: 0.4
+      type: 'Crew'
+      tons: 6
+      b: 0
+      sleeps: 1
+      eff: 1
+      howMany: 1
+      e: 0
+      target: 13
+
+   - 
+      CP: 0
+      e: 0
+      r: 0
+      label: 'Crew Common Fresher'
+      target: 13
+      s: 0
+      totalTons: 4
+      Sq: 8
+      totalMCr: 4
+      mcr: 1
+      notes: '10 crew'
+      eff: 1
+      type: 'Crew'
+      tons: 1
+      b: 0
+      howMany: 4
+      tl: 13
+      q: 0
+
+   - 
+      e: 0
+      CP: 0
+      r: 0
+      label: 'Platoon Barracks'
+      target: 13
+      s: 0
+      totalTons: 36
+      Sq: 72
+      totalMCr: 2
+      notes: '(22) 4 sq + R4 O1/O2'
+      mcr: 1
+      type: 'Ops'
+      tons: 18
+      eff: 1
+      b: 0
+      howMany: 2
+      tl: 13
+      q: 0
+
+   - 
+      e: 0
+      r: 0
+      label: 'Crew Cluster'
+      tl: 13
+      target: 13
+      totalSleeps: 12
+      s: 0
+      totalTons: 51
+      CP: 0
+      totalMCr: 2.7
+      notes: '4 + common + fresher'
+      mcr: 0.9
+      type: 'Crew'
+      tons: 17
+      eff: 1
+      sleeps: 4
+      b: 0
+      howMany: 3
+      Sq: 102
+      q: 0
+
+   - 
+      Sq: 24
+      r: 0
+      label: 'Crew Commons'
+      tl: 13
+      target: 13
+      s: 0
+      totalTons: 12
+      e: 0
+      totalMCr: 0
+      notes: ''
+      mcr: 0
+      type: 'Crew'
+      tons: 4
+      b: 0
+      eff: 1
+      howMany: 3
+      CP: 0
+      q: 0
+
+   - 
+      CP: 0
+      mcr: 0.5
+      r: 0
+      label: 'Emergency Low Berth'
+      q: 0
+      s: 0
+      totalTons: 4
+      e: 0
+      totalMCr: 2
+      notes: '4 individuals'
+      Sq: 8
+      type: 'Ops'
+      tons: 1
+      eff: 1
+      b: 0
+      howMany: 4
+      tl: 13
+      target: 13
+
+   - 
+      CP: 0
+      mcr: 1
+      r: 0
+      label: 'Mail Vault'
+      q: 0
+      s: 0
+      totalTons: 1
+      Sq: 2
+      totalMCr: 1
+      notes: 'for express contracts'
+      e: 0
+      type: 'Payload'
+      tons: 1
+      b: 0
+      eff: 1
+      howMany: 1
+      tl: 13
+      target: 13
+
+   - 
+      CP: 0
+      Sq: 2
+      r: 0
+      label: 'Magazine'
+      target: 13
+      s: 0
+      totalTons: 1
+      e: 0
+      totalMCr: 0
+      notes: '50 x Size-5'
+      mcr: 0
+      type: 'Weapon'
+      tons: 1
+      eff: 1
+      b: 0
+      howMany: 1
+      tl: 13
+      q: 0
+
+   - 
+      speed: 4
+      e: 0
+      r: 0
+      label: 'GCarrier'
+      load: 4
+      target: 13
+      s: 0
+      totalTons: 16
+      CP: 0
+      totalMCr: 6
+      Sq: 32
+      av: '140,30,40,40,50,50,50'
+      b: 0
+      mcr: 3
+      type: 'Vehicle'
+      tons: 8
+      code: 'AltHGC'
+      eff: 1
+      howMany: 2
+      tl: 13
+      q: 0
+
+   - 
+      mcr: 0
+      Sq: 100
+      r: 0
+      label: 'Hangar Lock + Hangar'
+      target: '13'
+      s: 0
+      totalTons: 50
+      e: 0
+      mod: ''
+      totalMCr: 0
+      CP: 1
+      notes: ''
+      b: 0
+      type: 'Vehicle'
+      tons: 50
+      eff: 1
+      howMany: 1
+      tl: '13'
+      q: 0
+
+   - 
+      e: 2
+      r: 3
+      category: 'PowerPlant'
+      target: 13
+      s: 2
+      original: 
+         e: 0
+         r: 0
+         category: 'PowerPlant'
+         target: 13
+         s: 0
+         totalTons: 22
+         CP: 1
+         mod: 0
+         totalMCr: 22
+         notes: 'P 2'
+         B: 0
+         powerFuelUsage: 0.01
+         tons: 22
+         code: 'G'
+         eff: 1
+         rating: 2
+         Q: 0
+         mcr: 22
+         E: 0
+         R: 0
+         label: 'PowerPlant-2 (G)'
+         tl: 13
+         basetl: 9
+         S: 0
+         name: 'PowerPlant'
+         b: 0
+         type: 'Drive'
+         autoAdjust: 1
+         howMany: 1
+         Sq: 44
+         q: 0
+      CP: 1
+      autoAdjust: 1
+      howMany: 1
+      totalMCr: 22
+      notes: 'R2'
+      totalTons: 7.26
+      eff: 1.2
+      powerFuelUsage: 0.01
+      tons: 7.26
+      code: 'G'
+      B: 0
+      rating: 2
+      Q: 0
+      E: 0
+      R: 0
+      label: 'Adv PowerPlant G (R2)'
+      tl: 10
+      basetl: 9
+      S: 0
+      Sq: 14.52
+      name: 'PowerPlant'
+      b: -1
+      type: 'Drive'
+      mod: 3
+      stage: 'Adv'
+      mcr: 22
+      q: 7
+
+   - 
+      CP: 2
+      r: 5
+      category: 'Jump Drive'
+      target: 13
+      s: 0
+      original: 
+         CP: 2
+         r: 0
+         category: 'Jump Drive'
+         target: 13
+         s: 0
+         totalTons: 40
+         e: 0
+         mod: 0
+         totalMCr: 40
+         notes: 'J 2'
+         B: 0
+         mcr: 40
+         tons: 40
+         code: 'G'
+         eff: 1
+         rating: 2
+         Q: 0
+         jumpFuelUsage: 0.1
+         E: 0
+         R: 0
+         label: 'Jump Drive-2 (G)'
+         tl: 13
+         basetl: 11
+         S: 0
+         name: 'Jump Drive'
+         b: 0
+         type: 'Drive'
+         autoAdjust: 1
+         howMany: 1
+         Sq: 80
+         q: 0
+      e: 5
+      autoAdjust: 1
+      howMany: 1
+      totalMCr: 20
+      notes: 'R2'
+      totalTons: 20
+      eff: 1.1
+      tons: 20
+      code: 'G'
+      B: 0
+      tl: 11
+      Q: 0
+      jumpFuelUsage: 0.1
+      E: 0
+      R: 0
+      label: 'Mod Jump Drive G (R2)'
+      rating: 2
+      basetl: 11
+      S: 0
+      mcr: 20
+      name: 'Jump Drive'
+      b: -3
+      type: 'Drive'
+      mod: 2
+      stage: 'Mod'
+      Sq: 40
+      q: 8
+
+   - 
+      tons: 30
+      speed: '6G'
+      Sq: 180
+      r: 0
+      label: 'Fast Boat'
+      load: 16
+      target: 13
+      s: 0
+      totalTons: 90
+      e: 0
+      howMany: 3
+      totalMCr: 45
+      CP: 0
+      av: 13
+      eff: 1
+      mcr: 15
+      notes: 'm1bis 3'
+      code: 'MFQB'
+      b: 0
+      type: 'Vehicle'
+      tl: 13
+      q: 0
+
+   - 
+      CP: 0
+      r: 0
+      label: 'Hull Niche'
+      tl: 13
+      target: 13
+      s: 0
+      totalTons: 45
+      mcr: 1.5
+      totalMCr: 4.5
+      notes: 'Half Vehicle Volume'
+      Sq: 90
+      type: 'Vehicle'
+      tons: 15
+      eff: 1
+      b: 0
+      howMany: 3
+      e: 0
+      q: 0
+
+   - 
+      CP: 1
+      r: -1
+      b: -1
+      q: 8
+      s: 0
+      original: 
+         CP: 1
+         r: 0
+         category: 'Maneuver Drive'
+         q: 0
+         s: 0
+         totalTons: 13
+         e: 0
+         mod: 0
+         totalMCr: 26
+         notes: '2 G'
+         B: 0
+         Sq: 26
+         tons: 13
+         code: 'G'
+         eff: 1
+         tl: 13
+         Q: 0
+         E: 0
+         R: 0
+         label: 'Maneuver Drive-2 (G)'
+         rating: 2
+         basetl: 10
+         S: 0
+         name: 'Maneuver Drive'
+         b: 0
+         type: 'Drive'
+         autoAdjust: 1
+         howMany: 1
+         mcr: 26
+         target: 13
+      e: 1
+      autoAdjust: 1
+      howMany: 1
+      totalMCr: 13
+      notes: 'R2'
+      totalTons: 6.5
+      eff: 1.1
+      tons: 6.5
+      code: 'G'
+      B: 0
+      tl: 11
+      Q: 0
+      E: 0
+      R: 0
+      label: 'Mod Maneuver Drive G (R2)'
+      rating: 2
+      basetl: 10
+      S: 0
+      mcr: 13
+      name: 'Maneuver Drive'
+      category: 'Maneuver Drive'
+      type: 'Drive'
+      mod: 2
+      stage: 'Mod'
+      Sq: 13
+      target: 13
+
+   - 
+      e: 0
+      CP: 0
+      r: 0
+      label: 'Cargo Hold Basic'
+      type: 'Payload'
+      target: 10
+      s: 0
+      totalTons: 14
+      Sq: 28
+      totalMCr: 0
+      notes: ''
+      b: 0
+      mcr: 0
+      tons: 14
+      category: 'Cargo'
+      eff: 1
+      howMany: 1
+      tl: 10
+      q: 0
+
+   - 
+      CP: 0
+      r: 0
+      q: 0
+      s: 0
+      totalTons: 28
+      e: 0
+      mod: 2
+      cc: 2
+      ws: 1
+      notes: '2cc 11op 1ws'
+      eff: 1
+      totalMCr: 1.5
+      tons: 28
+      tl: 13
+      Sq: 56
+      label: 'Spacious Bridge'
+      op: 11
+      name: 'Bridge'
+      b: 0
+      type: 'Ops'
+      category: 'Bridge'
+      howMany: 1
+      mcr: 1.5
+      target: 15
